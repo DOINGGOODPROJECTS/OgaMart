@@ -1,0 +1,4175 @@
+{
+ "characters": {
+  "MamaBiggie": {
+   "group": "recurring",
+   "walk_style": "sway",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "adjust_glasses": 2,
+    "hands_hips": 1,
+    "wave_bag": 3,
+    "hip_dance": 4,
+    "laugh": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Daniel": {
+   "group": "recurring",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scratch_head": 2,
+    "jump": 3,
+    "dance": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "run": 8,
+    "portrait": 8
+   }
+  },
+  "MrsParker": {
+   "group": "recurring",
+   "walk_style": "old",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "check_price": 1,
+    "approve": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Sofia": {
+   "group": "recurring",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "dance": 4,
+    "pose": 1,
+    "surprise": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "MrBrooks": {
+   "group": "recurring",
+   "walk_style": "brisk",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "adjust_mustache": 2,
+    "stomp": 2,
+    "victory_dance": 4,
+    "ignore": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "PapaKofi": {
+   "group": "recurring",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "laugh_hat": 2,
+    "show_produce": 1,
+    "trad_dance": 4,
+    "drama_react": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Maya": {
+   "group": "recurring",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "wave_big": 2,
+    "confetti": 2,
+    "explain": 3,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "AuntiePepper": {
+   "group": "recurring",
+   "walk_style": "brisk",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "impatient": 2,
+    "taste": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "UncleMoney": {
+   "group": "recurring",
+   "walk_style": "confident",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "show_watch": 1,
+    "make_it_rain": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "MadamFashion": {
+   "group": "recurring",
+   "walk_style": "strut",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pose": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "SpeedySam": {
+   "group": "recurring",
+   "walk_style": "run",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "check_phone": 1,
+    "walk": 8,
+    "run": 8,
+    "portrait": 8
+   }
+  },
+  "GrandpaWisdom": {
+   "group": "recurring",
+   "walk_style": "old",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "advise": 1,
+    "stroke_beard": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Daniel_Cashier": {
+   "group": "daniel_career",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Daniel_Supervisor": {
+   "group": "daniel_career",
+   "walk_style": "confident",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Daniel_Manager": {
+   "group": "daniel_career",
+   "walk_style": "confident",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Emp_Cashier": {
+   "group": "employees",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Emp_StockClerk": {
+   "group": "employees",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Emp_Assistant": {
+   "group": "employees",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Emp_InventoryMgr": {
+   "group": "employees",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Emp_Supervisor": {
+   "group": "employees",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Emp_Delivery": {
+   "group": "employees",
+   "walk_style": "brisk",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "run": 8,
+    "portrait": 8
+   }
+  },
+  "Emp_Manager": {
+   "group": "employees",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "scan": 2,
+    "restock": 2,
+    "carry": 1,
+    "check": 1,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Cust_Regular": {
+   "group": "customers",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Cust_FamilyMom": {
+   "group": "customers",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Cust_FamilyChild": {
+   "group": "customers",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Cust_Budget": {
+   "group": "customers",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Cust_BigSpender": {
+   "group": "customers",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Cust_VIP": {
+   "group": "customers",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Cust_Tourist": {
+   "group": "customers",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Cust_Loyal": {
+   "group": "customers",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Cust_Resident": {
+   "group": "customers",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Ped_Student": {
+   "group": "pedestrians",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Ped_Worker": {
+   "group": "pedestrians",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  },
+  "Ped_Tourist": {
+   "group": "pedestrians",
+   "walk_style": "normal",
+   "animations": {
+    "idle": 2,
+    "talk": 2,
+    "happy": 2,
+    "angry": 2,
+    "surprised": 1,
+    "sad": 1,
+    "wave": 2,
+    "point": 1,
+    "think": 1,
+    "shrug": 1,
+    "thumbs": 1,
+    "celebrate": 4,
+    "pick_item": 2,
+    "pay": 1,
+    "impatient": 2,
+    "walk": 8,
+    "portrait": 8
+   }
+  }
+ },
+ "objects": {
+  "products": [
+   {
+    "file": "product_bread_loaf.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_baguette.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_bread_bag.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_meat_pie.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_doughnut.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_cake_slice.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_eggs_tray.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_milk_carton.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_yogurt.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_butter.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_cheese.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_powdered_milk.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_water_bottle.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_soda_bottle.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_orange_soda.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_juice_carton.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_malt_drink.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_energy_drink.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_chin_chin.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_plantain_chips.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_biscuits.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_groundnuts.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_sweets.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_tomatoes.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_peppers.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_onions.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_plantain.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_yam.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_oranges.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_mangoes.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_bananas.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_pineapple.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_watermelon.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_cabbage.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_carrots.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_garri.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_rice.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_beans.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_palm_oil.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_cooking_oil.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_tomato_paste.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_noodles.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_seasoning_cubes.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_spices.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_sugar.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_frozen_chicken.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_frozen_fish.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_ice_cream.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_frozen_peas.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_detergent.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_soap_bar.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_toilet_tissue.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_toothpaste.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_bleach.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_wine_bottle.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_chocolate.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_imported_cheese.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_flowers.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   },
+   {
+    "file": "product_school_supplies.png",
+    "size": "256x256",
+    "doc": "4.2 products"
+   }
+  ],
+  "store/shelves/bakery": [
+   {
+    "file": "shelf_bakery_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_bakery_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/shelves/eggs_dairy": [
+   {
+    "file": "shelf_eggs_dairy_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_eggs_dairy_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/shelves/drinks": [
+   {
+    "file": "shelf_drinks_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_drinks_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/shelves/snacks": [
+   {
+    "file": "shelf_snacks_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_snacks_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/shelves/fruit_veg": [
+   {
+    "file": "shelf_fruit_veg_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_fruit_veg_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/shelves/household": [
+   {
+    "file": "shelf_household_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_household_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/shelves/frozen": [
+   {
+    "file": "shelf_frozen_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_frozen_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/shelves/premium": [
+   {
+    "file": "shelf_premium_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_premium_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/shelves/local_specialty": [
+   {
+    "file": "shelf_local_specialty_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_local_specialty_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/shelves/pantry": [
+   {
+    "file": "shelf_pantry_wood_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_wood_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_wood_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_wood_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_wood_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_metal_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_metal_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_metal_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_metal_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_metal_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_premium_stock_1.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_premium_stock_2.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_premium_stock_3.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_premium_stock_4.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   },
+   {
+    "file": "shelf_pantry_premium_stock_5.png",
+    "size": "390x460",
+    "doc": "4.2/4.6 shelves, stock levels"
+   }
+  ],
+  "store/equipment": [
+   {
+    "file": "fridge_drinks_stock_1.png",
+    "size": "234x499",
+    "doc": "4.6 equipment"
+   },
+   {
+    "file": "fridge_dairy_stock_1.png",
+    "size": "234x499",
+    "doc": ""
+   },
+   {
+    "file": "chest_freezer_stock_1.png",
+    "size": "364x226",
+    "doc": ""
+   },
+   {
+    "file": "produce_stand_stock_1.png",
+    "size": "416x343",
+    "doc": ""
+   },
+   {
+    "file": "bakery_case_stock_1.png",
+    "size": "390x330",
+    "doc": ""
+   },
+   {
+    "file": "fridge_drinks_stock_2.png",
+    "size": "234x499",
+    "doc": "4.6 equipment"
+   },
+   {
+    "file": "fridge_dairy_stock_2.png",
+    "size": "234x499",
+    "doc": ""
+   },
+   {
+    "file": "chest_freezer_stock_2.png",
+    "size": "364x226",
+    "doc": ""
+   },
+   {
+    "file": "produce_stand_stock_2.png",
+    "size": "416x343",
+    "doc": ""
+   },
+   {
+    "file": "bakery_case_stock_2.png",
+    "size": "390x330",
+    "doc": ""
+   },
+   {
+    "file": "fridge_drinks_stock_3.png",
+    "size": "234x499",
+    "doc": "4.6 equipment"
+   },
+   {
+    "file": "fridge_dairy_stock_3.png",
+    "size": "234x499",
+    "doc": ""
+   },
+   {
+    "file": "chest_freezer_stock_3.png",
+    "size": "364x226",
+    "doc": ""
+   },
+   {
+    "file": "produce_stand_stock_3.png",
+    "size": "416x343",
+    "doc": ""
+   },
+   {
+    "file": "bakery_case_stock_3.png",
+    "size": "390x330",
+    "doc": ""
+   },
+   {
+    "file": "fridge_drinks_stock_4.png",
+    "size": "234x499",
+    "doc": "4.6 equipment"
+   },
+   {
+    "file": "fridge_dairy_stock_4.png",
+    "size": "234x499",
+    "doc": ""
+   },
+   {
+    "file": "chest_freezer_stock_4.png",
+    "size": "364x226",
+    "doc": ""
+   },
+   {
+    "file": "produce_stand_stock_4.png",
+    "size": "416x343",
+    "doc": ""
+   },
+   {
+    "file": "bakery_case_stock_4.png",
+    "size": "390x330",
+    "doc": ""
+   },
+   {
+    "file": "fridge_drinks_stock_5.png",
+    "size": "234x499",
+    "doc": "4.6 equipment"
+   },
+   {
+    "file": "fridge_dairy_stock_5.png",
+    "size": "234x499",
+    "doc": ""
+   },
+   {
+    "file": "chest_freezer_stock_5.png",
+    "size": "364x226",
+    "doc": ""
+   },
+   {
+    "file": "produce_stand_stock_5.png",
+    "size": "416x343",
+    "doc": ""
+   },
+   {
+    "file": "bakery_case_stock_5.png",
+    "size": "390x330",
+    "doc": ""
+   }
+  ],
+  "store/checkout": [
+   {
+    "file": "checkout_manual.png",
+    "size": "416x317",
+    "doc": "4.4 checkout"
+   },
+   {
+    "file": "checkout_automatic.png",
+    "size": "416x317",
+    "doc": "4.4 checkout"
+   },
+   {
+    "file": "checkout_express.png",
+    "size": "286x356",
+    "doc": "4.4 checkout"
+   },
+   {
+    "file": "checkout_self_service.png",
+    "size": "208x317",
+    "doc": "4.4 checkout"
+   },
+   {
+    "file": "queue_barrier.png",
+    "size": "338x169",
+    "doc": ""
+   }
+  ],
+  "store/storage": [
+   {
+    "file": "storage_rack_full.png",
+    "size": "390x499",
+    "doc": "4.5 storage"
+   },
+   {
+    "file": "pallet_loaded.png",
+    "size": "312x247",
+    "doc": ""
+   },
+   {
+    "file": "storage_rack_empty.png",
+    "size": "390x499",
+    "doc": "4.5 storage"
+   },
+   {
+    "file": "pallet_empty.png",
+    "size": "312x247",
+    "doc": ""
+   }
+  ],
+  "store/displays": [
+   {
+    "file": "display_table_mangoes.png",
+    "size": "338x221",
+    "doc": "4.6 displays"
+   },
+   {
+    "file": "display_table_oranges.png",
+    "size": "338x221",
+    "doc": "4.6 displays"
+   },
+   {
+    "file": "display_table_chin_chin.png",
+    "size": "338x221",
+    "doc": "4.6 displays"
+   },
+   {
+    "file": "display_table_bread_loaf.png",
+    "size": "338x221",
+    "doc": "4.6 displays"
+   },
+   {
+    "file": "promo_stand.png",
+    "size": "195x364",
+    "doc": ""
+   },
+   {
+    "file": "end_cap_sofia_snacks.png",
+    "size": "221x364",
+    "doc": ""
+   },
+   {
+    "file": "end_cap_hot_deal.png",
+    "size": "221x364",
+    "doc": ""
+   }
+  ],
+  "store/lighting": [
+   {
+    "file": "lamp_pendant_on.png",
+    "size": "208x260",
+    "doc": "8.5 lighting"
+   },
+   {
+    "file": "lamp_pendant_off.png",
+    "size": "208x260",
+    "doc": "8.5 lighting"
+   },
+   {
+    "file": "lamp_led_panel_on.png",
+    "size": "208x260",
+    "doc": "8.5 lighting"
+   },
+   {
+    "file": "lamp_led_panel_off.png",
+    "size": "208x260",
+    "doc": "8.5 lighting"
+   },
+   {
+    "file": "lamp_chandelier_on.png",
+    "size": "208x260",
+    "doc": "8.5 lighting"
+   },
+   {
+    "file": "lamp_chandelier_off.png",
+    "size": "208x260",
+    "doc": "8.5 lighting"
+   },
+   {
+    "file": "lamp_spot_on.png",
+    "size": "208x260",
+    "doc": "8.5 lighting"
+   },
+   {
+    "file": "lamp_spot_off.png",
+    "size": "208x260",
+    "doc": "8.5 lighting"
+   }
+  ],
+  "store/signage": [
+   {
+    "file": "sign_ogamart_corner_shop.png",
+    "size": "700x181",
+    "doc": "8.5 store styles"
+   },
+   {
+    "file": "sign_ogamart_traditional.png",
+    "size": "700x181",
+    "doc": "8.5 store styles"
+   },
+   {
+    "file": "sign_ogamart_modern_mini.png",
+    "size": "700x181",
+    "doc": "8.5 store styles"
+   },
+   {
+    "file": "sign_ogamart_neighborhood.png",
+    "size": "700x181",
+    "doc": "8.5 store styles"
+   },
+   {
+    "file": "sign_ogamart_premium.png",
+    "size": "700x181",
+    "doc": "8.5 store styles"
+   },
+   {
+    "file": "sign_ogamart_superstore.png",
+    "size": "700x181",
+    "doc": "8.5 store styles"
+   },
+   {
+    "file": "sign_ogamart_mega_market.png",
+    "size": "700x181",
+    "doc": "8.5 store styles"
+   },
+   {
+    "file": "aisle_sign_bakery.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "aisle_sign_eggs_dairy.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "aisle_sign_drinks.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "aisle_sign_snacks.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "aisle_sign_fruit_veg.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "aisle_sign_household.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "aisle_sign_frozen.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "aisle_sign_premium.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "aisle_sign_local_specialty.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "aisle_sign_pantry.png",
+    "size": "286x138",
+    "doc": ""
+   },
+   {
+    "file": "price_tag.png",
+    "size": "172x94",
+    "doc": ""
+   },
+   {
+    "file": "price_tag_sale.png",
+    "size": "172x94",
+    "doc": ""
+   }
+  ],
+  "store/entrance": [
+   {
+    "file": "doors_auto_1.png",
+    "size": "452x468",
+    "doc": "entrance (anim: doors_auto_1-3)"
+   },
+   {
+    "file": "doors_auto_2.png",
+    "size": "452x468",
+    "doc": "entrance (anim: doors_auto_1-3)"
+   },
+   {
+    "file": "doors_auto_3.png",
+    "size": "452x468",
+    "doc": "entrance (anim: doors_auto_1-3)"
+   }
+  ],
+  "store/carts": [
+   {
+    "file": "cart_empty.png",
+    "size": "208x221",
+    "doc": ""
+   },
+   {
+    "file": "basket_empty.png",
+    "size": "172x143",
+    "doc": ""
+   },
+   {
+    "file": "cart_full.png",
+    "size": "208x221",
+    "doc": ""
+   },
+   {
+    "file": "basket_full.png",
+    "size": "172x143",
+    "doc": ""
+   }
+  ],
+  "store/decor": [
+   {
+    "file": "plant_palm.png",
+    "size": "182x281",
+    "doc": ""
+   },
+   {
+    "file": "plant_bush.png",
+    "size": "182x281",
+    "doc": ""
+   },
+   {
+    "file": "wall_art.png",
+    "size": "224x159",
+    "doc": ""
+   },
+   {
+    "file": "banner_grand_opening.png",
+    "size": "536x120",
+    "doc": ""
+   },
+   {
+    "file": "banner_sale.png",
+    "size": "536x120",
+    "doc": ""
+   },
+   {
+    "file": "balloons.png",
+    "size": "208x273",
+    "doc": ""
+   },
+   {
+    "file": "string_lights.png",
+    "size": "556x78",
+    "doc": ""
+   }
+  ],
+  "store/floors_walls": [
+   {
+    "file": "tiled_floor_standard.png",
+    "size": "256x256",
+    "doc": "8.5 floors/walls + cosmetic themes"
+   },
+   {
+    "file": "tiled_wall_standard.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "tiled_floor_modern.png",
+    "size": "256x256",
+    "doc": "8.5 floors/walls + cosmetic themes"
+   },
+   {
+    "file": "tiled_wall_modern.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "tiled_floor_tropical.png",
+    "size": "256x256",
+    "doc": "8.5 floors/walls + cosmetic themes"
+   },
+   {
+    "file": "tiled_wall_tropical.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "tiled_floor_luxury.png",
+    "size": "256x256",
+    "doc": "8.5 floors/walls + cosmetic themes"
+   },
+   {
+    "file": "tiled_wall_luxury.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "tiled_floor_african_market.png",
+    "size": "256x256",
+    "doc": "8.5 floors/walls + cosmetic themes"
+   },
+   {
+    "file": "tiled_wall_african_market.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "tiled_floor_holiday.png",
+    "size": "256x256",
+    "doc": "8.5 floors/walls + cosmetic themes"
+   },
+   {
+    "file": "tiled_wall_holiday.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "tiled_floor_corner_shop.png",
+    "size": "256x256",
+    "doc": "8.5 floors/walls + cosmetic themes"
+   },
+   {
+    "file": "tiled_wall_corner_shop.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "tiled_floor_premium.png",
+    "size": "256x256",
+    "doc": "8.5 floors/walls + cosmetic themes"
+   },
+   {
+    "file": "tiled_wall_premium.png",
+    "size": "256x256",
+    "doc": ""
+   }
+  ],
+  "neighborhood/buildings/coffee_shop": [
+   {
+    "file": "coffee_shop_basic.png",
+    "size": "544x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "coffee_shop_established.png",
+    "size": "608x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "coffee_shop_premium.png",
+    "size": "672x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/bakery": [
+   {
+    "file": "bakery_basic.png",
+    "size": "544x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "bakery_established.png",
+    "size": "608x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "bakery_premium.png",
+    "size": "672x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/fruit_shop": [
+   {
+    "file": "fruit_shop_basic.png",
+    "size": "512x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "fruit_shop_established.png",
+    "size": "576x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "fruit_shop_premium.png",
+    "size": "640x592",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/restaurant": [
+   {
+    "file": "restaurant_basic.png",
+    "size": "544x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "restaurant_established.png",
+    "size": "608x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "restaurant_premium.png",
+    "size": "672x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/flower_shop": [
+   {
+    "file": "flower_shop_basic.png",
+    "size": "544x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "flower_shop_established.png",
+    "size": "608x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "flower_shop_premium.png",
+    "size": "672x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/cinema": [
+   {
+    "file": "cinema_basic.png",
+    "size": "672x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "cinema_established.png",
+    "size": "736x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "cinema_premium.png",
+    "size": "800x592",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/school": [
+   {
+    "file": "school_basic.png",
+    "size": "704x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "school_established.png",
+    "size": "800x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "school_premium.png",
+    "size": "896x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/shopping_mall": [
+   {
+    "file": "shopping_mall_basic.png",
+    "size": "832x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "shopping_mall_established.png",
+    "size": "928x768",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "shopping_mall_premium.png",
+    "size": "1024x944",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/residential": [
+   {
+    "file": "residential_basic.png",
+    "size": "512x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "residential_established.png",
+    "size": "576x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "residential_premium.png",
+    "size": "640x944",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/supermarket_branch": [
+   {
+    "file": "supermarket_branch_basic.png",
+    "size": "704x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "supermarket_branch_established.png",
+    "size": "800x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "supermarket_branch_premium.png",
+    "size": "896x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/warehouse": [
+   {
+    "file": "warehouse_basic.png",
+    "size": "736x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "warehouse_established.png",
+    "size": "800x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "warehouse_premium.png",
+    "size": "864x592",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/delivery_center": [
+   {
+    "file": "delivery_center_basic.png",
+    "size": "736x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "delivery_center_established.png",
+    "size": "800x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "delivery_center_premium.png",
+    "size": "864x592",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/clothing_store": [
+   {
+    "file": "clothing_store_basic.png",
+    "size": "544x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "clothing_store_established.png",
+    "size": "608x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "clothing_store_premium.png",
+    "size": "672x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/pharmacy": [
+   {
+    "file": "pharmacy_basic.png",
+    "size": "544x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "pharmacy_established.png",
+    "size": "608x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "pharmacy_premium.png",
+    "size": "672x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/electronics_store": [
+   {
+    "file": "electronics_store_basic.png",
+    "size": "544x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "electronics_store_established.png",
+    "size": "608x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "electronics_store_premium.png",
+    "size": "672x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/fitness_center": [
+   {
+    "file": "fitness_center_basic.png",
+    "size": "832x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "fitness_center_established.png",
+    "size": "928x768",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "fitness_center_premium.png",
+    "size": "1024x944",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/hotel": [
+   {
+    "file": "hotel_basic.png",
+    "size": "608x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "hotel_established.png",
+    "size": "672x944",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "hotel_premium.png",
+    "size": "736x1296",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/brooks_store": [
+   {
+    "file": "brooks_store_basic.png",
+    "size": "704x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "brooks_store_established.png",
+    "size": "800x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "brooks_store_premium.png",
+    "size": "896x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/sofia_snacks": [
+   {
+    "file": "sofia_snacks_basic.png",
+    "size": "544x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "sofia_snacks_established.png",
+    "size": "608x592",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "sofia_snacks_premium.png",
+    "size": "672x768",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/pepper_food_spot": [
+   {
+    "file": "pepper_food_spot_basic.png",
+    "size": "512x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "pepper_food_spot_established.png",
+    "size": "576x416",
+    "doc": "5.2 buildings, 3 levels"
+   },
+   {
+    "file": "pepper_food_spot_premium.png",
+    "size": "640x592",
+    "doc": "5.2 buildings, 3 levels"
+   }
+  ],
+  "neighborhood/buildings/farm": [
+   {
+    "file": "farm_basic.png",
+    "size": "768x496",
+    "doc": ""
+   },
+   {
+    "file": "farm_established.png",
+    "size": "768x496",
+    "doc": ""
+   },
+   {
+    "file": "farm_premium.png",
+    "size": "768x496",
+    "doc": ""
+   }
+  ],
+  "neighborhood/buildings/park": [
+   {
+    "file": "park_basic.png",
+    "size": "704x496",
+    "doc": ""
+   },
+   {
+    "file": "park_established.png",
+    "size": "800x496",
+    "doc": ""
+   },
+   {
+    "file": "park_premium.png",
+    "size": "896x496",
+    "doc": ""
+   }
+  ],
+  "neighborhood/ogamart_exterior": [
+   {
+    "file": "ogamart_corner_shop.png",
+    "size": "704x416",
+    "doc": "8.5 store styles exterior"
+   },
+   {
+    "file": "ogamart_traditional.png",
+    "size": "704x416",
+    "doc": "8.5 store styles exterior"
+   },
+   {
+    "file": "ogamart_modern_mini.png",
+    "size": "800x592",
+    "doc": "8.5 store styles exterior"
+   },
+   {
+    "file": "ogamart_neighborhood.png",
+    "size": "800x592",
+    "doc": "8.5 store styles exterior"
+   },
+   {
+    "file": "ogamart_premium.png",
+    "size": "896x768",
+    "doc": "8.5 store styles exterior"
+   },
+   {
+    "file": "ogamart_superstore.png",
+    "size": "928x768",
+    "doc": "8.5 store styles exterior"
+   },
+   {
+    "file": "ogamart_mega_market.png",
+    "size": "1024x944",
+    "doc": "8.5 store styles exterior"
+   }
+  ],
+  "neighborhood/construction": [
+   {
+    "file": "construction_1.png",
+    "size": "640x624",
+    "doc": "5.3 construction stages"
+   },
+   {
+    "file": "construction_2.png",
+    "size": "640x624",
+    "doc": "5.3 construction stages"
+   },
+   {
+    "file": "construction_3.png",
+    "size": "640x624",
+    "doc": "5.3 construction stages"
+   },
+   {
+    "file": "plot_commercial.png",
+    "size": "608x320",
+    "doc": ""
+   },
+   {
+    "file": "plot_residential.png",
+    "size": "608x320",
+    "doc": ""
+   },
+   {
+    "file": "plot_locked.png",
+    "size": "608x320",
+    "doc": ""
+   }
+  ],
+  "neighborhood/ground": [
+   {
+    "file": "tiled_road_h.png",
+    "size": "256x256",
+    "doc": "infrastructure"
+   },
+   {
+    "file": "tiled_road_v.png",
+    "size": "256x256",
+    "doc": "infrastructure"
+   },
+   {
+    "file": "tiled_road_cross.png",
+    "size": "256x256",
+    "doc": "infrastructure"
+   },
+   {
+    "file": "tiled_road_crosswalk.png",
+    "size": "256x256",
+    "doc": "infrastructure"
+   },
+   {
+    "file": "tiled_sidewalk.png",
+    "size": "256x256",
+    "doc": "infrastructure"
+   },
+   {
+    "file": "tiled_path.png",
+    "size": "256x256",
+    "doc": "infrastructure"
+   },
+   {
+    "file": "tiled_grass.png",
+    "size": "256x256",
+    "doc": "infrastructure"
+   },
+   {
+    "file": "tiled_parking.png",
+    "size": "256x256",
+    "doc": "infrastructure"
+   },
+   {
+    "file": "tiled_dirt.png",
+    "size": "256x256",
+    "doc": "infrastructure"
+   }
+  ],
+  "neighborhood/nature": [
+   {
+    "file": "tree_mango.png",
+    "size": "352x512",
+    "doc": "decorations"
+   },
+   {
+    "file": "tree_palm.png",
+    "size": "352x512",
+    "doc": "decorations"
+   },
+   {
+    "file": "tree_round.png",
+    "size": "352x512",
+    "doc": "decorations"
+   },
+   {
+    "file": "tree_flame.png",
+    "size": "352x512",
+    "doc": "decorations"
+   },
+   {
+    "file": "bush.png",
+    "size": "192x160",
+    "doc": ""
+   },
+   {
+    "file": "flowerbed.png",
+    "size": "205x118",
+    "doc": ""
+   },
+   {
+    "file": "hedge.png",
+    "size": "352x160",
+    "doc": ""
+   }
+  ],
+  "neighborhood/street": [
+   {
+    "file": "bench.png",
+    "size": "339x176",
+    "doc": ""
+   },
+   {
+    "file": "streetlight_on.png",
+    "size": "272x624",
+    "doc": ""
+   },
+   {
+    "file": "streetlight_off.png",
+    "size": "272x624",
+    "doc": ""
+   },
+   {
+    "file": "fountain.png",
+    "size": "269x224",
+    "doc": ""
+   },
+   {
+    "file": "trash_bin.png",
+    "size": "96x160",
+    "doc": ""
+   }
+  ],
+  "neighborhood/vehicles": [
+   {
+    "file": "vehicle_car_c8412e.png",
+    "size": "416x192",
+    "doc": "vehicles"
+   },
+   {
+    "file": "vehicle_car_3b7dd8.png",
+    "size": "416x192",
+    "doc": "vehicles"
+   },
+   {
+    "file": "vehicle_car_f4f1ea.png",
+    "size": "416x192",
+    "doc": "vehicles"
+   },
+   {
+    "file": "vehicle_taxi.png",
+    "size": "416x208",
+    "doc": "vehicles"
+   },
+   {
+    "file": "vehicle_danfo.png",
+    "size": "512x224",
+    "doc": "vehicles"
+   },
+   {
+    "file": "vehicle_truck.png",
+    "size": "544x256",
+    "doc": "vehicles"
+   },
+   {
+    "file": "vehicle_pickup_4f6b3a.png",
+    "size": "480x208",
+    "doc": "vehicles"
+   },
+   {
+    "file": "vehicle_tractor.png",
+    "size": "416x288",
+    "doc": "vehicles"
+   },
+   {
+    "file": "vehicle_motorbike.png",
+    "size": "288x160",
+    "doc": "vehicles"
+   },
+   {
+    "file": "vehicle_keke.png",
+    "size": "352x208",
+    "doc": "vehicles"
+   }
+  ],
+  "neighborhood/sky": [
+   {
+    "file": "sky_day.png",
+    "size": "1920x1080",
+    "doc": "day/night cycle"
+   },
+   {
+    "file": "sky_dawn.png",
+    "size": "1920x1080",
+    "doc": "day/night cycle"
+   },
+   {
+    "file": "sky_sunset.png",
+    "size": "1920x1080",
+    "doc": "day/night cycle"
+   },
+   {
+    "file": "sky_night.png",
+    "size": "1920x1080",
+    "doc": "day/night cycle"
+   },
+   {
+    "file": "overlay_night_tint.png",
+    "size": "512x512",
+    "doc": ""
+   },
+   {
+    "file": "overlay_sunset_tint.png",
+    "size": "512x512",
+    "doc": ""
+   },
+   {
+    "file": "overlay_lamp_glow.png",
+    "size": "512x512",
+    "doc": ""
+   },
+   {
+    "file": "overlay_rain.png",
+    "size": "512x512",
+    "doc": ""
+   },
+   {
+    "file": "overlay_cloud.png",
+    "size": "1097x512",
+    "doc": ""
+   }
+  ],
+  "neighborhood/events": [
+   {
+    "file": "market_stall_red.png",
+    "size": "448x352",
+    "doc": "events"
+   },
+   {
+    "file": "market_stall_green.png",
+    "size": "448x352",
+    "doc": ""
+   },
+   {
+    "file": "festival_arch.png",
+    "size": "640x512",
+    "doc": ""
+   },
+   {
+    "file": "ribbon_grand_opening.png",
+    "size": "704x336",
+    "doc": ""
+   },
+   {
+    "file": "bunting.png",
+    "size": "653x96",
+    "doc": ""
+   },
+   {
+    "file": "holiday_tree.png",
+    "size": "256x368",
+    "doc": ""
+   },
+   {
+    "file": "lantern_c8412e.png",
+    "size": "96x134",
+    "doc": ""
+   },
+   {
+    "file": "lantern_e8b62c.png",
+    "size": "96x134",
+    "doc": ""
+   }
+  ],
+  "ui/icons/nav": [
+   {
+    "file": "icon_nav_home.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_nav_store.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_nav_map.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_nav_people.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_nav_missions.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_nav_shop.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_nav_settings.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_nav_profile.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   }
+  ],
+  "ui/icons/action": [
+   {
+    "file": "icon_action_restock.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_change_product.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_move.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_upgrade.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_details.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_assign.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_train.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_manage.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_enter.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_collect.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_customize.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_interact.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_profile.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_request.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_talk.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_hire.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_skills.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_story.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_negotiate.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_partner.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_discount.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_build.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_rotate.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_preview.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_cancel.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_expand.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_action_performance.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   }
+  ],
+  "ui/icons/building": [
+   {
+    "file": "icon_building_commercial.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_building_residential.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_building_food.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_building_entertainment.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_building_community.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_building_infrastructure.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_building_decoration.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   }
+  ],
+  "ui/icons/upgrade": [
+   {
+    "file": "icon_upgrade_inventory.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_upgrade_checkout.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_upgrade_employees.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_upgrade_equipment.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_upgrade_store_size.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_upgrade_customer_exp.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_upgrade_operations.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   }
+  ],
+  "ui/icons/mission": [
+   {
+    "file": "icon_mission_operations_m.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_mission_service.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_mission_business.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_mission_employees.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_mission_neighborhood.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_mission_character.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   }
+  ],
+  "ui/icons/cosmetic": [
+   {
+    "file": "icon_cosmetic_theme.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_cosmetic_outfit.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_cosmetic_floor.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_cosmetic_wall.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_cosmetic_signage.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_cosmetic_lighting.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_cosmetic_celebration.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   }
+  ],
+  "ui/icons/indicator": [
+   {
+    "file": "icon_indicator_happiness.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_indicator_trust.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_indicator_growth.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   }
+  ],
+  "ui/icons/misc": [
+   {
+    "file": "icon_misc_lock.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_misc_check.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_misc_ad.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_misc_coin.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_misc_cart.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_misc_gem.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   },
+   {
+    "file": "icon_misc_xp.png",
+    "size": "128x128",
+    "doc": "9.x UI icons"
+   }
+  ],
+  "ui/icons/glyphs_white": [
+   {
+    "file": "glyph_home.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_store.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_map.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_people.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_missions.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_shop.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_settings.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_restock.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_change_product.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_move.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_upgrade.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_details.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_assign.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_train.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_manage.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_enter.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_collect.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_customize.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_interact.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_profile.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_request.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_talk.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_hire.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_skills.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_story.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_negotiate.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_partner.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_discount.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_build.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_rotate.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_preview.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_cancel.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_expand.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_performance.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_lock.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_check.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_ad.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_coin.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_happiness.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_trust.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_growth.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_inventory.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_checkout.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_employees.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_equipment.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_store_size.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_customer_exp.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_operations.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_gem.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_xp.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_cart.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_residential.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_commercial.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_food.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_entertainment.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_community.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_infrastructure.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_decoration.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_operations_m.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_service.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_business.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_neighborhood.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_character.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_theme.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_outfit.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_floor.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_wall.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_celebration.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_signage.png",
+    "size": "128x128",
+    "doc": ""
+   },
+   {
+    "file": "glyph_lighting.png",
+    "size": "128x128",
+    "doc": ""
+   }
+  ],
+  "ui/buttons": [
+   {
+    "file": "button_green_normal.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_green_pressed.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_green_disabled.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_gold_normal.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_gold_pressed.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_gold_disabled.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_red_normal.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_red_pressed.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_red_disabled.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_blue_normal.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_blue_pressed.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   },
+   {
+    "file": "button_blue_disabled.png",
+    "size": "320x100",
+    "doc": "UI buttons (Panel Sprite, margins 36)"
+   }
+  ],
+  "ui/panels": [
+   {
+    "file": "panel_card.png",
+    "size": "400x412",
+    "doc": "Panel Sprite 9-slice"
+   },
+   {
+    "file": "panel_dialog.png",
+    "size": "400x416",
+    "doc": "Panel Sprite 9-slice"
+   },
+   {
+    "file": "panel_speech.png",
+    "size": "416x408",
+    "doc": "Panel Sprite 9-slice"
+   },
+   {
+    "file": "panel_topbar.png",
+    "size": "400x160",
+    "doc": "Panel Sprite 9-slice"
+   },
+   {
+    "file": "panel_progress_frame.png",
+    "size": "400x80",
+    "doc": "Panel Sprite 9-slice"
+   },
+   {
+    "file": "panel_progress_fill.png",
+    "size": "400x60",
+    "doc": "Panel Sprite 9-slice"
+   },
+   {
+    "file": "panel_toast.png",
+    "size": "400x192",
+    "doc": "Panel Sprite 9-slice"
+   }
+  ],
+  "ui/effects": [
+   {
+    "file": "coin_spin_1.png",
+    "size": "96x96",
+    "doc": "coin fly effect"
+   },
+   {
+    "file": "coin_spin_2.png",
+    "size": "96x96",
+    "doc": "coin fly effect"
+   },
+   {
+    "file": "coin_spin_3.png",
+    "size": "96x96",
+    "doc": "coin fly effect"
+   },
+   {
+    "file": "coin_spin_4.png",
+    "size": "96x96",
+    "doc": "coin fly effect"
+   },
+   {
+    "file": "coin_spin_5.png",
+    "size": "96x96",
+    "doc": "coin fly effect"
+   },
+   {
+    "file": "coin_spin_6.png",
+    "size": "96x96",
+    "doc": "coin fly effect"
+   },
+   {
+    "file": "xp_star.png",
+    "size": "96x96",
+    "doc": ""
+   },
+   {
+    "file": "gem.png",
+    "size": "116x96",
+    "doc": ""
+   },
+   {
+    "file": "level_up.png",
+    "size": "400x400",
+    "doc": ""
+   },
+   {
+    "file": "confetti_1.png",
+    "size": "32x40",
+    "doc": ""
+   },
+   {
+    "file": "burst_1.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "payment_1.png",
+    "size": "200x120",
+    "doc": ""
+   },
+   {
+    "file": "confetti_2.png",
+    "size": "32x40",
+    "doc": ""
+   },
+   {
+    "file": "burst_2.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "payment_2.png",
+    "size": "200x120",
+    "doc": ""
+   },
+   {
+    "file": "confetti_3.png",
+    "size": "32x40",
+    "doc": ""
+   },
+   {
+    "file": "burst_3.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "payment_3.png",
+    "size": "200x120",
+    "doc": ""
+   },
+   {
+    "file": "confetti_4.png",
+    "size": "32x40",
+    "doc": ""
+   },
+   {
+    "file": "burst_4.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "payment_4.png",
+    "size": "200x120",
+    "doc": ""
+   },
+   {
+    "file": "confetti_5.png",
+    "size": "32x40",
+    "doc": ""
+   },
+   {
+    "file": "burst_5.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "payment_5.png",
+    "size": "200x120",
+    "doc": ""
+   },
+   {
+    "file": "confetti_6.png",
+    "size": "32x40",
+    "doc": ""
+   },
+   {
+    "file": "burst_6.png",
+    "size": "256x256",
+    "doc": ""
+   },
+   {
+    "file": "dust_1.png",
+    "size": "200x200",
+    "doc": ""
+   },
+   {
+    "file": "tutorial_arrow_1.png",
+    "size": "87x120",
+    "doc": ""
+   },
+   {
+    "file": "highlight_ring_1.png",
+    "size": "160x160",
+    "doc": ""
+   },
+   {
+    "file": "dust_2.png",
+    "size": "200x200",
+    "doc": ""
+   },
+   {
+    "file": "tutorial_arrow_2.png",
+    "size": "87x120",
+    "doc": ""
+   },
+   {
+    "file": "highlight_ring_2.png",
+    "size": "160x160",
+    "doc": ""
+   },
+   {
+    "file": "dust_3.png",
+    "size": "200x200",
+    "doc": ""
+   },
+   {
+    "file": "tutorial_arrow_3.png",
+    "size": "87x120",
+    "doc": ""
+   },
+   {
+    "file": "highlight_ring_3.png",
+    "size": "160x160",
+    "doc": ""
+   },
+   {
+    "file": "dust_4.png",
+    "size": "200x200",
+    "doc": ""
+   },
+   {
+    "file": "tutorial_arrow_4.png",
+    "size": "87x120",
+    "doc": ""
+   },
+   {
+    "file": "highlight_ring_4.png",
+    "size": "160x160",
+    "doc": ""
+   }
+  ],
+  "ui/emotion_bubbles": [
+   {
+    "file": "bubble_happy.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_angry.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_sad.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_love.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_question.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_exclaim.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_money.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_zzz.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_idea.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_shopping.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   },
+   {
+    "file": "bubble_time.png",
+    "size": "131x128",
+    "doc": "6.x emotion bubbles"
+   }
+  ],
+  "ui/relationship": [
+   {
+    "file": "rel_stranger.png",
+    "size": "107x128",
+    "doc": "6.7 relationship levels"
+   },
+   {
+    "file": "rel_acquaintance.png",
+    "size": "107x128",
+    "doc": "6.7 relationship levels"
+   },
+   {
+    "file": "rel_friendly.png",
+    "size": "107x128",
+    "doc": "6.7 relationship levels"
+   },
+   {
+    "file": "rel_trusted.png",
+    "size": "107x128",
+    "doc": "6.7 relationship levels"
+   },
+   {
+    "file": "rel_close_ally.png",
+    "size": "107x128",
+    "doc": "6.7 relationship levels"
+   }
+  ]
+ }
+}
