@@ -1,0 +1,6127 @@
+[
+ {
+  "file": "assets/01_topbar/topbar_bg.png",
+  "name": "topbar_bg",
+  "folder": "01_topbar",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   1170,
+   288
+  ],
+  "note": "Top bar background, 1170x288 at 3x. Stretch or tile across the top."
+ },
+ {
+  "file": "assets/01_topbar/level_badge.png",
+  "name": "level_badge",
+  "folder": "01_topbar",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   126,
+   126
+  ],
+  "note": "Level circle. Put the level number as a Text on top (Poppins Bold 22pt x3, ink)."
+ },
+ {
+  "file": "assets/01_topbar/xp_bar_track.png",
+  "name": "xp_bar_track",
+  "folder": "01_topbar",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   24
+  ],
+  "note": "XP bar back. Width = full bar width.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/01_topbar/xp_bar_fill.png",
+  "name": "xp_bar_fill",
+  "folder": "01_topbar",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   24
+  ],
+  "note": "XP bar fill. Script changes its width to show progress.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/01_topbar/stat_pill.png",
+  "name": "stat_pill",
+  "folder": "01_topbar",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   288,
+   96
+  ],
+  "note": "Coin and happiness pill background.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/01_topbar/icon_coin.png",
+  "name": "icon_coin",
+  "folder": "01_topbar",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Coin icon in the coin pill."
+ },
+ {
+  "file": "assets/01_topbar/icon_happiness.png",
+  "name": "icon_happiness",
+  "folder": "01_topbar",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Smile icon in the happiness pill."
+ },
+ {
+  "file": "assets/01_topbar/settings_button.png",
+  "name": "settings_button",
+  "folder": "01_topbar",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   108,
+   108
+  ],
+  "note": "Opens Settings."
+ },
+ {
+  "file": "assets/01_topbar/settings_button_pressed.png",
+  "name": "settings_button_pressed",
+  "folder": "01_topbar",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   108,
+   108
+  ],
+  "note": "Pressed frame."
+ },
+ {
+  "file": "assets/01_topbar/edit_bar_bg.png",
+  "name": "edit_bar_bg",
+  "folder": "01_topbar",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   1170,
+   288
+  ],
+  "note": "Dark top bar used on the Edit layout screen."
+ },
+ {
+  "file": "assets/02_nav/nav_bg.png",
+  "name": "nav_bg",
+  "folder": "02_nav",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   1170,
+   264
+  ],
+  "note": "Bottom navigation background."
+ },
+ {
+  "file": "assets/02_nav/nav_tab_active.png",
+  "name": "nav_tab_active",
+  "folder": "02_nav",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   216,
+   174
+  ],
+  "note": "Gold tile behind the active tab.",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/02_nav/nav_icon_shop_active.png",
+  "name": "nav_icon_shop_active",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Active tab icon (dark on gold)."
+ },
+ {
+  "file": "assets/02_nav/nav_icon_shop_inactive.png",
+  "name": "nav_icon_shop_inactive",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Inactive tab icon (cream)."
+ },
+ {
+  "file": "assets/02_nav/nav_icon_neighborhood_active.png",
+  "name": "nav_icon_neighborhood_active",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Active tab icon (dark on gold)."
+ },
+ {
+  "file": "assets/02_nav/nav_icon_neighborhood_inactive.png",
+  "name": "nav_icon_neighborhood_inactive",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Inactive tab icon (cream)."
+ },
+ {
+  "file": "assets/02_nav/nav_icon_missions_active.png",
+  "name": "nav_icon_missions_active",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Active tab icon (dark on gold)."
+ },
+ {
+  "file": "assets/02_nav/nav_icon_missions_inactive.png",
+  "name": "nav_icon_missions_inactive",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Inactive tab icon (cream)."
+ },
+ {
+  "file": "assets/02_nav/nav_icon_upgrades_active.png",
+  "name": "nav_icon_upgrades_active",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Active tab icon (dark on gold)."
+ },
+ {
+  "file": "assets/02_nav/nav_icon_upgrades_inactive.png",
+  "name": "nav_icon_upgrades_inactive",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Inactive tab icon (cream)."
+ },
+ {
+  "file": "assets/02_nav/nav_icon_profile_active.png",
+  "name": "nav_icon_profile_active",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Active tab icon (dark on gold)."
+ },
+ {
+  "file": "assets/02_nav/nav_icon_profile_inactive.png",
+  "name": "nav_icon_profile_inactive",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Inactive tab icon (cream)."
+ },
+ {
+  "file": "assets/02_nav/nav_badge.png",
+  "name": "nav_badge",
+  "folder": "02_nav",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   48,
+   48
+  ],
+  "note": "Red count badge (e.g. 3 new missions). Number is a Text (Inter Bold 10pt x3, white)."
+ },
+ {
+  "file": "assets/03_header/header_bg.png",
+  "name": "header_bg",
+  "folder": "03_header",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   1170,
+   192
+  ],
+  "note": "Page header strip under the top bar."
+ },
+ {
+  "file": "assets/03_header/back_button.png",
+  "name": "back_button",
+  "folder": "03_header",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   132,
+   132
+  ],
+  "note": "Back button."
+ },
+ {
+  "file": "assets/03_header/back_button_pressed.png",
+  "name": "back_button_pressed",
+  "folder": "03_header",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   132,
+   135
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/03_header/screen_bg_cream.png",
+  "name": "screen_bg_cream",
+  "folder": "03_header",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   192,
+   192
+  ],
+  "note": "Main page background colour #FFF4DC."
+ },
+ {
+  "file": "assets/04_buttons/button_primary.png",
+  "name": "button_primary",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "primary button. Label colour #FFFFFF.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_primary_pressed.png",
+  "name": "button_primary_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_primary_large.png",
+  "name": "button_primary_large",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "primary button. Label colour #FFFFFF. Large size used for dialogue choices and big actions.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_primary_large_pressed.png",
+  "name": "button_primary_large_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_gold.png",
+  "name": "button_gold",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "gold button. Label colour #2B2118.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_gold_pressed.png",
+  "name": "button_gold_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_gold_large.png",
+  "name": "button_gold_large",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "gold button. Label colour #2B2118. Large size used for dialogue choices and big actions.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_gold_large_pressed.png",
+  "name": "button_gold_large_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_ghost.png",
+  "name": "button_ghost",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "ghost button. Label colour #2B2118.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_ghost_pressed.png",
+  "name": "button_ghost_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_ghost_large.png",
+  "name": "button_ghost_large",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "ghost button. Label colour #2B2118. Large size used for dialogue choices and big actions.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_ghost_large_pressed.png",
+  "name": "button_ghost_large_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_white.png",
+  "name": "button_white",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "white button. Label colour #2B2118.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_white_pressed.png",
+  "name": "button_white_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_white_large.png",
+  "name": "button_white_large",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "white button. Label colour #2B2118. Large size used for dialogue choices and big actions.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_white_large_pressed.png",
+  "name": "button_white_large_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_off.png",
+  "name": "button_off",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "off button. Label colour #5C4A38.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_off_large.png",
+  "name": "button_off_large",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "off button. Label colour #5C4A38. Large size used for dialogue choices and big actions.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_red.png",
+  "name": "button_red",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "red button. Label colour #FFFFFF.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_red_pressed.png",
+  "name": "button_red_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_red_large.png",
+  "name": "button_red_large",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "red button. Label colour #FFFFFF. Large size used for dialogue choices and big actions.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_red_large_pressed.png",
+  "name": "button_red_large_pressed",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   156
+  ],
+  "note": "Pressed state: swap to this while the finger is down.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_outline_light.png",
+  "name": "button_outline_light",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "Outline button on dark backgrounds (\"Close Conversation\").",
+  "nine_slice_px": {
+   "left": 54,
+   "right": 54,
+   "top": 54,
+   "bottom": 54
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_outline_dark.png",
+  "name": "button_outline_dark",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "Outline button on light backgrounds (\"Cancel\").",
+  "nine_slice_px": {
+   "left": 54,
+   "right": 54,
+   "top": 54,
+   "bottom": 54
+  }
+ },
+ {
+  "file": "assets/04_buttons/button_outline_line.png",
+  "name": "button_outline_line",
+  "folder": "04_buttons",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   360,
+   132
+  ],
+  "note": "Light outlined button / row (\"Decide later\", \"Hire more staff\").",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/04_buttons/icon_button_round.png",
+  "name": "icon_button_round",
+  "folder": "04_buttons",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   126,
+   126
+  ],
+  "note": "Round white button. Put an arrow icon on it (move arrows in Edit layout)."
+ },
+ {
+  "file": "assets/04_buttons/icon_button_square.png",
+  "name": "icon_button_square",
+  "folder": "04_buttons",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Square cream button, e.g. the X close on the build sheet."
+ },
+ {
+  "file": "assets/04_buttons/link_underline.png",
+  "name": "link_underline",
+  "folder": "04_buttons",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   240,
+   6
+  ],
+  "note": "Underline for text links (\"View details\")."
+ },
+ {
+  "file": "assets/05_progress/bar8_track_cream.png",
+  "name": "bar8_track_cream",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   24
+  ],
+  "note": "Progress track, 8pt tall.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar8_track_dark.png",
+  "name": "bar8_track_dark",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   24
+  ],
+  "note": "Progress track, 8pt tall.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar8_track_grey.png",
+  "name": "bar8_track_grey",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   24
+  ],
+  "note": "Progress track, 8pt tall.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar8_fill_green.png",
+  "name": "bar8_fill_green",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   24
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar8_fill_gold.png",
+  "name": "bar8_fill_gold",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   24
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar8_fill_blue.png",
+  "name": "bar8_fill_blue",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   24
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar8_fill_brown.png",
+  "name": "bar8_fill_brown",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   24
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar8_fill_red.png",
+  "name": "bar8_fill_red",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   24
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar8_fill_orange.png",
+  "name": "bar8_fill_orange",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   24
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar10_track_cream.png",
+  "name": "bar10_track_cream",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   30
+  ],
+  "note": "Progress track, 10pt tall.",
+  "nine_slice_px": {
+   "left": 15,
+   "right": 15,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar10_track_dark.png",
+  "name": "bar10_track_dark",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   30
+  ],
+  "note": "Progress track, 10pt tall.",
+  "nine_slice_px": {
+   "left": 15,
+   "right": 15,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar10_track_grey.png",
+  "name": "bar10_track_grey",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   30
+  ],
+  "note": "Progress track, 10pt tall.",
+  "nine_slice_px": {
+   "left": 15,
+   "right": 15,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar10_fill_green.png",
+  "name": "bar10_fill_green",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   30
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 15,
+   "right": 15,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar10_fill_gold.png",
+  "name": "bar10_fill_gold",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   30
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 15,
+   "right": 15,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar10_fill_blue.png",
+  "name": "bar10_fill_blue",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   30
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 15,
+   "right": 15,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar10_fill_brown.png",
+  "name": "bar10_fill_brown",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   30
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 15,
+   "right": 15,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar10_fill_red.png",
+  "name": "bar10_fill_red",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   30
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 15,
+   "right": 15,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/bar10_fill_orange.png",
+  "name": "bar10_fill_orange",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   30
+  ],
+  "note": "Progress fill: script sets width = track width x value.",
+  "nine_slice_px": {
+   "left": 15,
+   "right": 15,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/segment_on.png",
+  "name": "segment_on",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   120,
+   24
+  ],
+  "note": "Skill / relationship segment, filled.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/segment_off.png",
+  "name": "segment_off",
+  "folder": "05_progress",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   120,
+   24
+  ],
+  "note": "Skill / relationship segment, empty.",
+  "nine_slice_px": {
+   "left": 12,
+   "right": 12,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/05_progress/stage_line_track.png",
+  "name": "stage_line_track",
+  "folder": "05_progress",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   300,
+   12
+  ],
+  "note": "Stage path line (Profile)."
+ },
+ {
+  "file": "assets/05_progress/stage_line_fill.png",
+  "name": "stage_line_fill",
+  "folder": "05_progress",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   300,
+   12
+  ],
+  "note": "Stage path filled line."
+ },
+ {
+  "file": "assets/05_progress/stage_node_done.png",
+  "name": "stage_node_done",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   90,
+   90
+  ],
+  "note": "Finished stage."
+ },
+ {
+  "file": "assets/05_progress/stage_node_current.png",
+  "name": "stage_node_current",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   90,
+   90
+  ],
+  "note": "Current stage."
+ },
+ {
+  "file": "assets/05_progress/stage_node_locked.png",
+  "name": "stage_node_locked",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   90,
+   90
+  ],
+  "note": "Locked stage."
+ },
+ {
+  "file": "assets/05_progress/level_row_done.png",
+  "name": "level_row_done",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   78,
+   78
+  ],
+  "note": "Level roadmap: finished level."
+ },
+ {
+  "file": "assets/05_progress/level_row_current.png",
+  "name": "level_row_current",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   90,
+   90
+  ],
+  "note": "Level roadmap: current level (number as Text)."
+ },
+ {
+  "file": "assets/05_progress/level_row_locked.png",
+  "name": "level_row_locked",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   78,
+   78
+  ],
+  "note": "Level roadmap: future level (number as Text, muted)."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_track.png",
+  "name": "timer_ring_track",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer back (deliveries / rush)."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_fill_0.png",
+  "name": "timer_ring_fill_0",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer fill frames 0-8 (0%..100%). Use as one Sprite animation and pick the frame."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_fill_1.png",
+  "name": "timer_ring_fill_1",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer fill frames 0-8 (0%..100%). Use as one Sprite animation and pick the frame."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_fill_2.png",
+  "name": "timer_ring_fill_2",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer fill frames 0-8 (0%..100%). Use as one Sprite animation and pick the frame."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_fill_3.png",
+  "name": "timer_ring_fill_3",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer fill frames 0-8 (0%..100%). Use as one Sprite animation and pick the frame."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_fill_4.png",
+  "name": "timer_ring_fill_4",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer fill frames 0-8 (0%..100%). Use as one Sprite animation and pick the frame."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_fill_5.png",
+  "name": "timer_ring_fill_5",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer fill frames 0-8 (0%..100%). Use as one Sprite animation and pick the frame."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_fill_6.png",
+  "name": "timer_ring_fill_6",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer fill frames 0-8 (0%..100%). Use as one Sprite animation and pick the frame."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_fill_7.png",
+  "name": "timer_ring_fill_7",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer fill frames 0-8 (0%..100%). Use as one Sprite animation and pick the frame."
+ },
+ {
+  "file": "assets/05_progress/timer_ring_fill_8.png",
+  "name": "timer_ring_fill_8",
+  "folder": "05_progress",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Round timer fill frames 0-8 (0%..100%). Use as one Sprite animation and pick the frame."
+ },
+ {
+  "file": "assets/06_cards/card_white.png",
+  "name": "card_white",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   588,
+   468
+  ],
+  "note": "Main white card used on almost every screen.",
+  "nine_slice_px": {
+   "left": 162,
+   "right": 162,
+   "top": 162,
+   "bottom": 162
+  }
+ },
+ {
+  "file": "assets/06_cards/card_white_selected_green.png",
+  "name": "card_white_selected_green",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   588,
+   468
+  ],
+  "note": "Selected card (Build Something).",
+  "nine_slice_px": {
+   "left": 162,
+   "right": 162,
+   "top": 162,
+   "bottom": 162
+  }
+ },
+ {
+  "file": "assets/06_cards/card_white_selected_gold.png",
+  "name": "card_white_selected_gold",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   588,
+   468
+  ],
+  "note": "Highlighted card (current level, shelf selection).",
+  "nine_slice_px": {
+   "left": 162,
+   "right": 162,
+   "top": 162,
+   "bottom": 162
+  }
+ },
+ {
+  "file": "assets/06_cards/card_white_locked.png",
+  "name": "card_white_locked",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   588,
+   468
+  ],
+  "note": "Locked card (75% opacity).",
+  "nine_slice_px": {
+   "left": 162,
+   "right": 162,
+   "top": 162,
+   "bottom": 162
+  }
+ },
+ {
+  "file": "assets/06_cards/card_cream.png",
+  "name": "card_cream",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   480,
+   360
+  ],
+  "note": "Cream inner card (Level up unlocks, totals box).",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/card_dark_featured.png",
+  "name": "card_dark_featured",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   480,
+   360
+  ],
+  "note": "Dark featured card (Style shop).",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/06_cards/card_notice_green.png",
+  "name": "card_notice_green",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   480,
+   180
+  ],
+  "note": "Green notice (\"Skipping ads never removes coins\").",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/card_notice_red.png",
+  "name": "card_notice_red",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   480,
+   180
+  ],
+  "note": "Red/warning tile (Demand -8%).",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/card_outline_stat.png",
+  "name": "card_outline_stat",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   300,
+   222
+  ],
+  "note": "Outlined stat box (Welcome back ripple numbers).",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/06_cards/card_dashed_slot.png",
+  "name": "card_dashed_slot",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   480,
+   360
+  ],
+  "note": "Empty slot / for-sale plot outline.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/06_cards/thumb_tile_cream.png",
+  "name": "thumb_tile_cream",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   144,
+   144
+  ],
+  "note": "Square icon tile in list rows.",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/thumb_tile_gold.png",
+  "name": "thumb_tile_gold",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   144,
+   144
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/thumb_tile_green.png",
+  "name": "thumb_tile_green",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   144,
+   144
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/thumb_tile_peach.png",
+  "name": "thumb_tile_peach",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   144,
+   144
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/thumb_tile_blue.png",
+  "name": "thumb_tile_blue",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   144,
+   144
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/thumb_tile_pink.png",
+  "name": "thumb_tile_pink",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   144,
+   144
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/thumb_tile_grey.png",
+  "name": "thumb_tile_grey",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   144,
+   144
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/06_cards/character_card_mama_biggie.png",
+  "name": "character_card_mama_biggie",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Mama Biggie.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_mama_biggie.png",
+  "name": "avatar_circle_mama_biggie",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_daniel.png",
+  "name": "character_card_daniel",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Daniel.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_daniel.png",
+  "name": "avatar_circle_daniel",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_sofia.png",
+  "name": "character_card_sofia",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Sofia.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_sofia.png",
+  "name": "avatar_circle_sofia",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_mr_brooks.png",
+  "name": "character_card_mr_brooks",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Mr Brooks.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_mr_brooks.png",
+  "name": "avatar_circle_mr_brooks",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_papa_kofi.png",
+  "name": "character_card_papa_kofi",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Papa Kofi.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_papa_kofi.png",
+  "name": "avatar_circle_papa_kofi",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_maya.png",
+  "name": "character_card_maya",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Maya.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_maya.png",
+  "name": "avatar_circle_maya",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_mrs_parker.png",
+  "name": "character_card_mrs_parker",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Mrs Parker.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_mrs_parker.png",
+  "name": "avatar_circle_mrs_parker",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_auntie_pepper.png",
+  "name": "character_card_auntie_pepper",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Auntie Pepper.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_auntie_pepper.png",
+  "name": "avatar_circle_auntie_pepper",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_uncle_money.png",
+  "name": "character_card_uncle_money",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Uncle Money.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_uncle_money.png",
+  "name": "avatar_circle_uncle_money",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_madam_fashion.png",
+  "name": "character_card_madam_fashion",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Madam Fashion.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_madam_fashion.png",
+  "name": "avatar_circle_madam_fashion",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_speedy_sam.png",
+  "name": "character_card_speedy_sam",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Speedy Sam.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_speedy_sam.png",
+  "name": "avatar_circle_speedy_sam",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/character_card_grandpa_wisdom.png",
+  "name": "character_card_grandpa_wisdom",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   420,
+   540
+  ],
+  "note": "Character sheet card colour for Grandpa Wisdom.",
+  "nine_slice_px": {
+   "left": 66,
+   "right": 66,
+   "top": 66,
+   "bottom": 66
+  }
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_grandpa_wisdom.png",
+  "name": "avatar_circle_grandpa_wisdom",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Circle behind this character head avatar. Put the portrait on top, clipped to the circle."
+ },
+ {
+  "file": "assets/06_cards/avatar_circle_cream.png",
+  "name": "avatar_circle_cream",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   120,
+   120
+  ],
+  "note": "Generic avatar circle."
+ },
+ {
+  "file": "assets/06_cards/list_row_cream.png",
+  "name": "list_row_cream",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   480,
+   132
+  ],
+  "note": "Cream list row (Level up unlocks, totals, layout storage).",
+  "nine_slice_px": {
+   "left": 36,
+   "right": 36,
+   "top": 36,
+   "bottom": 36
+  }
+ },
+ {
+  "file": "assets/06_cards/card_white_r20.png",
+  "name": "card_white_r20",
+  "folder": "06_cards",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   588,
+   468
+  ],
+  "note": "White card with 20pt corners (floating cards over scenes).",
+  "nine_slice_px": {
+   "left": 168,
+   "right": 168,
+   "top": 168,
+   "bottom": 168
+  }
+ },
+ {
+  "file": "assets/06_cards/divider_line.png",
+  "name": "divider_line",
+  "folder": "06_cards",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   300,
+   3
+  ],
+  "note": "Row divider inside cards."
+ },
+ {
+  "file": "assets/06_cards/divider_dashed.png",
+  "name": "divider_dashed",
+  "folder": "06_cards",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   300,
+   6
+  ],
+  "note": "Dashed divider (Welcome back list)."
+ },
+ {
+  "file": "assets/06_cards/dot_green.png",
+  "name": "dot_green",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   24,
+   24
+  ],
+  "note": "Bullet for good events."
+ },
+ {
+  "file": "assets/06_cards/dot_red.png",
+  "name": "dot_red",
+  "folder": "06_cards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   24,
+   24
+  ],
+  "note": "Bullet for bad events."
+ },
+ {
+  "file": "assets/07_chips_pills/chip_active.png",
+  "name": "chip_active",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   270,
+   102
+  ],
+  "note": "Selected filter chip (white text).",
+  "nine_slice_px": {
+   "left": 51,
+   "right": 51,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/chip_inactive.png",
+  "name": "chip_inactive",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   270,
+   102
+  ],
+  "note": "Unselected chip (ink text).",
+  "nine_slice_px": {
+   "left": 51,
+   "right": 51,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_cream.png",
+  "name": "pill_cream",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #5C4A38, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_good.png",
+  "name": "pill_good",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #1E6B45, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_bad.png",
+  "name": "pill_bad",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #9C2F20, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_gold.png",
+  "name": "pill_gold",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #2B2118, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_grey.png",
+  "name": "pill_grey",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #5C4A38, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_dark.png",
+  "name": "pill_dark",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #FFFFFF, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_green.png",
+  "name": "pill_green",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #FFFFFF, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_red.png",
+  "name": "pill_red",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #FFFFFF, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_orange.png",
+  "name": "pill_orange",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #FFFFFF, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_blue.png",
+  "name": "pill_blue",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #FFFFFF, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/pill_white.png",
+  "name": "pill_white",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   180,
+   60
+  ],
+  "note": "Small tag pill. Text colour #2B2118, Inter Bold 11pt.",
+  "nine_slice_px": {
+   "left": 27,
+   "right": 27,
+   "top": 27,
+   "bottom": 27
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/shelf_label.png",
+  "name": "shelf_label",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   252,
+   84
+  ],
+  "note": "Shelf stock label (\"Bread 12/30\").",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/tag_dark.png",
+  "name": "tag_dark",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   72
+  ],
+  "note": "Dark floating tag (\"Tap to build\", \"Customer path kept clear\").",
+  "nine_slice_px": {
+   "left": 24,
+   "right": 24,
+   "top": 24,
+   "bottom": 24
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/segmented_bg.png",
+  "name": "segmented_bg",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   720,
+   120
+  ],
+  "note": "Segmented control background (Low / Competitive / Premium).",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/segmented_active.png",
+  "name": "segmented_active",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   102
+  ],
+  "note": "Moving highlight inside the segmented control.",
+  "nine_slice_px": {
+   "left": 30,
+   "right": 30,
+   "top": 30,
+   "bottom": 30
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/segmented_active_green.png",
+  "name": "segmented_active_green",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   258,
+   120
+  ],
+  "note": "Light segmented highlight (\"I manage it / Staff runs it\").",
+  "nine_slice_px": {
+   "left": 45,
+   "right": 45,
+   "top": 45,
+   "bottom": 45
+  }
+ },
+ {
+  "file": "assets/07_chips_pills/segmented_bg_grey.png",
+  "name": "segmented_bg_grey",
+  "folder": "07_chips_pills",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   720,
+   120
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 36,
+   "right": 36,
+   "top": 36,
+   "bottom": 36
+  }
+ },
+ {
+  "file": "assets/08_inputs/checkbox_on.png",
+  "name": "checkbox_on",
+  "folder": "08_inputs",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   66,
+   66
+  ],
+  "note": "Settings checkbox, ticked."
+ },
+ {
+  "file": "assets/08_inputs/checkbox_off.png",
+  "name": "checkbox_off",
+  "folder": "08_inputs",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   66,
+   66
+  ],
+  "note": "Settings checkbox, empty."
+ },
+ {
+  "file": "assets/08_inputs/toggle_on.png",
+  "name": "toggle_on",
+  "folder": "08_inputs",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   132,
+   78
+  ],
+  "note": "Switch on."
+ },
+ {
+  "file": "assets/08_inputs/toggle_off.png",
+  "name": "toggle_off",
+  "folder": "08_inputs",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   132,
+   78
+  ],
+  "note": "Switch off."
+ },
+ {
+  "file": "assets/08_inputs/slider_track.png",
+  "name": "slider_track",
+  "folder": "08_inputs",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   600,
+   18
+  ],
+  "note": "Slider back (Music, Sound, price).",
+  "nine_slice_px": {
+   "left": 9,
+   "right": 9,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/08_inputs/slider_fill.png",
+  "name": "slider_fill",
+  "folder": "08_inputs",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   600,
+   18
+  ],
+  "note": "Slider fill up to the knob.",
+  "nine_slice_px": {
+   "left": 9,
+   "right": 9,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/08_inputs/slider_knob.png",
+  "name": "slider_knob",
+  "folder": "08_inputs",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   84,
+   84
+  ],
+  "note": "Slider knob (drag)."
+ },
+ {
+  "file": "assets/08_inputs/slider_knob_pressed.png",
+  "name": "slider_knob_pressed",
+  "folder": "08_inputs",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   114,
+   114
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/08_inputs/list_chevron.png",
+  "name": "list_chevron",
+  "folder": "08_inputs",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   48,
+   48
+  ],
+  "note": "Right arrow at the end of settings rows."
+ },
+ {
+  "file": "assets/09_dialogue/name_plate.png",
+  "name": "name_plate",
+  "folder": "09_dialogue",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   660,
+   120
+  ],
+  "note": "Character name plate (name in Poppins ExtraBold 20pt, gold).",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/09_dialogue/speech_bubble.png",
+  "name": "speech_bubble",
+  "folder": "09_dialogue",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1218,
+   504
+  ],
+  "note": "Dialogue speech box.",
+  "nine_slice_px": {
+   "left": 210,
+   "right": 210,
+   "top": 210,
+   "bottom": 210
+  }
+ },
+ {
+  "file": "assets/09_dialogue/speech_pointer.png",
+  "name": "speech_pointer",
+  "folder": "09_dialogue",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   93,
+   48
+  ],
+  "note": "Little triangle on top of the speech box, pointing at the name plate."
+ },
+ {
+  "file": "assets/09_dialogue/choice_primary.png",
+  "name": "choice_primary",
+  "folder": "09_dialogue",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1074,
+   156
+  ],
+  "note": "Main choice button.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/09_dialogue/choice_primary_pressed.png",
+  "name": "choice_primary_pressed",
+  "folder": "09_dialogue",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1074,
+   156
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/09_dialogue/choice_white.png",
+  "name": "choice_white",
+  "folder": "09_dialogue",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1074,
+   156
+  ],
+  "note": "Other choices.",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/09_dialogue/choice_white_pressed.png",
+  "name": "choice_white_pressed",
+  "folder": "09_dialogue",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1074,
+   156
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 60,
+   "right": 60,
+   "top": 60,
+   "bottom": 60
+  }
+ },
+ {
+  "file": "assets/09_dialogue/dim_overlay.png",
+  "name": "dim_overlay",
+  "folder": "09_dialogue",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   192,
+   192
+  ],
+  "note": "Dark see-through layer behind dialogues and pop-ups. Stretch to full screen."
+ },
+ {
+  "file": "assets/09_dialogue/skip_button.png",
+  "name": "skip_button",
+  "folder": "09_dialogue",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   96
+  ],
+  "note": "SKIP >> button.",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/09_dialogue/mini_speech_bubble.png",
+  "name": "mini_speech_bubble",
+  "folder": "09_dialogue",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   228,
+   138
+  ],
+  "note": "Small in-store speech bubble (\"Oga!\")."
+ },
+ {
+  "file": "assets/10_modals_sheets/modal_card.png",
+  "name": "modal_card",
+  "folder": "10_modals_sheets",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1302,
+   1140
+  ],
+  "note": "Pop-up card (Welcome back, Level up).",
+  "nine_slice_px": {
+   "left": 324,
+   "right": 324,
+   "top": 324,
+   "bottom": 324
+  }
+ },
+ {
+  "file": "assets/10_modals_sheets/ribbon_banner.png",
+  "name": "ribbon_banner",
+  "folder": "10_modals_sheets",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   756,
+   246
+  ],
+  "note": "Green title ribbon with gold edge (\"WELCOME BACK TO OGAMART!\").",
+  "nine_slice_px": {
+   "left": 90,
+   "right": 90,
+   "top": 90,
+   "bottom": 90
+  }
+ },
+ {
+  "file": "assets/10_modals_sheets/bottom_sheet.png",
+  "name": "bottom_sheet",
+  "folder": "10_modals_sheets",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1314,
+   1044
+  ],
+  "note": "Sheet that slides up from the bottom (Build something, shelf details).",
+  "nine_slice_px": {
+   "left": 228,
+   "right": 228,
+   "top": 228,
+   "bottom": 228
+  }
+ },
+ {
+  "file": "assets/10_modals_sheets/sheet_handle.png",
+  "name": "sheet_handle",
+  "folder": "10_modals_sheets",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   132,
+   15
+  ],
+  "note": "Grab handle on top of the sheet."
+ },
+ {
+  "file": "assets/10_modals_sheets/action_card.png",
+  "name": "action_card",
+  "folder": "10_modals_sheets",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1218,
+   744
+  ],
+  "note": "Floating card over the store (Shelf - Bread, VIP order, tutorial tip).",
+  "nine_slice_px": {
+   "left": 216,
+   "right": 216,
+   "top": 216,
+   "bottom": 216
+  }
+ },
+ {
+  "file": "assets/10_modals_sheets/action_tile.png",
+  "name": "action_tile",
+  "folder": "10_modals_sheets",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   240
+  ],
+  "note": "Square action tile (Product, Upgrade, Move).",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/10_modals_sheets/action_tile_primary.png",
+  "name": "action_tile_primary",
+  "folder": "10_modals_sheets",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   240
+  ],
+  "note": "Main square action tile (Restock).",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/10_modals_sheets/action_tile_pressed.png",
+  "name": "action_tile_pressed",
+  "folder": "10_modals_sheets",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   240
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 48,
+   "right": 48,
+   "top": 48,
+   "bottom": 48
+  }
+ },
+ {
+  "file": "assets/10_modals_sheets/stage_card.png",
+  "name": "stage_card",
+  "folder": "10_modals_sheets",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1218,
+   504
+  ],
+  "note": "Stage info card on stage street screens.",
+  "nine_slice_px": {
+   "left": 210,
+   "right": 210,
+   "top": 210,
+   "bottom": 210
+  }
+ },
+ {
+  "file": "assets/11_toasts/toast_card.png",
+  "name": "toast_card",
+  "folder": "11_toasts",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1206,
+   258
+  ],
+  "note": "Notification toast that slides down (\"Happiness +3 ...\").",
+  "nine_slice_px": {
+   "left": 150,
+   "right": 150,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/11_toasts/toast_tag_green.png",
+  "name": "toast_tag_green",
+  "folder": "11_toasts",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   66
+  ],
+  "note": "Coloured tag inside the toast.",
+  "nine_slice_px": {
+   "left": 24,
+   "right": 24,
+   "top": 24,
+   "bottom": 24
+  }
+ },
+ {
+  "file": "assets/11_toasts/toast_tag_orange.png",
+  "name": "toast_tag_orange",
+  "folder": "11_toasts",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   66
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 24,
+   "right": 24,
+   "top": 24,
+   "bottom": 24
+  }
+ },
+ {
+  "file": "assets/11_toasts/toast_tag_blue.png",
+  "name": "toast_tag_blue",
+  "folder": "11_toasts",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   66
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 24,
+   "right": 24,
+   "top": 24,
+   "bottom": 24
+  }
+ },
+ {
+  "file": "assets/11_toasts/toast_tag_red.png",
+  "name": "toast_tag_red",
+  "folder": "11_toasts",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   240,
+   66
+  ],
+  "note": "",
+  "nine_slice_px": {
+   "left": 24,
+   "right": 24,
+   "top": 24,
+   "bottom": 24
+  }
+ },
+ {
+  "file": "assets/11_toasts/reward_pop.png",
+  "name": "reward_pop",
+  "folder": "11_toasts",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   258,
+   138
+  ],
+  "note": "Floating \"+15\" coin pop. Put icon_coin + Text inside, then float up and fade.",
+  "nine_slice_px": {
+   "left": 90,
+   "right": 90,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/11_toasts/notify_bubble.png",
+  "name": "notify_bubble",
+  "folder": "11_toasts",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   582,
+   204
+  ],
+  "note": "Character notification bubble (\"Daniel wants a job\") with avatar on the left.",
+  "nine_slice_px": {
+   "left": 138,
+   "right": 138,
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ {
+  "file": "assets/11_toasts/alert_dot.png",
+  "name": "alert_dot",
+  "folder": "11_toasts",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   84,
+   84
+  ],
+  "note": "Red \"!\" alert on shelves that need attention. Pulse it."
+ },
+ {
+  "file": "assets/11_toasts/timer_banner.png",
+  "name": "timer_banner",
+  "folder": "11_toasts",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   1146,
+   234
+  ],
+  "note": "Event timer banner (\"Morning rush 2:14 left\").",
+  "nine_slice_px": {
+   "left": 114,
+   "right": 114,
+   "top": 114,
+   "bottom": 114
+  }
+ },
+ {
+  "file": "assets/11_toasts/icon_clock_white.png",
+  "name": "icon_clock_white",
+  "folder": "11_toasts",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/12_tutorial_edit/highlight_ring.png",
+  "name": "highlight_ring",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   168,
+   168
+  ],
+  "note": "Tutorial ring around the thing to tap. Scale it up and down (pulse)."
+ },
+ {
+  "file": "assets/12_tutorial_edit/tutorial_arrow.png",
+  "name": "tutorial_arrow",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   210,
+   180
+  ],
+  "note": "Curved tutorial arrow. Move it back and forth."
+ },
+ {
+  "file": "assets/12_tutorial_edit/select_frame_gold.png",
+  "name": "select_frame_gold",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   372,
+   432
+  ],
+  "note": "Gold frame around the selected shelf.",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/12_tutorial_edit/select_frame_green.png",
+  "name": "select_frame_green",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   372,
+   432
+  ],
+  "note": "Valid placement frame (Edit layout).",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/12_tutorial_edit/select_frame_red.png",
+  "name": "select_frame_red",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   372,
+   432
+  ],
+  "note": "Invalid placement frame.",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/12_tutorial_edit/select_frame_dashed.png",
+  "name": "select_frame_dashed",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "PanelSprite",
+  "size_px": [
+   372,
+   432
+  ],
+  "note": "Empty spot outline (kept clear).",
+  "nine_slice_px": {
+   "left": 42,
+   "right": 42,
+   "top": 42,
+   "bottom": 42
+  }
+ },
+ {
+  "file": "assets/12_tutorial_edit/grid_tile.png",
+  "name": "grid_tile",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   96,
+   96
+  ],
+  "note": "Floor grid shown in Edit layout."
+ },
+ {
+  "file": "assets/12_tutorial_edit/move_arrow_up.png",
+  "name": "move_arrow_up",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   126,
+   126
+  ],
+  "note": "Move arrows around the selected item."
+ },
+ {
+  "file": "assets/12_tutorial_edit/move_arrow_down.png",
+  "name": "move_arrow_down",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   126,
+   126
+  ],
+  "note": "Move arrows around the selected item."
+ },
+ {
+  "file": "assets/12_tutorial_edit/move_arrow_left.png",
+  "name": "move_arrow_left",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   126,
+   126
+  ],
+  "note": "Move arrows around the selected item."
+ },
+ {
+  "file": "assets/12_tutorial_edit/move_arrow_right.png",
+  "name": "move_arrow_right",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   126,
+   126
+  ],
+  "note": "Move arrows around the selected item."
+ },
+ {
+  "file": "assets/12_tutorial_edit/spotlight_hole.png",
+  "name": "spotlight_hole",
+  "folder": "12_tutorial_edit",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   600,
+   600
+  ],
+  "note": "Soft spotlight (dark with clear centre) for tutorials. Put dim_overlay around it."
+ },
+ {
+  "file": "assets/13_levelup_rewards/levelup_rays.png",
+  "name": "levelup_rays",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   1170,
+   1170
+  ],
+  "note": "Light rays behind the level badge. Rotate slowly."
+ },
+ {
+  "file": "assets/13_levelup_rewards/levelup_bg.png",
+  "name": "levelup_bg",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "TiledSprite",
+  "size_px": [
+   1170,
+   2532
+  ],
+  "note": "Level up screen green background."
+ },
+ {
+  "file": "assets/13_levelup_rewards/levelup_medal.png",
+  "name": "levelup_medal",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   414,
+   414
+  ],
+  "note": "Big level circle (number as Text, Poppins ExtraBold 64pt)."
+ },
+ {
+  "file": "assets/13_levelup_rewards/confetti_1.png",
+  "name": "confetti_1",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   30,
+   12
+  ],
+  "note": "Confetti piece. Spawn many, fall and spin."
+ },
+ {
+  "file": "assets/13_levelup_rewards/confetti_2.png",
+  "name": "confetti_2",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   30,
+   12
+  ],
+  "note": "Confetti piece. Spawn many, fall and spin."
+ },
+ {
+  "file": "assets/13_levelup_rewards/confetti_3.png",
+  "name": "confetti_3",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   30,
+   12
+  ],
+  "note": "Confetti piece. Spawn many, fall and spin."
+ },
+ {
+  "file": "assets/13_levelup_rewards/confetti_4.png",
+  "name": "confetti_4",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   30,
+   12
+  ],
+  "note": "Confetti piece. Spawn many, fall and spin."
+ },
+ {
+  "file": "assets/13_levelup_rewards/confetti_5.png",
+  "name": "confetti_5",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   30,
+   12
+  ],
+  "note": "Confetti piece. Spawn many, fall and spin."
+ },
+ {
+  "file": "assets/13_levelup_rewards/confetti_6.png",
+  "name": "confetti_6",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   30,
+   12
+  ],
+  "note": "Confetti piece. Spawn many, fall and spin."
+ },
+ {
+  "file": "assets/13_levelup_rewards/coin_big.png",
+  "name": "coin_big",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   144,
+   144
+  ],
+  "note": "Coin used for the coin-fly effect."
+ },
+ {
+  "file": "assets/13_levelup_rewards/ad_play_icon.png",
+  "name": "ad_play_icon",
+  "folder": "13_levelup_rewards",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": "Icon on \"Watch ad\" buttons."
+ },
+ {
+  "file": "assets/14_icons/ink/icon_shop_ink.png",
+  "name": "icon_shop_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_shop_white.png",
+  "name": "icon_shop_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_shop_green.png",
+  "name": "icon_shop_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_shop_muted.png",
+  "name": "icon_shop_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_shop_cream.png",
+  "name": "icon_shop_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_shop_gold.png",
+  "name": "icon_shop_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_shop_red.png",
+  "name": "icon_shop_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_area_ink.png",
+  "name": "icon_area_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_area_white.png",
+  "name": "icon_area_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_area_green.png",
+  "name": "icon_area_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_area_muted.png",
+  "name": "icon_area_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_area_cream.png",
+  "name": "icon_area_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_area_gold.png",
+  "name": "icon_area_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_area_red.png",
+  "name": "icon_area_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_flag_ink.png",
+  "name": "icon_flag_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_flag_white.png",
+  "name": "icon_flag_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_flag_green.png",
+  "name": "icon_flag_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_flag_muted.png",
+  "name": "icon_flag_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_flag_cream.png",
+  "name": "icon_flag_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_flag_gold.png",
+  "name": "icon_flag_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_flag_red.png",
+  "name": "icon_flag_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_up_ink.png",
+  "name": "icon_up_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_up_white.png",
+  "name": "icon_up_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_up_green.png",
+  "name": "icon_up_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_up_muted.png",
+  "name": "icon_up_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_up_cream.png",
+  "name": "icon_up_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_up_gold.png",
+  "name": "icon_up_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_up_red.png",
+  "name": "icon_up_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_user_ink.png",
+  "name": "icon_user_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_user_white.png",
+  "name": "icon_user_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_user_green.png",
+  "name": "icon_user_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_user_muted.png",
+  "name": "icon_user_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_user_cream.png",
+  "name": "icon_user_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_user_gold.png",
+  "name": "icon_user_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_user_red.png",
+  "name": "icon_user_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_back_ink.png",
+  "name": "icon_back_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_back_white.png",
+  "name": "icon_back_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_back_green.png",
+  "name": "icon_back_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_back_muted.png",
+  "name": "icon_back_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_back_cream.png",
+  "name": "icon_back_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_back_gold.png",
+  "name": "icon_back_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_back_red.png",
+  "name": "icon_back_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_check_ink.png",
+  "name": "icon_check_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_check_white.png",
+  "name": "icon_check_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_check_green.png",
+  "name": "icon_check_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_check_muted.png",
+  "name": "icon_check_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_check_cream.png",
+  "name": "icon_check_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_check_gold.png",
+  "name": "icon_check_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_check_red.png",
+  "name": "icon_check_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_lock_ink.png",
+  "name": "icon_lock_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_lock_white.png",
+  "name": "icon_lock_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_lock_green.png",
+  "name": "icon_lock_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_lock_muted.png",
+  "name": "icon_lock_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_lock_cream.png",
+  "name": "icon_lock_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_lock_gold.png",
+  "name": "icon_lock_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_lock_red.png",
+  "name": "icon_lock_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_star_ink.png",
+  "name": "icon_star_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_star_white.png",
+  "name": "icon_star_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_star_green.png",
+  "name": "icon_star_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_star_muted.png",
+  "name": "icon_star_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_star_cream.png",
+  "name": "icon_star_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_star_gold.png",
+  "name": "icon_star_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_star_red.png",
+  "name": "icon_star_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_truck_ink.png",
+  "name": "icon_truck_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_truck_white.png",
+  "name": "icon_truck_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_truck_green.png",
+  "name": "icon_truck_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_truck_muted.png",
+  "name": "icon_truck_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_truck_cream.png",
+  "name": "icon_truck_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_truck_gold.png",
+  "name": "icon_truck_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_truck_red.png",
+  "name": "icon_truck_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_chart_ink.png",
+  "name": "icon_chart_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_chart_white.png",
+  "name": "icon_chart_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_chart_green.png",
+  "name": "icon_chart_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_chart_muted.png",
+  "name": "icon_chart_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_chart_cream.png",
+  "name": "icon_chart_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_chart_gold.png",
+  "name": "icon_chart_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_chart_red.png",
+  "name": "icon_chart_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_heart_ink.png",
+  "name": "icon_heart_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_heart_white.png",
+  "name": "icon_heart_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_heart_green.png",
+  "name": "icon_heart_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_heart_muted.png",
+  "name": "icon_heart_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_heart_cream.png",
+  "name": "icon_heart_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_heart_gold.png",
+  "name": "icon_heart_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_heart_red.png",
+  "name": "icon_heart_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_gear_ink.png",
+  "name": "icon_gear_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_gear_white.png",
+  "name": "icon_gear_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_gear_green.png",
+  "name": "icon_gear_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_gear_muted.png",
+  "name": "icon_gear_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_gear_cream.png",
+  "name": "icon_gear_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_gear_gold.png",
+  "name": "icon_gear_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_gear_red.png",
+  "name": "icon_gear_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_bag_ink.png",
+  "name": "icon_bag_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_bag_white.png",
+  "name": "icon_bag_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_bag_green.png",
+  "name": "icon_bag_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_bag_muted.png",
+  "name": "icon_bag_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_bag_cream.png",
+  "name": "icon_bag_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_bag_gold.png",
+  "name": "icon_bag_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_bag_red.png",
+  "name": "icon_bag_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_play_ink.png",
+  "name": "icon_play_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_play_white.png",
+  "name": "icon_play_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_play_green.png",
+  "name": "icon_play_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_play_muted.png",
+  "name": "icon_play_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_play_cream.png",
+  "name": "icon_play_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_play_gold.png",
+  "name": "icon_play_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_play_red.png",
+  "name": "icon_play_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_clock_ink.png",
+  "name": "icon_clock_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_clock_white.png",
+  "name": "icon_clock_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_clock_green.png",
+  "name": "icon_clock_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_clock_muted.png",
+  "name": "icon_clock_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_clock_cream.png",
+  "name": "icon_clock_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_clock_gold.png",
+  "name": "icon_clock_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_clock_red.png",
+  "name": "icon_clock_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_users_ink.png",
+  "name": "icon_users_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_users_white.png",
+  "name": "icon_users_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_users_green.png",
+  "name": "icon_users_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_users_muted.png",
+  "name": "icon_users_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_users_cream.png",
+  "name": "icon_users_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_users_gold.png",
+  "name": "icon_users_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_users_red.png",
+  "name": "icon_users_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_tag_ink.png",
+  "name": "icon_tag_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_tag_white.png",
+  "name": "icon_tag_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_tag_green.png",
+  "name": "icon_tag_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_tag_muted.png",
+  "name": "icon_tag_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_tag_cream.png",
+  "name": "icon_tag_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_tag_gold.png",
+  "name": "icon_tag_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_tag_red.png",
+  "name": "icon_tag_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_chev_ink.png",
+  "name": "icon_chev_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_chev_white.png",
+  "name": "icon_chev_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_chev_green.png",
+  "name": "icon_chev_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_chev_muted.png",
+  "name": "icon_chev_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_chev_cream.png",
+  "name": "icon_chev_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_chev_gold.png",
+  "name": "icon_chev_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_chev_red.png",
+  "name": "icon_chev_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_smile_ink.png",
+  "name": "icon_smile_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_smile_white.png",
+  "name": "icon_smile_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_smile_green.png",
+  "name": "icon_smile_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_smile_muted.png",
+  "name": "icon_smile_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_smile_cream.png",
+  "name": "icon_smile_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_smile_gold.png",
+  "name": "icon_smile_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_smile_red.png",
+  "name": "icon_smile_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_sliders_ink.png",
+  "name": "icon_sliders_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_sliders_white.png",
+  "name": "icon_sliders_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_sliders_green.png",
+  "name": "icon_sliders_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_sliders_muted.png",
+  "name": "icon_sliders_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_sliders_cream.png",
+  "name": "icon_sliders_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_sliders_gold.png",
+  "name": "icon_sliders_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_sliders_red.png",
+  "name": "icon_sliders_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_close_ink.png",
+  "name": "icon_close_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_close_white.png",
+  "name": "icon_close_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_close_green.png",
+  "name": "icon_close_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_close_muted.png",
+  "name": "icon_close_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_close_cream.png",
+  "name": "icon_close_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_close_gold.png",
+  "name": "icon_close_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_close_red.png",
+  "name": "icon_close_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_plus_ink.png",
+  "name": "icon_plus_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_plus_white.png",
+  "name": "icon_plus_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_plus_green.png",
+  "name": "icon_plus_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_plus_muted.png",
+  "name": "icon_plus_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_plus_cream.png",
+  "name": "icon_plus_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_plus_gold.png",
+  "name": "icon_plus_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_plus_red.png",
+  "name": "icon_plus_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_swap_ink.png",
+  "name": "icon_swap_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_swap_white.png",
+  "name": "icon_swap_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_swap_green.png",
+  "name": "icon_swap_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_swap_muted.png",
+  "name": "icon_swap_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_swap_cream.png",
+  "name": "icon_swap_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_swap_gold.png",
+  "name": "icon_swap_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_swap_red.png",
+  "name": "icon_swap_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_move_ink.png",
+  "name": "icon_move_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_move_white.png",
+  "name": "icon_move_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_move_green.png",
+  "name": "icon_move_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_move_muted.png",
+  "name": "icon_move_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_move_cream.png",
+  "name": "icon_move_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_move_gold.png",
+  "name": "icon_move_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_move_red.png",
+  "name": "icon_move_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_down_ink.png",
+  "name": "icon_down_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_down_white.png",
+  "name": "icon_down_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_down_green.png",
+  "name": "icon_down_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_down_muted.png",
+  "name": "icon_down_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_down_cream.png",
+  "name": "icon_down_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_down_gold.png",
+  "name": "icon_down_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_down_red.png",
+  "name": "icon_down_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_right_ink.png",
+  "name": "icon_right_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_right_white.png",
+  "name": "icon_right_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_right_green.png",
+  "name": "icon_right_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_right_muted.png",
+  "name": "icon_right_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_right_cream.png",
+  "name": "icon_right_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_right_gold.png",
+  "name": "icon_right_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_right_red.png",
+  "name": "icon_right_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_left_ink.png",
+  "name": "icon_left_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_left_white.png",
+  "name": "icon_left_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_left_green.png",
+  "name": "icon_left_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_left_muted.png",
+  "name": "icon_left_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_left_cream.png",
+  "name": "icon_left_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_left_gold.png",
+  "name": "icon_left_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_left_red.png",
+  "name": "icon_left_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_rotate_ink.png",
+  "name": "icon_rotate_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_rotate_white.png",
+  "name": "icon_rotate_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_rotate_green.png",
+  "name": "icon_rotate_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_rotate_muted.png",
+  "name": "icon_rotate_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_rotate_cream.png",
+  "name": "icon_rotate_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_rotate_gold.png",
+  "name": "icon_rotate_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_rotate_red.png",
+  "name": "icon_rotate_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_storage_ink.png",
+  "name": "icon_storage_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_storage_white.png",
+  "name": "icon_storage_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_storage_green.png",
+  "name": "icon_storage_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_storage_muted.png",
+  "name": "icon_storage_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_storage_cream.png",
+  "name": "icon_storage_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_storage_gold.png",
+  "name": "icon_storage_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_storage_red.png",
+  "name": "icon_storage_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_plant_ink.png",
+  "name": "icon_plant_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_plant_white.png",
+  "name": "icon_plant_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_plant_green.png",
+  "name": "icon_plant_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_plant_muted.png",
+  "name": "icon_plant_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_plant_cream.png",
+  "name": "icon_plant_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_plant_gold.png",
+  "name": "icon_plant_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_plant_red.png",
+  "name": "icon_plant_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_eye_ink.png",
+  "name": "icon_eye_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_eye_white.png",
+  "name": "icon_eye_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_eye_green.png",
+  "name": "icon_eye_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_eye_muted.png",
+  "name": "icon_eye_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_eye_cream.png",
+  "name": "icon_eye_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_eye_gold.png",
+  "name": "icon_eye_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_eye_red.png",
+  "name": "icon_eye_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_info_ink.png",
+  "name": "icon_info_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_info_white.png",
+  "name": "icon_info_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_info_green.png",
+  "name": "icon_info_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_info_muted.png",
+  "name": "icon_info_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_info_cream.png",
+  "name": "icon_info_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_info_gold.png",
+  "name": "icon_info_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_info_red.png",
+  "name": "icon_info_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_bell_ink.png",
+  "name": "icon_bell_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_bell_white.png",
+  "name": "icon_bell_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_bell_green.png",
+  "name": "icon_bell_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_bell_muted.png",
+  "name": "icon_bell_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_bell_cream.png",
+  "name": "icon_bell_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_bell_gold.png",
+  "name": "icon_bell_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_bell_red.png",
+  "name": "icon_bell_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_gift_ink.png",
+  "name": "icon_gift_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_gift_white.png",
+  "name": "icon_gift_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_gift_green.png",
+  "name": "icon_gift_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_gift_muted.png",
+  "name": "icon_gift_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_gift_cream.png",
+  "name": "icon_gift_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_gift_gold.png",
+  "name": "icon_gift_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_gift_red.png",
+  "name": "icon_gift_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_sound_ink.png",
+  "name": "icon_sound_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_sound_white.png",
+  "name": "icon_sound_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_sound_green.png",
+  "name": "icon_sound_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_sound_muted.png",
+  "name": "icon_sound_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_sound_cream.png",
+  "name": "icon_sound_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_sound_gold.png",
+  "name": "icon_sound_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_sound_red.png",
+  "name": "icon_sound_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_music_ink.png",
+  "name": "icon_music_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_music_white.png",
+  "name": "icon_music_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_music_green.png",
+  "name": "icon_music_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_music_muted.png",
+  "name": "icon_music_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_music_cream.png",
+  "name": "icon_music_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_music_gold.png",
+  "name": "icon_music_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_music_red.png",
+  "name": "icon_music_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/ink/icon_share_ink.png",
+  "name": "icon_share_ink",
+  "folder": "14_icons/ink",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/white/icon_share_white.png",
+  "name": "icon_share_white",
+  "folder": "14_icons/white",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/green/icon_share_green.png",
+  "name": "icon_share_green",
+  "folder": "14_icons/green",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/muted/icon_share_muted.png",
+  "name": "icon_share_muted",
+  "folder": "14_icons/muted",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/cream/icon_share_cream.png",
+  "name": "icon_share_cream",
+  "folder": "14_icons/cream",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/gold/icon_share_gold.png",
+  "name": "icon_share_gold",
+  "folder": "14_icons/gold",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ },
+ {
+  "file": "assets/14_icons/red/icon_share_red.png",
+  "name": "icon_share_red",
+  "folder": "14_icons/red",
+  "gdevelop_object": "Sprite",
+  "size_px": [
+   72,
+   72
+  ],
+  "note": ""
+ }
+]

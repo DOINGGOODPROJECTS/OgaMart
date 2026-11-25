@@ -1,0 +1,254 @@
+{
+ "OgaMart-1-Shop": {
+  "elements": 65,
+  "matched": 30,
+  "texts": 22,
+  "characters": 4
+ },
+ "OgaMart-2-Neighborhood": {
+  "elements": 77,
+  "matched": 28,
+  "texts": 26,
+  "characters": 4
+ },
+ "OgaMart-3-Mama-Biggie-Conversation": {
+  "elements": 29,
+  "matched": 10,
+  "texts": 12,
+  "characters": 1
+ },
+ "OgaMart-4-Welcome-Back": {
+  "elements": 40,
+  "matched": 5,
+  "texts": 24,
+  "characters": 0
+ },
+ "OgaMart-5-Character-Sheet": {
+  "elements": 88,
+  "matched": 28,
+  "texts": 43,
+  "characters": 16
+ },
+ "OgaMart-6-Missions": {
+  "elements": 92,
+  "matched": 44,
+  "texts": 40,
+  "characters": 2
+ },
+ "OgaMart-7-Upgrades": {
+  "elements": 95,
+  "matched": 46,
+  "texts": 40,
+  "characters": 0
+ },
+ "OgaMart-8-Profile-Progress": {
+  "elements": 93,
+  "matched": 45,
+  "texts": 41,
+  "characters": 0
+ },
+ "OgaMart-9-Ripple-Dashboard": {
+  "elements": 85,
+  "matched": 43,
+  "texts": 39,
+  "characters": 0
+ },
+ "OgaMart-10-Store-Performance": {
+  "elements": 88,
+  "matched": 34,
+  "texts": 47,
+  "characters": 0
+ },
+ "OgaMart-11-Character-Profile": {
+  "elements": 78,
+  "matched": 36,
+  "texts": 33,
+  "characters": 1
+ },
+ "OgaMart-12-Hire-Staff": {
+  "elements": 88,
+  "matched": 48,
+  "texts": 33,
+  "characters": 2
+ },
+ "OgaMart-13-Pricing-Suppliers": {
+  "elements": 90,
+  "matched": 43,
+  "texts": 41,
+  "characters": 0
+ },
+ "OgaMart-14-Style-Shop": {
+  "elements": 77,
+  "matched": 36,
+  "texts": 29,
+  "characters": 1
+ },
+ "OgaMart-15-Settings": {
+  "elements": 69,
+  "matched": 35,
+  "texts": 31,
+  "characters": 0
+ },
+ "OgaMart-16-Ripple-Report": {
+  "elements": 78,
+  "matched": 36,
+  "texts": 36,
+  "characters": 4
+ },
+ "OgaMart-17-Build-Preview": {
+  "elements": 51,
+  "matched": 23,
+  "texts": 22,
+  "characters": 0
+ },
+ "OgaMart-18-Coffee-Shop-Management": {
+  "elements": 74,
+  "matched": 35,
+  "texts": 32,
+  "characters": 2
+ },
+ "OgaMart-19-Inventory": {
+  "elements": 98,
+  "matched": 54,
+  "texts": 37,
+  "characters": 0
+ },
+ "OgaMart-20-Employees": {
+  "elements": 86,
+  "matched": 44,
+  "texts": 37,
+  "characters": 2
+ },
+ "OgaMart-21-Layout-Edit": {
+  "elements": 60,
+  "matched": 38,
+  "texts": 13,
+  "characters": 0
+ },
+ "OgaMart-22-Food-Festival": {
+  "elements": 74,
+  "matched": 36,
+  "texts": 30,
+  "characters": 4
+ },
+ "OgaMart-23-Rush-and-VIP": {
+  "elements": 58,
+  "matched": 25,
+  "texts": 21,
+  "characters": 6
+ },
+ "OgaMart-24-Character-Collection": {
+  "elements": 114,
+  "matched": 59,
+  "texts": 40,
+  "characters": 12
+ },
+ "OgaMart-25-Level-Up": {
+  "elements": 29,
+  "matched": 13,
+  "texts": 12,
+  "characters": 1
+ },
+ "OgaMart-26-Free-Rewards": {
+  "elements": 83,
+  "matched": 42,
+  "texts": 31,
+  "characters": 0
+ },
+ "OgaMart-27-Hints-and-Notifications": {
+  "elements": 51,
+  "matched": 21,
+  "texts": 18,
+  "characters": 3
+ },
+ "OgaMart-28-Manual-Checkout": {
+  "elements": 48,
+  "matched": 19,
+  "texts": 17,
+  "characters": 1
+ },
+ "OgaMart-29-Deliveries": {
+  "elements": 76,
+  "matched": 38,
+  "texts": 30,
+  "characters": 1
+ },
+ "OgaMart-30-Achievements": {
+  "elements": 99,
+  "matched": 56,
+  "texts": 38,
+  "characters": 0
+ },
+ "OgaMart-31-Level-Roadmap-1-13": {
+  "elements": 98,
+  "matched": 38,
+  "texts": 56,
+  "characters": 0
+ },
+ "OgaMart-32-Level-Roadmap-14-25": {
+  "elements": 91,
+  "matched": 34,
+  "texts": 54,
+  "characters": 0
+ },
+ "OgaMart-33-Stage1-Corner-Shop-Shop": {
+  "elements": 46,
+  "matched": 21,
+  "texts": 16,
+  "characters": 4
+ },
+ "OgaMart-34-Stage1-Corner-Shop-Neighborhood": {
+  "elements": 63,
+  "matched": 30,
+  "texts": 27,
+  "characters": 2
+ },
+ "OgaMart-35-Stage2-Mini-Market-Shop": {
+  "elements": 49,
+  "matched": 22,
+  "texts": 17,
+  "characters": 5
+ },
+ "OgaMart-36-Stage2-Mini-Market-Neighborhood": {
+  "elements": 73,
+  "matched": 34,
+  "texts": 31,
+  "characters": 4
+ },
+ "OgaMart-37-Stage3-Supermarket-Shop": {
+  "elements": 50,
+  "matched": 22,
+  "texts": 17,
+  "characters": 6
+ },
+ "OgaMart-38-Stage3-Supermarket-Neighborhood": {
+  "elements": 76,
+  "matched": 34,
+  "texts": 31,
+  "characters": 7
+ },
+ "OgaMart-39-Stage4-Superstore-Shop": {
+  "elements": 50,
+  "matched": 22,
+  "texts": 17,
+  "characters": 6
+ },
+ "OgaMart-40-Stage4-Superstore-Neighborhood": {
+  "elements": 77,
+  "matched": 34,
+  "texts": 31,
+  "characters": 8
+ },
+ "OgaMart-41-Stage5-Mega-Market-Shop": {
+  "elements": 56,
+  "matched": 22,
+  "texts": 17,
+  "characters": 12
+ },
+ "OgaMart-42-Stage5-Mega-Market-Neighborhood": {
+  "elements": 79,
+  "matched": 34,
+  "texts": 31,
+  "characters": 10
+ }
+}

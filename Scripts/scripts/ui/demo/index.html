@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>OgaMart UI kit – live demo</title>
+<style>
+ body{margin:0;background:#2B2118;display:flex;gap:28px;justify-content:center;align-items:flex-start;padding:24px;font-family:Inter,Arial,sans-serif;color:#FFF4DC}
+ #wrap{width:390px;height:844px;position:relative;overflow:hidden;border-radius:28px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+ #stage{width:1170px;height:2532px;position:absolute;left:0;top:0;transform:scale(.3333333);transform-origin:0 0;background:#FFF4DC;touch-action:none;user-select:none}
+ .o{position:absolute;transform-origin:50% 50%}
+ .o img{display:block;pointer-events:none}
+ #help{max-width:340px;font-size:14px;line-height:1.5}
+ #help b{color:#E8B62C}
+</style></head><body>
+<div id="wrap"><div id="stage"></div></div>
+<div id="help"><h2 style="font-family:Poppins">OgaMart UI kit – live demo</h2>
+<p>Everything here is built only from the kit PNGs and moved by <b>scripts/ogamart_ui.js</b>, the same file you paste into GDevelop.</p>
+<p>Try it:</p><ul>
+<li><b>Restock</b>: the stock bar fills and coins count down</li>
+<li>Every few seconds a customer buys bread: <b>+5</b> floats up, coins and XP bars move, and at full XP you get a <b>level up</b> with confetti and a toast</li>
+<li>Tap the <b>nav tabs</b>: the gold highlight slides</li>
+<li>Tap the <b>settings</b> button: a sheet slides up with a slider, a switch and a segmented control</li>
+<li>The red <b>!</b> pulses until you restock</li>
+</ul></div>
+<script src="fake_gdjs.js"></script>
+<script src="../ogamart_ui.js"></script>
+<script>
+const A = '../../assets/';
+const S = window.scene, UI = gdjs.ogaUI;
+const T = (name, x, y, text, font, color, z, extra) => S.add(name, Object.assign({ x, y, text, font, color, z: z || 20 }, extra || {}));
+const P = (name, img, x, y, w, h, m, z, extra) => S.add(name, Object.assign({ img: A + img, x, y, w, h, margin: m, z: z || 10 }, extra || {}));
+const SP = (name, img, x, y, w, h, z, extra) => S.add(name, Object.assign({ img: A + img, x, y, w, h, z: z || 10 }, extra || {}));
+// scene art (store) + bars
+SP('Store', '../scripts/demo/store_scene.png', 0, 288, 1170, 1980, 1);
+S.add('TopBar', { img: A + '01_topbar/topbar_bg.png', tiled: true, x: 0, y: 0, w: 1170, h: 288, z: 5 });
+SP('LevelBadge', '01_topbar/level_badge.png', 42, 141, 144, 144, 12);
+T('LevelText', 95, 175, '3', '700 66px Poppins', '#2B2118', 13);
+T('StageText', 210, 160, 'Corner Shop · 240/400 XP', '700 33px Inter', '#FFFFFF');
+P('XPTrack', '01_topbar/xp_bar_track.png', 210, 222, 300, 24, 12, 11, { mt: 0, mb: 0 });
+P('XPFill', '01_topbar/xp_bar_fill.png', 210, 222, 180, 24, 12, 12, { mt: 0, mb: 0 });
+P('CoinPill', '01_topbar/stat_pill.png', 560, 168, 260, 96, 48, 11);
+SP('CoinIcon', '01_topbar/icon_coin.png', 572, 180, 72, 72, 12);
+T('CoinText', 655, 192, '1,250', '700 42px Inter', '#FFFFFF');
+P('HappyPill', '01_topbar/stat_pill.png', 840, 168, 180, 96, 48, 11);
+SP('HappyIcon', '01_topbar/icon_happiness.png', 858, 180, 72, 72, 12);
+T('HappyText', 940, 192, '72', '800 45px Inter', '#FFFFFF');
+SP('SettingsBtn', '01_topbar/settings_button.png', 1044, 162, 108, 108, 12, { anims: { Normal: [A + '01_topbar/settings_button.png'], Pressed: [A + '01_topbar/settings_button_pressed.png'] } });
+SP('AlertDot', '11_toasts/alert_dot.png', 580, 528, 84, 84, 15);
+// action card
+P('ActionCard', '10_modals_sheets/action_card.png', -24, 1610, 1218, 744, 216, 14);
+P('Thumb', '06_cards/thumb_tile_cream.png', 90, 1700, 144, 144, 42, 15);
+T('CardTitle', 270, 1702, 'SHELF — BREAD', '700 54px Poppins', '#2B2118');
+T('StockText', 1000, 1712, '12/30', '700 42px Inter', '#2B2118');
+P('StockTrack', '05_progress/bar10_track_cream.png', 270, 1790, 820, 30, 15, 15, { mt: 0, mb: 0 });
+P('StockFill', '05_progress/bar10_fill_orange.png', 270, 1790, 328, 30, 15, 16, { mt: 0, mb: 0 });
+T('CardSub', 270, 1850, 'Cost 3 · Sells 5 · Profit 2 per loaf', '600 38px Inter', '#5C4A38');
+P('RestockBtn', '10_modals_sheets/action_tile_primary.png', 90, 1930, 260, 240, 48, 15);
+T('RestockLabel', 135, 2075, 'RESTOCK', '800 40px Inter', '#FFFFFF', 16);
+T('RestockCost', 150, 2125, '54 coins', '700 30px Inter', '#E8F5EC', 16);
+SP('RestockIcon', '14_icons/white/icon_plus_white.png', 184, 1960, 72, 72, 16);
+[['PRODUCT', 'swap'], ['UPGRADE', 'up'], ['MOVE', 'move']].forEach(([l, ic], i) => {
+  const x = 380 + i * 270;
+  P('Tile' + l, '10_modals_sheets/action_tile.png', x, 1930, 250, 240, 48, 15);
+  SP('TileIcon' + l, `14_icons/ink/icon_${ic}_ink.png`, x + 89, 1975, 72, 72, 16);
+  T('TileLabel' + l, x + 125 - l.length * 13, 2085, l, '800 38px Inter', '#2B2118', 16);
+});
+// nav
+S.add('NavBg', { img: A + '02_nav/nav_bg.png', tiled: true, x: 0, y: 2268, w: 1170, h: 264, z: 20 });
+P('NavActive', '02_nav/nav_tab_active.png', 24, 2292, 216, 174, 42, 21);
+['shop', 'neighborhood', 'missions', 'upgrades', 'profile'].forEach((n, i) => {
+  const cx = 24 + 113 + i * 226;
+  SP('NavIcon', `02_nav/nav_icon_${n}_inactive.png`, cx - 36, 2318, 72, 72, 22, { vars: { Index: i }, anims: { inactive: [A + `02_nav/nav_icon_${n}_inactive.png`], active: [A + `02_nav/nav_icon_${n}_active.png`] } });
+  const lab = n.toUpperCase();
+  T('NavLabel', cx - lab.length * (n === 'neighborhood' ? 7.5 : 10.5), 2410, lab, `700 ${n === 'neighborhood' ? 25 : 30}px Inter`, '#F1E4C8', 22, { vars: { Index: i } });
+  SP('NavHit', `02_nav/nav_tab_active.png`, cx - 108, 2292, 216, 174, 23, { vars: { Index: i } }).setOpacity(0);
+});
+SP('NavBadge', '02_nav/nav_badge.png', 600, 2300, 48, 48, 24); T('NavBadgeText', 615, 2306, '3', '700 30px Inter', '#FFFFFF', 25);
+// reward pop, toast
+P('RewardPop', '11_toasts/reward_pop.png', 380, 1150, 258, 138, 66, 30, { hidden: true });
+SP('RewardCoin', '01_topbar/icon_coin.png', 410, 1183, 72, 72, 31, { hidden: true });
+T('RewardText', 495, 1190, '+5', '800 48px Inter', '#1E6B45', 31, { hidden: true });
+P('ToastCard', '11_toasts/toast_card.png', 0, 300, 1206, 258, 96, 40, { hidden: true });
+P('ToastTag', '11_toasts/toast_tag_green.png', 84, 386, 220, 66, 24, 41, { hidden: true });
+T('ToastTagText', 112, 400, 'Level up', '800 33px Inter', '#FFFFFF', 42, { hidden: true });
+T('ToastText', 330, 398, '', '600 37px Inter', '#2B2118', 42, { hidden: true });
+// settings sheet
+S.add('Dim', { img: A + '09_dialogue/dim_overlay.png', tiled: true, x: 0, y: 0, w: 1170, h: 2532, z: 50, hidden: true });
+P('Sheet', '10_modals_sheets/bottom_sheet.png', -72, 1300, 1314, 1300, 228, 51, { hidden: true, mb: 72 });
+const sheetParts = ['Sheet'];
+const sp = (o) => { sheetParts.push(o.name); o.hide(true); return o; };
+sp(SP('SheetHandle', '10_modals_sheets/sheet_handle.png', 519, 1340, 132, 15, 52));
+sp(T('SheetTitle', 60, 1400, 'Quick settings', '700 60px Poppins', '#2B2118', 52));
+sp(SP('SheetClose', '04_buttons/icon_button_square.png', 1010, 1385, 120, 120, 52));
+sp(SP('SheetCloseX', '14_icons/ink/icon_close_ink.png', 1034, 1409, 72, 72, 53));
+sp(T('MusicLabel', 60, 1560, 'Music', '600 42px Inter', '#2B2118', 52));
+sp(T('MusicValue', 1000, 1560, '60', '700 42px Inter', '#5C4A38', 52));
+sp(P('MusicTrack', '08_inputs/slider_track.png', 60, 1650, 1050, 18, 9, 52, { mt: 0, mb: 0 }));
+sp(P('MusicFill', '08_inputs/slider_fill.png', 60, 1650, 630, 18, 9, 53, { mt: 0, mb: 0 }));
+sp(SP('MusicKnob', '08_inputs/slider_knob.png', 650, 1627, 84, 84, 54));
+sp(T('NotifLabel', 60, 1780, 'Character events', '600 42px Inter', '#2B2118', 52));
+sp(SP('NotifToggle', '08_inputs/toggle_on.png', 978, 1760, 132, 78, 52, { vars: { On: 1 }, anims: { on: [A + '08_inputs/toggle_on.png'], off: [A + '08_inputs/toggle_off.png'] } }));
+sp(T('PriceLabel', 60, 1920, 'Bread price', '600 42px Inter', '#2B2118', 52));
+sp(P('SegBg', '07_chips_pills/segmented_bg.png', 60, 2000, 1050, 120, 42, 52));
+sp(P('SegHi', '07_chips_pills/segmented_active.png', 70, 2010, 343, 100, 30, 53));
+['Low', 'Competitive', 'Premium'].forEach((l, i) => {
+  sp(SP('SegOpt', '07_chips_pills/segmented_active.png', 70 + i * 343, 2010, 343, 100, 55, { vars: { Index: i } })).setOpacity(0);
+  sp(T('SegLabel', 70 + i * 343 + 171 - l.length * 11.5, 2042, l, '700 39px Inter', '#2B2118', 54, { vars: { Index: i } }));
+});
+sp(P('ApplyBtn', '04_buttons/button_primary.png', 60, 2190, 1050, 132, 48, 52));
+sp(T('ApplyLabel', 470, 2230, 'Apply', '700 42px Inter', '#FFFFFF', 53));
+S.template('FlyCoin', { img: A + '13_levelup_rewards/coin_big.png', w: 96, h: 96, z: 60 });
+S.template('Confetti', { img: A + '13_levelup_rewards/confetti_1.png', w: 30, h: 12, z: 70, anims: Object.fromEntries([1, 2, 3, 4, 5, 6].map(i => ['c' + i, [A + `13_levelup_rewards/confetti_${i}.png`]])) });
+
+// ---- game logic, same calls you would make from GDevelop events
+let coins = 1250, stock = 12, xp = 240, xpNeed = 400, level = 3, segIndex = 1;
+UI.init(S);
+UI.bindBar(S, 'xp', 'XPTrack', 'XPFill', xp / xpNeed);
+UI.bindBar(S, 'stock', 'StockTrack', 'StockFill', stock / 30);
+UI.setNav(S, 0, 0);
+UI.makeButton(S, 'RestockBtn', ['RestockLabel', 'RestockCost', 'RestockIcon']);
+UI.makeButton(S, 'SettingsBtn', [], 'Pressed');
+['PRODUCT', 'UPGRADE', 'MOVE'].forEach(l => UI.makeButton(S, 'Tile' + l, ['TileIcon' + l, 'TileLabel' + l]));
+UI.makeButton(S, 'NavHit'); UI.makeButton(S, 'SheetClose', ['SheetCloseX']); UI.makeButton(S, 'NotifToggle'); UI.makeButton(S, 'SegOpt'); UI.makeButton(S, 'ApplyBtn', ['ApplyLabel']);
+UI.makeSlider(S, 'music', 'MusicTrack', 'MusicFill', 'MusicKnob', 0, 100, 60, 'Music', 1);
+UI.pulse(S, 'AlertDot', 0.15, 0.9);
+requestAnimationFrame(() => UI.setSegment(S, 'SegHi', 'SegOpt', 1, 'SegLabel'));
+let sellTimer = 0;
+function sale() {
+  if (stock <= 0) return;
+  stock--; UI.setBar('stock', stock / 30, 0.4); UI.setText(S, 'StockText', stock + '/30');
+  UI.floatUp(S, ['RewardPop', 'RewardCoin', 'RewardText'], 150, 1.1);
+  UI.countTo(S, 'CoinText', coins, coins + 5, 0.5); coins += 5;
+  const before = xp; xp = UI.addXP(S, 'xp', xp, 40, xpNeed, rest => {
+    level++; xpNeed += 150; UI.setText(S, 'LevelText', level);
+    UI.confetti(S, 'Confetti', 60);
+    UI.setText(S, 'ToastTagText', 'Level up'); UI.toast(S, ['ToastCard', 'ToastTag', 'ToastTagText', 'ToastText'], 2.5, 'Level ' + level + ' unlocked new upgrades!');
+    UI.setBar('xp', rest / xpNeed, 0.6);
+  });
+  UI.setText(S, 'StageText', 'Corner Shop · ' + xp + '/' + xpNeed + ' XP');
+  if (stock <= 8) { S.getObjects('AlertDot')[0].hide(false); }
+}
+runFrames(rs => {
+  UI.update(rs);
+  sellTimer += rs.getTimeManager().getElapsedTime() / 1000;
+  if (sellTimer > 3) { sellTimer = 0; sale(); }
+  if (UI.clicked('RestockBtn') && coins >= 54 && stock < 30) {
+    UI.countTo(rs, 'CoinText', coins, coins - 54, 0.6); coins -= 54; stock = 30;
+    UI.setBar('stock', 1, 0.8); UI.setText(rs, 'StockText', '30/30'); rs.getObjects('AlertDot')[0].hide(true);
+    UI.setText(rs, 'ToastTagText', 'Restocked'); UI.toast(rs, ['ToastCard', 'ToastTag', 'ToastTagText', 'ToastText'], 2, 'Bread shelf is full again');
+  }
+  if (UI.clicked('NavHit')) {
+    const hit = rs.getObjects('NavHit').find(o => UI.cursorIn(rs, o)); if (hit) UI.setNav(rs, hit.getVariables().get('Index').getAsNumber());
+  }
+  if (UI.clicked('SettingsBtn')) UI.openSheet(rs, sheetParts, 'Dim');
+  if (UI.clicked('SheetClose') || UI.clicked('ApplyBtn')) UI.closeSheet(rs, sheetParts, 'Dim');
+  if (UI.clicked('NotifToggle')) UI.flipToggle(rs, 'NotifToggle');
+  if (UI.clicked('SegOpt')) { const o = rs.getObjects('SegOpt').find(o => UI.cursorIn(rs, o)); if (o) UI.setSegment(rs, 'SegHi', 'SegOpt', o.getVariables().get('Index').getAsNumber(), 'SegLabel'); }
+  UI.setText(rs, 'MusicValue', Math.round(UI.getSlider('music')));
+  if (UI.clicked('TilePRODUCT') || UI.clicked('TileUPGRADE') || UI.clicked('TileMOVE')) UI.coinFly(rs, 'FlyCoin', 500, 1900, 'CoinPill', 6, () => {});
+});
+</script></body></html>

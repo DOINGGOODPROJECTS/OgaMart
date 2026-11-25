@@ -1,0 +1,53 @@
+{
+ "colors": {
+  "green": "#1E6B45",
+  "green_dark": "#154F33",
+  "gold": "#E8B62C",
+  "gold_dark": "#B98A12",
+  "ink": "#2B2118",
+  "cream": "#FFF4DC",
+  "muted": "#5C4A38",
+  "line": "#EAD8B4",
+  "red": "#C8412E",
+  "good_bg": "#E3F1E8",
+  "bad_bg": "#F8E1DC",
+  "bad_text": "#9C2F20",
+  "track": "#F1E4C8",
+  "grey_bg": "#EFE6D3",
+  "blue": "#3D6FA8",
+  "brown": "#C98A4B",
+  "orange": "#F28C28",
+  "white": "#FFFFFF",
+  "overlay": "rgba(32,22,14,0.6)"
+ },
+ "radius_px": {
+  "card": 54,
+  "button": 36,
+  "button_large": 48,
+  "chip": 51,
+  "pill": 27,
+  "thumb": 42,
+  "modal": 84,
+  "sheet_top": 84,
+  "nav_tab": 42
+ },
+ "layout_px": {
+  "screen": [
+   1170,
+   2532
+  ],
+  "top_bar_height": 288,
+  "header_top": 288,
+  "header_height": 192,
+  "content_top": 480,
+  "content_side_padding": 48,
+  "nav_top": 2268,
+  "nav_height": 264,
+  "card_gap": 36
+ },
+ "fonts": {
+  "headings": "Poppins Bold",
+  "body": "Inter (Medium/SemiBold/Bold/ExtraBold)"
+ },
+ "scale": "All px values are for a 1170x2532 game = 3x the 390x844 design."
+}

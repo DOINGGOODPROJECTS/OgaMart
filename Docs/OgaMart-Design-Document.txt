@@ -1,0 +1,3875 @@
+OGAMART
+1. Game Concept
+OgaMart is a mobile game where players start with a small grocery shop and transform it into a successful supermarket empire while developing a lively neighborhood.
+The game combines three experiences:
+Supermarket Management: Stock products, serve customers, earn money, hire employees, and upgrade the store.
+Neighborhood Development: Build coffee shops, bakeries, restaurants, cinemas, and other businesses that generate income and attract customers.
+Living Neighborhood: Meet recurring characters, discover their stories, and make business decisions that influence customer happiness and neighborhood development.
+Our competitive advantage: Unlike a conventional supermarket idle game, OgaMart connects business growth with the lives of neighborhood residents.
+The game must remain easy to understand. Most routine actions should require only one or two taps.
+Core gameplay loop:
+STOCK → SELL → COLLECT → UPGRADE → UNLOCK → EXPAND → DISCOVER → REPEAT
+The objective is to make the first minute enjoyable while gradually introducing strategic decisions, characters, and new businesses.
+
+2. Starting Environment
+Element
+Starting Configuration
+Supermarket
+1 small grocery shop
+Shelves
+3
+Products
+Bread, milk, eggs
+Cashier
+1 automatic cashier
+Starting capital
+500 coins
+Residential buildings
+2
+Customer types
+3
+Neighborhood businesses
+0
+Player level
+1
+Recurring characters
+1 initially
+Neighborhood indicators
+Customer Happiness initially
+
+The player starts by stocking bread, watching customers shop, and collecting the first sales.
+As the supermarket grows, new products, employees, buildings, customers, and stories become available.
+Five Progression Stages
+Stage
+Levels
+Supermarket
+Neighborhood
+Corner Shop
+1–5
+Basic shelves and checkout
+First coffee shop
+Mini Market
+5–10
+More products and storage
+Bakery and fruit shop
+Supermarket
+10–15
+Employees and automation
+Restaurant and flower shop
+Superstore
+31–40
+Expanded departments
+Cinema and shopping street
+Giga Mall
+41–50
+Mega supermarket
+Thriving commercial district
+
+After Level 50, players can continue improving their businesses. Additional districts can be introduced in future updates.
+
+3. How Players Play — Freedom-Based Gameplay
+3.1 Core Gameplay Philosophy
+OgaMart will adopt a player-driven, open-ended gameplay system.
+Players should have the freedom to manage their supermarket, interact with customers, develop businesses, customize their environment, and explore the neighborhood according to their individual preferences.
+The game must not force players to follow a single predefined sequence of activities or restrict them to one management style.
+Players can choose to operate their supermarket actively, automate business operations, concentrate on neighborhood expansion, interact with residents, or combine these activities.
+Core Principle: Players decide how they want to play, manage, and grow their business.
+Freedom applies to available gameplay systems, while purchases, construction, and upgrades remain subject to resources, progression requirements, and game rules.
+3.2 Flexible Player Controls
+OgaMart will support intuitive touchscreen interactions that allow players to interact naturally with the game environment.
+Control
+Function
+Tap
+Select objects, interact with characters, purchase products, manage businesses, and activate actions
+Double Tap
+Quickly interact with objects or perform contextual actions
+Swipe
+Navigate freely around the supermarket and neighborhood
+Drag and Drop
+Move and arrange eligible shelves, equipment, decorations, and buildings
+Pinch to Zoom
+Zoom in and out of the environment
+Press and Hold
+Open contextual menus and additional interaction options
+Contextual Action Buttons
+Display available actions for the selected object or character
+Free Camera Movement
+Explore accessible areas without being restricted to fixed camera positions
+
+Controls should be responsive and optimized for Android touchscreen devices.
+Players should be able to customize supported control preferences, including camera sensitivity and selected interaction shortcuts.
+Alternative interaction methods should be provided where practical so essential actions do not depend exclusively on complex gestures.
+3.3 Player-Controlled Supermarket Management
+Players should have flexibility in how they operate their supermarkets.
+They can:
+Manually restock products or enable automatic restocking when available.
+Allow employees to operate checkout counters or participate in optional checkout activities.
+Choose which products to stock and sell.
+Set product prices when pricing management is unlocked.
+Select suppliers and manage deliveries.
+Hire, train, assign, and upgrade employees.
+Arrange eligible shelves, refrigerators, checkout counters, and decorations.
+Expand supermarket departments in their preferred order when requirements are satisfied.
+Prioritize profitability, customer satisfaction, or business expansion.
+Upgrade equipment according to their preferred strategy.
+The game should not require players to complete unnecessary repetitive tasks when automation is available.
+3.4 Freedom to Explore and Interact
+Players can explore accessible supermarket and neighborhood areas.
+They can interact with customers, employees, suppliers, business owners, and recurring characters.
+Interactions may include conversations, business negotiations, accepting missions, purchasing products, and responding to neighborhood requests.
+Players should be able to explore without being forced to complete missions immediately.
+Optional activities must remain optional unless they are necessary to introduce an essential gameplay mechanic.
+3.5 Flexible Neighborhood Development
+Players should be able to develop their neighborhoods according to their preferences.
+They can:
+Choose which available businesses to construct.
+Select eligible building locations.
+Upgrade existing businesses.
+Arrange decorations and landscaping.
+Develop commercial or residential areas where supported.
+Choose which neighborhood opportunities to pursue.
+Interact with residents and local business owners.
+Participate in optional neighborhood events.
+The neighborhood should reflect the player's decisions rather than follow an identical layout for every player.
+3.6 Different Playing Styles
+OgaMart should support multiple approaches to gameplay.
+Playing Style
+Player Preference
+Supported Experience
+Active Manager
+Personally manages daily operations
+Manual stocking, pricing, employee supervision
+Idle Entrepreneur
+Prefers automation
+Automatic checkout, restocking, passive income
+Business Strategist
+Focuses on profitability
+Pricing, suppliers, upgrades, expansion
+Neighborhood Builder
+Enjoys construction and customization
+Buildings, decorations, neighborhood planning
+Community Leader
+Enjoys characters and community development
+Resident stories, missions, Ripple System
+Explorer
+Enjoys discovering the environment
+Free exploration, interactions, hidden activities
+Creative Player
+Enjoys personalization
+Store layouts, decorations, visual themes
+
+Players can switch between these styles at any time.
+The game must not permanently assign players to a particular style.
+3.7 Nonlinear Gameplay and Progression
+OgaMart will use flexible progression.
+Players should have several available objectives rather than being required to complete every activity in one fixed order.
+For example, after unlocking the first neighborhood businesses, a player may choose to upgrade the supermarket, construct a coffee shop, complete a character mission, or improve customer satisfaction.
+The player can return to other activities later.
+Levels will introduce new opportunities, but they should not unnecessarily restrict previously unlocked gameplay.
+Essential tutorials can introduce controls and mechanics, but should become skippable or unobtrusive once the player understands them.
+3.8 Freedom With Meaningful Consequences
+Players should be free to make different business decisions.
+However, their choices must produce understandable consequences.
+For example:
+Higher prices may increase profit margins but reduce demand.
+Lower prices may attract more customers but reduce profit per item.
+Hiring employees increases operating costs but improves capacity.
+Investing in neighborhood businesses creates new income opportunities.
+Improving customer service increases satisfaction.
+Neglecting inventory may result in missed sales.
+The game should encourage experimentation rather than punish players excessively for making mistakes.
+Players should be able to recover from poor business decisions through normal gameplay.
+3.9 Intelligent Contextual Interactions
+When a player selects an object, the game should display the relevant available actions.
+Example: Selecting a Shelf
+RESTOCK | UPGRADE | MOVE | PRODUCT DETAILS
+Example: Selecting an Employee
+ASSIGN | TRAIN | VIEW DETAILS | MANAGE
+Example: Selecting a Building
+ENTER | UPGRADE | COLLECT | CUSTOMIZE
+Example: Selecting a Customer
+INTERACT | VIEW PROFILE | VIEW REQUEST
+Unavailable actions should be clearly explained rather than silently blocked.
+3.10 First 10 Minutes — Guided but Flexible
+First 10 Minutes — Recommended Player Experience
+Suggested Time
+Suggested Player Experience
+Player Freedom and Alternative Actions
+Reward or Outcome
+0–1 min
+Explore the supermarket and learn basic interactions.
+Move the camera, inspect shelves, explore available areas, or start stocking products.
+Familiarity with the environment and controls.
+1–2 min
+Stock the first product and begin selling.
+Choose which available product to stock, inspect inventory, or arrange eligible equipment.
+First stocked shelf and initial sales.
+2–3 min
+Serve customers and collect earnings.
+Watch automatic checkout, interact with customers, collect coins, or continue managing inventory.
+First-sale bonus and increased earnings.
+3–4 min
+Discover supermarket upgrades.
+Upgrade a shelf, save coins, restock products, or explore other available improvements.
+Increased capacity or progress toward a preferred upgrade.
+4–5 min
+Unlock additional products and experience a special customer event.
+Choose which unlocked products to stock, serve a VIP customer, or continue normal supermarket operations.
+New products, bonus coins, or special rewards.
+5–7 min
+Explore checkout management and business improvements.
+Upgrade checkout speed, manage shelves, customize eligible equipment, or save money for expansion.
+Improved operations or accumulated capital.
+7–8 min
+Discover neighborhood characters and interactions.
+Talk to a recurring character, explore their story, accept an optional mission, or continue supermarket management.
+First character interaction or optional mission.
+8–10 min
+Explore the neighborhood and discover business expansion opportunities.
+Inspect available plots, construct an affordable unlocked business, customize accessible areas, or continue developing the supermarket.
+First neighborhood business, passive income, or progress toward expansion.
+
+Player Learning and Tutorial Experience
+Players should learn OgaMart's gameplay through short, interactive prompts, visual indicators, and direct actions rather than lengthy explanations or mandatory tutorials.
+The game should follow a Learn by Playing approach, allowing players to discover features naturally while exploring and managing their supermarket and neighborhood.
+Tutorial guidance should be:
+Short and clear: Use simple instructions such as “Tap to Restock,” “Collect Earnings,” or “Explore Neighborhood.”
+Optional: Allow players to skip, dismiss, or revisit tutorials.
+Contextual: Display guidance only when players encounter unfamiliar features.
+Interactive: Teach mechanics through actual gameplay rather than lengthy text.
+Nonrestrictive: Never unnecessarily prevent players from exploring or performing other available actions.
+Adaptive: Recognize actions players have already completed and avoid repeating instructions.
+Visual: Use subtle highlights, animated arrows, and icons to guide players.
+Flexible: Allow players to learn mechanics in their preferred order and at their own pace.
+Core Design Principle: OgaMart should guide players without controlling their decisions. Players must feel free to explore, experiment, and develop their businesses while learning naturally through gameplay.
+3.11 Game Design Requirements
+The development team must ensure that:
+Players can freely explore accessible game environments.
+Multiple gameplay activities are available simultaneously.
+Players are not forced into a single management style.
+Manual and automated operations coexist where supported.
+Eligible equipment and decorations can be repositioned.
+Neighborhood layouts allow meaningful customization.
+Missions and character interactions do not unnecessarily interrupt gameplay.
+Players can change their business strategies.
+The interface adapts to the selected object or activity.
+The game remains simple enough for casual players while providing depth for those who want greater control.
+
+
+4. Supermarket Management
+4.1 Supermarket Management Philosophy
+OgaMart will provide a flexible, player-driven supermarket management experience.
+Players will have the freedom to operate their supermarkets according to their preferred strategies, management styles, and business objectives.
+The game must not force players to follow a fixed sequence of activities or restrict them to a single way of managing their businesses.
+Players can actively participate in daily operations, delegate responsibilities to employees, automate selected processes, or combine different management approaches.
+Core Principle: Players should have control over how their supermarkets operate, develop, and expand.
+The supermarket should function as a dynamic business environment where player decisions influence sales, customer satisfaction, profitability, employee performance, and neighborhood development.
+4.2 Products and Inventory Management
+Players begin with three essential products:
+Bread.
+Milk.
+Eggs.
+Additional product categories become available progressively:
+Drinks and snacks.
+Fruits and vegetables.
+Household products.
+Refrigerated and frozen foods.
+Bakery and premium products.
+Local specialty products.
+Players should have the freedom to choose which unlocked products they want to stock, how much inventory to purchase, and how they arrange products within their supermarkets.
+Each product will have the following attributes:
+Attribute
+Description
+Product Name
+Name of the product
+Product Category
+Product classification
+Purchase Cost
+Cost of obtaining the product
+Selling Price
+Price charged to customers
+Available Stock
+Quantity currently available
+Shelf Capacity
+Maximum quantity a shelf can hold
+Storage Capacity
+Quantity that can be held in storage
+Customer Demand
+Expected customer interest
+Profit Margin
+Difference between selling price and purchase cost
+Unlock Requirement
+Conditions required to access the product
+
+Flexible Inventory Management
+Players can:
+Select which unlocked products to stock.
+Purchase different inventory quantities.
+Restock shelves manually.
+Enable automatic restocking when available.
+Assign employees to inventory management.
+Monitor stock levels and product demand.
+Adjust inventory quantities based on customer behavior.
+Move products between eligible shelves and storage areas.
+Prioritize fast-selling or profitable products.
+Change their inventory strategies at any time.
+Players should not be forced to restock products in a predetermined order.
+Example: Bread Shelf
+Product: Bread
+Current Stock: 5/20
+Purchase Cost: 3 coins per unit
+Selling Price: 5 coins per unit
+Available Actions:
+RESTOCK | CHANGE PRODUCT | MOVE SHELF | UPGRADE | VIEW DETAILS
+When players restock, coins are deducted according to the purchased quantity, and products visibly fill the shelf.
+Players can choose to restock immediately, purchase additional inventory for storage, or wait until later.
+Design Requirement: Inventory management should be simple enough for casual players while providing optional depth for players who enjoy business strategy.
+4.3 Customer Shopping and Interactions
+Customers should behave as independent shoppers rather than simply following identical predetermined purchasing patterns.
+The basic customer journey remains:
+ENTER → BROWSE → SELECT PRODUCTS → CHECKOUT → PAY → EXIT
+However, customers may behave differently depending on their preferences, budgets, shopping needs, and satisfaction.
+Customer Types
+Customer Type
+Shopping Behavior
+Regular Shopper
+Purchases everyday products
+Family Shopper
+Purchases multiple household products
+Budget Shopper
+Prefers affordable products
+Big Spender
+Purchases larger quantities or premium products
+VIP Customer
+Provides special shopping opportunities and rewards
+Tourist
+Purchases selected specialty products
+Loyal Customer
+Returns frequently based on satisfaction
+Neighborhood Resident
+Has recurring preferences and character interactions
+
+The prototype will begin with three customer types, while additional types will be introduced progressively.
+Customer Behavior
+Customers may:
+Browse different shelves.
+Compare available products.
+Purchase multiple items.
+Leave without purchasing when desired products are unavailable.
+React to product prices.
+Become dissatisfied with excessive checkout delays.
+Return more frequently when satisfied.
+Develop loyalty toward the supermarket.
+Participate in special events.
+Interact with the player through optional conversations or missions.
+Player Freedom
+Players can choose to focus on serving customers, improving customer satisfaction, adjusting prices, expanding product selection, or managing other supermarket activities.
+Players should not be required to interact with every customer individually.
+Recurring characters will provide optional opportunities for deeper interactions.
+4.4 Checkout and Sales Management
+OgaMart will support both automatic checkout and optional manual checkout gameplay.
+The initial supermarket includes one automatic cashier to ensure customers can purchase products without requiring constant player intervention.
+Players can choose to participate directly in checkout activities when manual checkout becomes available.
+Checkout Options
+Checkout Method
+Description
+Automatic Checkout
+Customers are processed automatically
+Manual Checkout
+Players personally process customer purchases through interactive gameplay
+Employee-Operated Checkout
+Assigned employees handle customer transactions
+Multiple Checkout Counters
+Additional counters increase service capacity
+Express Checkout
+Faster processing for eligible purchases
+Self-Service Checkout
+Automated checkout equipment introduced through progression
+
+Manual Checkout Gameplay
+When players choose manual checkout, they may:
+Scan customer products.
+Confirm purchases.
+Process payments.
+Complete transactions.
+Receive performance rewards.
+Manual checkout should remain optional.
+Players must be able to return to automatic checkout without losing access to other supermarket activities.
+Checkout Improvements
+Players can:
+Upgrade checkout speed.
+Add checkout counters.
+Hire additional cashiers.
+Train employees.
+Install self-service checkout equipment.
+Improve customer waiting times.
+Monitor transaction performance.
+Design Requirement: Players should never be forced to perform repetitive checkout tasks to keep their supermarkets operating when an automatic checkout option is available.
+4.5 Supermarket Layout and Customization
+Players should have meaningful freedom to design and customize their supermarkets.
+The game should not restrict every player to an identical supermarket layout.
+Customizable Elements
+Players can arrange and modify eligible:
+Product shelves.
+Refrigerators and freezers.
+Checkout counters.
+Storage equipment.
+Product displays.
+Decorative items.
+Interior furniture.
+Lighting and visual themes.
+Signage.
+Store entrances and customer areas where supported.
+Layout Management
+Players can:
+Select eligible equipment.
+Move it to an available location.
+Rotate it when supported.
+Change its position.
+Upgrade or replace it.
+Customize its appearance.
+Save layout changes.
+The game should use a placement system that prevents objects from overlapping or blocking essential customer pathways.
+Design Requirement: Players should be encouraged to experiment with supermarket layouts while maintaining functional customer movement and checkout operations.
+4.6 Store Upgrades and Expansion
+Players can improve their supermarkets through different upgrade paths.
+Upgrade Categories
+Upgrade Category
+Available Improvements
+Inventory
+Shelf capacity, storage space, restocking efficiency
+Checkout
+Processing speed, additional counters, automation
+Employees
+Hiring, training, productivity, specialization
+Equipment
+Refrigerators, freezers, displays, storage systems
+Store Size
+Additional floor space and departments
+Customer Experience
+Decorations, lighting, service improvements
+Business Operations
+Inventory automation, supplier efficiency
+Product Selection
+Additional product categories and specialty items
+Store Appearance
+Interior themes, exterior renovations, signage
+
+Flexible Upgrade Progression
+Players should be able to choose which available upgrades to purchase.
+For example, a player may prioritize increasing storage capacity, while another may focus on faster checkout or improving customer satisfaction.
+Upgrades should not require players to follow one fixed purchasing sequence unless a genuine functional dependency exists.
+Visible Store Transformation
+Every major upgrade should produce a noticeable improvement.
+Examples include:
+Larger shelves displaying more products.
+Additional customers entering the supermarket.
+New checkout counters.
+Expanded supermarket departments.
+Improved interior decorations.
+New equipment animations.
+Exterior renovations.
+Design Requirement: Players should see the results of their investments directly in the game environment.
+4.7 Employee Management
+Players should be able to hire, train, assign, and manage employees as their supermarkets grow.
+Employee Roles
+Employee Role
+Responsibilities
+Cashier
+Processes customer purchases
+Stock Clerk
+Restocks shelves
+Store Assistant
+Supports customer service
+Inventory Manager
+Monitors stock and inventory operations
+Store Supervisor
+Improves operational efficiency
+Delivery Assistant
+Supports product deliveries
+Store Manager
+Automates selected management activities
+
+Player Management Options
+Players can:
+Hire available employees.
+Assign employees to different roles.
+Train employees to improve performance.
+Upgrade employee skills.
+Reassign employees when business needs change.
+Monitor employee productivity.
+Manage employee-related operating costs.
+Automate selected activities through employee assignments.
+Employees should have different skills, performance levels, and upgrade opportunities.
+Recurring neighborhood characters may become employees, connecting supermarket management with the Living Neighborhood System.
+Example: Daniel
+Daniel is a neighborhood resident looking for employment.
+Players can choose to hire him when an appropriate position becomes available.
+If hired, Daniel can gain experience, improve his skills, and eventually qualify for promotion.
+Hiring Daniel is a player decision rather than a mandatory storyline requirement.
+4.8 Product Pricing and Business Decisions
+Players should have the freedom to develop their own business strategies.
+Product pricing, supplier selection, staffing, and operational improvements should influence supermarket performance.
+Pricing Management
+Players can adjust the selling prices of unlocked products when pricing management becomes available.
+Pricing Strategy
+Potential Advantage
+Potential Disadvantage
+Low Prices
+Attract more price-sensitive customers
+Lower profit per unit
+Competitive Prices
+Balance sales and profitability
+Moderate margins
+Premium Prices
+Higher profit per unit
+Potentially lower demand
+Promotional Discounts
+Temporarily increase sales
+Reduced margins during promotion
+Product Bundles
+Encourage larger purchases
+Requires careful pricing
+
+Players should be able to experiment with different pricing strategies.
+Business Decisions
+Players can choose to:
+Adjust product prices.
+Introduce promotional discounts.
+Purchase inventory in larger quantities.
+Select suppliers.
+Invest in equipment.
+Hire employees.
+Expand supermarket departments.
+Improve customer service.
+Prioritize neighborhood development.
+Save earnings for future investments.
+Each decision should produce clear, understandable consequences.
+Example:
+A player reduces the selling price of bread.
+Potential results:
+Increased customer demand.
+Lower profit per unit.
+Improved satisfaction among budget-conscious customers.
+Possible increase in overall sales volume.
+The game should calculate these effects through defined simulation rules.
+4.9 Supplier and Delivery Management
+Players should be able to choose how they obtain products for their supermarkets.
+Supplier Options
+Supplier Type
+Characteristics
+Standard Supplier
+Reliable everyday products
+Discount Supplier
+Lower prices with possible trade-offs
+Premium Supplier
+Higher-quality or specialty products
+Local Farmer
+Fresh produce and neighborhood partnerships
+Specialty Supplier
+Unique or seasonal products
+
+Supplier Management Features
+Players can:
+View available suppliers.
+Compare product costs.
+Purchase inventory.
+Select delivery options.
+Monitor incoming deliveries.
+Establish supplier relationships.
+Unlock additional products.
+Change suppliers when desired.
+Supplier selection should create meaningful trade-offs involving price, availability, delivery speed, and product quality.
+4.10 Active and Automated Business Operations
+OgaMart must support different management preferences.
+Players should be able to switch between active and automated operations where automation is available.
+Business Activity
+Active Management
+Automated Management
+Product Restocking
+Player manually restocks
+Assigned employee or automation system
+Checkout
+Player participates in checkout
+Automatic cashier or employee
+Inventory Monitoring
+Player checks stock levels
+Automated alerts and inventory tools
+Product Ordering
+Player selects and orders products
+Configured automatic ordering
+Customer Service
+Player interacts with customers
+Employees handle routine interactions
+Business Earnings
+Player collects available earnings
+Eligible passive income accumulates
+Store Management
+Player supervises operations
+Store manager handles selected routine tasks
+
+Automation should reduce repetitive activities without eliminating meaningful player decisions.
+Players must retain control over major investments, business expansion, pricing strategies, and customization.
+Core Principle: Automation is a convenience, not a restriction.
+4.11 Supermarket Performance and Feedback
+Players should have access to a simple business dashboard showing supermarket performance.
+Recommended Indicators
+Indicator
+Purpose
+Total Revenue
+Tracks income from sales
+Total Profit
+Shows earnings after applicable costs
+Products Sold
+Measures sales activity
+Customer Satisfaction
+Measures customer experience
+Inventory Availability
+Identifies stock shortages
+Employee Performance
+Tracks staff productivity
+Checkout Efficiency
+Measures service speed
+Operating Costs
+Tracks relevant business expenses
+
+The dashboard should present information clearly without overwhelming casual players.
+Players who want deeper business insights can open additional details.
+4.12 Connection to the Neighborhood Ripple System
+Supermarket management decisions
+
+
+5. Neighborhood Development
+5.1 Neighborhood Development Philosophy
+OgaMart will feature a dynamic, interactive, and customizable neighborhood where players can build, manage, expand, and develop businesses and community facilities according to their preferences.
+The neighborhood should not simply function as a collection of buildings generating passive income.
+Instead, it should become a living business ecosystem where supermarkets, local businesses, residents, employees, suppliers, and community facilities interact.
+Players should have the freedom to determine how their neighborhoods develop, which businesses they establish, where eligible buildings are positioned, and how they allocate resources.
+Core Principle: Players should have the freedom to create and develop their own unique neighborhoods rather than follow a predetermined construction sequence.
+Neighborhood development will combine:
+Business construction and management.
+Neighborhood customization.
+Resident interactions.
+Local economic activity.
+Community development.
+Business investment and expansion.
+Dynamic environmental changes.
+The neighborhood will evolve based on player decisions, available resources, and business activities.
+5.2 Neighborhood Buildings and Businesses
+Players can construct different types of businesses, commercial facilities, residential buildings, and community infrastructure as they progress.
+Each building should provide a distinct function rather than simply generate coins.
+Building
+Main Function
+Gameplay Opportunities
+Coffee Shop
+Beverage sales and customer attraction
+Manage products, employees, prices, and customer service
+Bakery
+Bread and pastry production
+Supply supermarkets, manage production, and complete orders
+Fruit Shop
+Fresh produce retail
+Purchase produce, manage inventory, and serve customers
+Farm
+Agricultural production
+Grow products, supply businesses, and establish contracts
+Restaurant
+Food preparation and sales
+Manage menus, ingredients, employees, and customers
+Flower Shop
+Flower retail and decoration
+Sell flowers, supply decorations, and complete special orders
+Cinema
+Entertainment business
+Manage tickets, customer traffic, and special events
+School
+Community education facility
+Supply school meals, complete community missions, and improve neighborhood trust
+Shopping Mall
+Large commercial development
+Establish multiple businesses and expand commercial activity
+Residential Buildings
+Provide homes for neighborhood residents
+Increase population and potential customer demand
+Supermarket Branch
+Additional retail location
+Expand supermarket operations into new areas
+Warehouse
+Inventory storage and distribution
+Store products and supply multiple businesses
+Delivery Center
+Product transportation
+Manage deliveries and improve supply efficiency
+Clothing Store
+Fashion retail
+Sell clothing and introduce new customer preferences
+Pharmacy
+Health and personal care retail
+Sell eligible products and serve neighborhood demand
+Electronics Store
+Consumer electronics retail
+Sell electronics and manage specialty inventory
+Fitness Center
+Recreational business
+Generate revenue and attract visitors
+Hotel
+Accommodation business
+Attract tourists and create commercial opportunities
+Park
+Public recreation space
+Improve neighborhood attractiveness and customer happiness
+Community Center
+Community activities
+Unlock resident interactions and neighborhood events
+
+Buildings should become available through progression, investment, and relevant development requirements.
+Players should be free to choose which available buildings to construct rather than follow a mandatory construction order.
+Not every building must be available in the first release. Additional categories can be introduced through updates.
+5.3 Flexible Neighborhood Construction
+Players should be able to design and develop their neighborhoods according to their preferences.
+Construction Features
+Players can:
+Select from available building categories.
+Choose eligible construction locations.
+Place buildings on available plots.
+Rotate buildings where supported.
+Move or relocate eligible buildings.
+Upgrade existing structures.
+Change building appearances.
+Expand businesses.
+Add roads, pathways, and decorations.
+Develop different commercial and residential areas.
+Building Placement
+OgaMart should use an intuitive building placement system.
+When a player selects a building, the game displays a placement preview.
+Example: Coffee Shop
+Building Cost: 1,500 coins
+Available Actions:
+BUILD | ROTATE | PREVIEW | CANCEL
+After construction, the player can select the building to access its management options.
+ENTER | MANAGE | UPGRADE | MOVE | CUSTOMIZE
+Building placement must respect available space, valid construction areas, and essential movement paths.
+Players should be able to experiment with different neighborhood layouts without being forced to reproduce a predefined design.
+5.4 Neighborhood Business Management
+Players should have the option to actively manage their neighborhood businesses rather than only collect passive income.
+Each business can have its own management interface, operating costs, employees, products or services, and revenue.
+Business Management Options
+Activity
+Player-Controlled Options
+Business Operations
+Manage daily activities or delegate operations
+Products and Services
+Select available products or services
+Pricing
+Adjust selling prices where applicable
+Employees
+Hire, train, and assign workers
+Inventory
+Purchase and manage required supplies
+Upgrades
+Improve equipment, capacity, and efficiency
+Marketing
+Launch promotions and attract customers
+Expansion
+Increase business capacity or add facilities
+Financial Management
+Monitor revenue, costs, and profitability
+Customization
+Modify eligible interiors, exteriors, and decorations
+
+Active and Automated Business Operations
+Players can choose between two approaches.
+Active Management
+Players directly manage available business activities, such as inventory, pricing, staffing, and upgrades.
+Automated Management
+Players assign employees or activate unlocked automation systems to handle routine operations.
+Players should be able to switch between these approaches as their businesses develop.
+Design Requirement: Neighborhood businesses should provide additional gameplay opportunities without forcing players to micromanage every establishment.
+5.5 Neighborhood Investment and Economic Development
+Players should be able to make strategic decisions about how they invest their earnings.
+For example, a player may choose to:
+Expand the supermarket.
+Construct a coffee shop.
+Invest in a bakery.
+Upgrade an existing restaurant.
+Purchase additional land.
+Improve neighborhood infrastructure.
+Develop residential buildings.
+Invest in decorations and public spaces.
+Save coins for a larger commercial project.
+Different investments should produce different benefits.
+Example: Coffee Shop Investment
+A coffee shop may generate passive income and attract additional pedestrians.
+Upgrading the coffee shop may increase customer capacity and revenue.
+Introducing new products may attract different customer types.
+Improving its appearance may increase neighborhood attractiveness.
+Players should understand these benefits before investing.
+5.6 Neighborhood Residents and Population
+The neighborhood will contain residents who live, work, shop, and interact with local businesses.
+Residents should make the environment feel alive and connected to the player's decisions.
+Resident Activities
+Residents may:
+Leave their homes.
+Visit supermarkets.
+Shop at neighborhood businesses.
+Travel to work.
+Visit parks and recreational facilities.
+Attend neighborhood events.
+Interact with other characters.
+Return to their homes.
+Participate in character missions.
+Resident Preferences
+Different residents may prefer particular products, businesses, prices, or activities.
+For example:
+Families may visit supermarkets and parks.
+Students may visit snack shops and recreational facilities.
+Workers may visit coffee shops and restaurants.
+Tourists may visit hotels, shopping malls, and entertainment businesses.
+These preferences can influence customer traffic and neighborhood business performance.
+Player Interaction
+Players should be able to interact with recurring residents, discover their stories, and participate in optional community activities.
+Residents should respond to relevant neighborhood developments.
+5.7 Living Street System
+The Living Street System will make the neighborhood visually dynamic.
+As players construct businesses, attract residents, and improve infrastructure, the environment should become increasingly active.
+Dynamic Neighborhood Activities
+Neighborhood Development
+Visible Environmental Change
+Coffee Shop Opens
+Pedestrians visit the coffee shop
+Bakery Opens
+Customers purchase bread and pastries
+Restaurant Opens
+Increased dining activity
+Cinema Opens
+Groups of visitors arrive during operating hours
+Residential Building Constructed
+More residents appear
+Farm Developed
+Agricultural activity and delivery vehicles appear
+Warehouse Constructed
+Delivery trucks transport products
+Shopping Mall Opens
+Increased commercial activity
+Park Developed
+Residents gather and relax
+Neighborhood Event Begins
+Decorations, crowds, and special animations appear
+
+Environmental Features
+The neighborhood may include:
+Pedestrians walking along streets.
+Vehicles traveling on roads.
+Delivery trucks transporting goods.
+Customers entering and leaving businesses.
+Employees performing visible activities.
+Construction animations.
+Streetlights and decorative lighting.
+Day and night transitions.
+Weather effects.
+Seasonal decorations.
+Community gatherings.
+The initial version can implement these behaviors using predefined animations, schedules, and simple simulation rules.
+Complex artificial intelligence is not required for the prototype.
+5.8 Neighborhood Customization and Decoration
+Players should be able to personalize the appearance of their neighborhoods.
+Customization Options
+Players can add and arrange eligible:
+Trees.
+Flowers.
+Benches.
+Streetlights.
+Fountains.
+Parks.
+Decorative pathways.
+
+Creative Freedom
+Players should be able to choose where eligible decorations are placed and how different areas are organized.
+For example, one player may create a modern commercial district, while another may develop a neighborhood with parks, small businesses, and traditional market areas.
+Customization should provide visual satisfaction and, where appropriate, modest gameplay benefits.
+Design Requirement: Players should feel ownership of their neighborhoods through meaningful customization choices.
+5.9 Neighborhood Infrastructure and Expansion
+As the neighborhood grows, players can invest in infrastructure.
+Infrastructure Categories
+Infrastructure
+Purpose
+Roads
+Connect buildings and support movement
+Pedestrian Pathways
+Allow residents to move between locations
+Streetlights
+Improve neighborhood appearance
+Parking Areas
+Support commercial activity
+Delivery Routes
+Connect suppliers and businesses
+Public Spaces
+Increase neighborhood attractiveness
+Commercial Plots
+Provide space for additional businesses
+Residential Plots
+Support population growth
+
+Players should have flexibility in selecting available infrastructure improvements.
+The game should provide clear placement guidance to prevent disconnected buildings or inaccessible areas.
+5.10 Neighborhood Events and Activities
+Neighborhood events should introduce variety and encourage exploration.
+Recommended Events
+Event
+Gameplay Experience
+Street Festival
+Increased visitors and special sales
+Weekend Market
+Temporary shopping opportunities
+Holiday Celebration
+Decorations and themed rewards
+Business Grand Opening
+Customer traffic and promotional activities
+Community Food Drive
+Supply products and improve neighborhood trust
+School Festival
+Complete food supply missions
+Tourist Visit
+Increased demand for selected products
+Neighborhood Competition
+Complete business challenges
+Local Farmers Market
+Purchase products from local suppliers
+Community Improvement Project
+Invest in neighborhood facilities
+
+Players should be free to participate in optional events or continue their normal business activities.
+Events should not unnecessarily interrupt gameplay.
+
+
+6. Living Neighborhood and Character Stories
+6.1 Character Design Philosophy
+OgaMart will feature a lively cast of distinctive, expressive, and memorable characters who bring personality, humor, drama, and emotional depth to the supermarket and neighborhood.
+Rather than relying on generic customers with identical appearances and behaviors, OgaMart will introduce recognizable residents with unique physical features, personalities, occupations, preferences, relationships, and personal stories.
+Characters should be visually memorable enough that players can recognize them immediately, even without seeing their names.
+The character design will emphasize:
+Exaggerated Physical Features: Distinctive body shapes, hairstyles, facial expressions, clothing, accessories, and silhouettes.
+Strong Personalities: Funny, dramatic, demanding, generous, competitive, flirtatious, ambitious, or mysterious personalities.
+Unique Animations: Each major character should have recognizable walking, shopping, talking, celebrating, and reacting animations.
+Memorable Dialogue: Short, humorous, expressive conversations that reflect each character's personality.
+Dynamic Relationships: Characters develop friendships, rivalries, business partnerships, and personal connections.
+Player-Driven Interactions: Players choose whether and how to interact with characters.
+Meaningful Consequences: Character interactions can influence customer loyalty, business opportunities, employment, and neighborhood development.
+Cultural Personality: Characters can draw inspiration from the humor, fashion, expressions, and social interactions of lively African neighborhoods while remaining relatable to international audiences.
+Core Principle: Every major character should have a distinctive appearance, memorable personality, recognizable behavior, and meaningful role in the game.
+Characters should be entertaining without requiring players to complete their stories to progress through unrelated gameplay.
+6.2 Character Appearance and Visual Identity
+OgaMart will adopt a colorful, stylized cartoon character design.
+Character proportions may be exaggerated to create humor and instantly recognizable silhouettes.
+Characters should vary in:
+Height and body proportions.
+Hairstyles and hair colors.
+Facial expressions.
+Clothing styles.
+Accessories.
+Walking styles.
+Voice and sound effects.
+Personality and emotional reactions.
+Some characters may have oversized glasses, dramatic hairstyles, large bellies, broad shoulders, exaggerated hips, distinctive facial features, or unusual fashion choices.
+These features should make the characters memorable and contribute to their personalities.
+6.3 Main Recurring Characters
+Character
+Distinctive Appearance
+Personality and Story
+Player Interactions
+Gameplay Benefit
+Mama Biggie
+Older, curvy woman with oversized glasses, very wide hips, exaggerated buttocks, colorful African-print dress, and a large handbag
+Loud, dramatic, funny, and obsessed with bargains. Knows everyone's business.
+Negotiate prices, respond to complaints, participate in gossip-related missions
+Customer loyalty, special promotions, neighborhood information
+Daniel
+Tall, slim young man with messy hair, oversized shirt, and worn sneakers
+Ambitious but unemployed. Dreams of becoming a successful businessman.
+Hire, train, promote, or help him pursue business opportunities
+Employee automation and productivity
+Mrs. Parker
+Elegant older woman with silver hair, stylish glasses, and a carefully arranged handbag
+Intelligent, observant, and financially disciplined. Carefully manages her grocery budget.
+Offer affordable products, discuss shopping preferences, respond to requests
+Customer loyalty and satisfaction
+Sofia
+Confident young entrepreneur with bright clothing, fashionable hairstyle, and expressive gestures
+Ambitious, persuasive, and determined to build her snack business
+Purchase her products, negotiate contracts, establish partnerships
+Specialty products and supplier opportunities
+Mr. Brooks
+Short, round businessman with a large mustache, expensive suit, and shiny shoes
+Competitive, boastful, and occasionally ridiculous. Owns a rival grocery store.
+Compete on prices, respond to promotions, negotiate partnerships
+Competitive challenges and business opportunities
+Papa Kofi
+Elderly farmer with a large straw hat, thick beard, muscular arms, and muddy boots
+Wise, stubborn, humorous, and proud of his agricultural products
+Purchase produce, negotiate supply contracts, support farm expansion
+Fresh produce and supplier relationships
+Maya
+Stylish young woman with colorful glasses, bright sneakers, and expressive animations
+Energetic, clever, and playful. Helps new players understand the neighborhood.
+Request guidance, accept optional missions, discover features
+Tutorials, missions, and progression guidance
+Auntie Pepper
+Short, energetic middle-aged woman with bright red clothing, oversized earrings, and a dramatic hairstyle
+Extremely outspoken, impatient, and famous for her spicy food
+Supply ingredients, negotiate orders, participate in cooking events
+Restaurant and food-related missions
+Uncle Money
+Heavyset businessman with a large gold-colored watch, sunglasses, and an extravagant outfit
+Wealthy, theatrical, generous when impressed, and obsessed with luxury
+Serve premium orders, negotiate investments, participate in VIP events
+Premium customers and special business opportunities
+Madam Fashion
+Tall, glamorous woman with elaborate hairstyles, fashionable clothing, and dramatic poses
+Confident, demanding, and constantly searching for fashionable products
+Complete special orders, customize stores, unlock fashion-related activities
+Decorations and premium retail opportunities
+Speedy Sam
+Thin delivery rider with a colorful helmet, oversized backpack, and exaggerated running animations
+Fast-talking, impatient, enthusiastic, and frequently involved in funny delivery situations
+Arrange deliveries, resolve delivery problems, improve logistics
+Faster deliveries and delivery-related missions
+Grandpa Wisdom
+Elderly man with a long white beard, walking stick, round glasses, and traditional clothing
+Calm, philosophical, witty, and fond of giving unexpected business advice
+Listen to stories, complete optional challenges, discover neighborhood history
+Special missions and business insights
+
+Additional characters can be introduced as the neighborhood expands.
+6.4 Character Personalities and Behavioral Traits
+Each recurring character should have a combination of behavioral traits that influence their actions.
+Trait
+Possible Behavior
+Bargain Hunter
+Frequently requests discounts
+Impatient
+Complains about long checkout queues
+Generous
+Occasionally provides gifts or bonuses
+Competitive
+Challenges the player's business
+Talkative
+Initiates humorous conversations
+Loyal
+Returns frequently when satisfied
+Dramatic
+Reacts excessively to minor situations
+Ambitious
+Seeks employment or business partnerships
+Fashionable
+Prefers attractive shops and premium products
+Curious
+Explores newly constructed businesses
+Stubborn
+Takes longer to accept certain offers
+Friendly
+Builds positive relationships with employees and residents
+
+Characters should behave consistently with their personalities while occasionally surprising players.
+6.5 Unique Character Animations and Celebrations
+Every major character should have a recognizable set of animations.
+Mama Biggie
+Walks with an exaggerated hip-swaying animation.
+Adjusts her oversized glasses when examining prices.
+Places her hands on her hips when dissatisfied.
+Waves her handbag dramatically during arguments.
+Performs a funny hip-shaking victory dance when she receives a discount.
+Laughs loudly after negotiating a successful bargain.
+Daniel
+Scratches his head when confused.
+Celebrates employment by jumping excitedly.
+Performs an energetic dance after receiving a promotion.
+Walks more confidently as his career progresses.
+Sofia
+Celebrates successful sales with a confident dance.
+Strikes a dramatic pose after signing a supplier contract.
+Reacts with exaggerated surprise when receiving a large order.
+Mr. Brooks
+Adjusts his mustache when planning a competitive promotion.
+Stomps his feet when losing customers.
+Performs an exaggerated victory dance when his business succeeds.
+Pretends not to notice the player's successful upgrades.
+Papa Kofi
+Laughs while adjusting his straw hat.
+Proudly displays his farm products.
+Celebrates successful contracts with a traditional dance.
+Reacts dramatically when customers reject his produce.
+Maya
+Waves enthusiastically when introducing new features.
+Celebrates player achievements with animated confetti.
+Uses expressive gestures to explain available actions.
+Animation Design Requirement: Each recurring character should have a recognizable idle animation, walking animation, interaction animation, emotional reaction, and celebration.
+For the prototype, the initial recurring character can use a smaller animation set.
+6.6 Character Interaction System
+Players should be able to interact freely with recurring characters.
+Interactions may include:
+Starting conversations.
+Asking questions.
+Accepting optional missions.
+Negotiating business deals.
+Responding to complaints.
+Offering employment.
+Establishing partnerships.
+Purchasing products.
+Giving appropriate gifts.
+Participating in neighborhood events.
+Discovering character stories.
+Contextual Interaction Menu
+When players select a character, the game displays relevant actions.
+Example: Mama Biggie
+TALK | VIEW PROFILE | VIEW REQUEST | OFFER DISCOUNT
+Example: Daniel
+TALK | HIRE | VIEW SKILLS | VIEW STORY
+Example: Sofia
+TALK | VIEW PRODUCTS | NEGOTIATE | PARTNER
+Only actions that are currently available should be displayed as active.
+Players should be free to ignore optional character interactions and continue managing their businesses.
+6.7 Character Relationships and Reputation
+Recurring characters should develop relationships with the player and, where supported, other neighborhood residents.
+Each major character can have a simple relationship score.
+Relationship Level
+Description
+Stranger
+Character has recently appeared
+Acquaintance
+Character recognizes the player
+Friendly
+Character responds positively
+Trusted
+Character offers additional opportunities
+Close Ally
+Character provides special missions or benefits
+
+Relationships may improve through:
+Successful business transactions.
+Helpful interactions.
+Fair pricing.
+Completing character requests.
+Providing employment.
+Establishing partnerships.
+Relationships may deteriorate through repeated negative experiences.
+Players should be able to rebuild relationships through future positive interactions.
+Design Requirement: Relationships should influence gameplay without forcing players to maintain relationships with every character.
+6.8 Character Stories and Personal Development
+Every major recurring character should have a personal storyline that can evolve as the neighborhood develops.
+Stories should contain:
+A recognizable personal objective.
+An initial challenge or opportunity.
+Optional player interactions.
+Meaningful decisions.
+Visible character development.
+Multiple possible outcomes where practical.
+Story progression should be influenced by relevant player decisions rather than only by completing mandatory dialogue sequences.
+6.9 Example Story: Mama Biggie — Queen of Bargains
+Mama Biggie is one of the neighborhood's most recognizable residents.
+She is an older woman with oversized glasses, exaggerated curves, a colorful dress, and a large handbag.
+She is famous for negotiating prices and making dramatic complaints.
+Story Introduction
+Mama Biggie enters the supermarket and notices that the price of eggs has increased.
+She adjusts her glasses, places her hands on her hips, and exclaims:
+"Oga! These eggs are expensive! Are the chickens paying rent now?"
+The player can choose to:
+Offer a small discount.
+Maintain the current price.
+Recommend a cheaper alternative.
+Explain the price difference.
+Continue normal supermarket operations.
+Possible Consequences
+Offer a Discount
+Mama Biggie celebrates with a hilarious dance.
+Customer Happiness may increase, while profit per unit decreases.
+Maintain the Price
+Mama Biggie complains dramatically but may still purchase the eggs.
+Recommend an Alternative
+Mama Biggie appreciates the suggestion and may become more loyal.
+Ignore the Interaction
+Mama Biggie continues shopping according to her preferences and the game's customer behavior rules.
+Story Development
+As her relationship with the player improves, Mama Biggie may:
+Introduce new customers.
+Recommend the supermarket to neighbors.
+Request special product bundles.
+Participate in neighborhood festivals.
+Become involved in humorous disagreements with other characters.
+Unlock a special community shopping event.
+Her storyline should combine humor, memorable animations, and meaningful business consequences.
+6.10 Example Story: Daniel's First Job
+Daniel lives near the player's supermarket.
+He is unemployed and searching for an opportunity.
+As the supermarket expands, a notification may appear:
+NEW OPPORTUNITY: HELP WANTED
+Daniel is interested in working at the supermarket.
+The player can:
+Hire Daniel as a cashier.
+Offer him a stocking position.
+Postpone the hiring decision.
+Choose another available employee.
+If hired:
+Daniel begins working in his assigned role.
+He gains experience.
+His productivity can improve through training.
+His employment story progresses.
+The player can eventually promote him.
+Daniel's appearance and animations may evolve as he becomes more successful.
+For example, his clothing becomes more professional, his posture improves, and his celebration animations become more confident.
+Gameplay Benefit: Employee productivity, automation opportunities, and character development.
+Hiring Daniel should remain optional.
+6.11 Example Story: Mrs. Parker's Grocery Budget
+Mrs. Parker regularly purchases bread, milk, and household essentials.
+She carefully manages her spending.
+One day, she notices that milk prices have increased.
+She approaches the player and says:
+"I have been shopping here for years. Surely you can help an old customer find a better deal?"
+The player can:
+Reduce the price.
+Maintain the existing price.
+Offer a temporary discount.
+Recommend a cheaper product.
+Introduce a customer loyalty benefit.
+Possible Consequences
+Reduce the Price
+Mrs. Parker may purchase more frequently, but the supermarket earns less profit per unit.
+Maintain the Price
+The supermarket preserves its margin, but Mrs. Parker may purchase less.
+Offer an Alternative
+Mrs. Parker may become more satisfied if the alternative meets her needs.
+Introduce a Loyalty Benefit
+Mrs. Parker may become a recurring loyal customer.
+A short notification explains the outcome.
+Example:
+Mrs. Parker appreciates your affordable prices. Customer Happiness +3.
+6.12 Example Story: Sofia's Business Ambition
+Sofia is a young entrepreneur who produces homemade snacks.
+She wants to expand her business but struggles to reach enough customers.
+She approaches the player with a proposal.
+"Your supermarket has customers. I have amazing snacks. We could make serious money together!"
+The player can:
+Purchase a small quantity of her products.
+Negotiate wholesale prices.
+Establish a supply partnership.
+Request product samples.
+Decline the proposal.
+Possible Outcomes
+A successful partnership may:
+Unlock specialty products.
+Generate additional sales.
+Improve neighborhood trust.
+Support Sofia's business development.
+Unlock additional supplier missions.
+As her business grows, Sofia may open her own shop in the neighborhood.
+Her storyline can connect supermarket management with neighborhood development.
+6.13 Character Rivalries, Humor, and Neighborhood Drama
+Characters should interact with one another to create entertaining neighborhood situations.
+Examples include:
+Mama Biggie vs. Mr. Brooks
+Mama Biggie complains that Mr. Brooks charges excessive prices.
+Mr. Brooks insists his products are superior.
+The player may respond through pricing, promotions, or business negotiations.
+Sofia vs. Auntie Pepper
+Both characters want to supply snacks for a neighborhood festival.
+The player can compare their offers, purchase from either supplier, or negotiate with both.
+Uncle Money vs. Mama Biggie
+Uncle Money proudly purchases expensive products.
+Mama Biggie laughs at him for wasting money.
+Their interactions create humorous dialogue and animations.
+Daniel and Maya
+Maya encourages Daniel to pursue professional development.
+The player may unlock optional training missions.
+Character rivalries should create entertainment and gameplay opportunities without forcing players into particular decisions.
+6.14 Dynamic Character Behavior
+Recurring characters should react to relevant changes in the neighborhood.
+Game Event
+Possible Character Reaction
+Supermarket Expansion
+Residents celebrate the improved store
+Product Price Increase
+Budget-conscious customers complain
+New Bakery Opens
+Residents visit the bakery
+Employee Promotion
+Employees celebrate
+Neighborhood Festival
+Characters participate in celebrations
+New Restaurant Opens
+Food-loving characters become interested
+Customer Rush
+Impatient customers react to queues
+Major Business Achievement
+Characters congratulate the player
+Product Shortage
+Customers request unavailable products
+New Park Opens
+Residents gather and socialize
+
+Character reactions should use a combination of predefined dialogue, animations, and game-state conditions.
+The game does not need expensive AI-generated dialogue to create believable interactions.
+6.15 Character Profiles and Collections
+Players should be able to view information about recurring characters.
+Character Profile
+Name: Mama Biggie
+Occupation: Neighborhood Resident
+Personality: Dramatic, Talkative, Bargain Hunter
+Favorite Products: Eggs, Bread, Cooking Oil
+Relationship Level: Friendly
+Story Progress: Chapter 2 of 5
+Special Ability: Attracts additional bargain-seeking customers during selected promotions.
+Players can unlock character profiles, discover preferences, complete optional stories, and collect achievements.
+Character collections should encourage exploration without becoming mandatory progression barriers.
+6.16 Character Dialogue and Communication
+Character dialogue should be short, expressive, and entertaining.
+The game should avoid lengthy conversations that interrupt gameplay.
+Dialogue Guidelines
+Use short sentences.
+Give each character a recognizable speaking style.
+Include humor where appropriate.
+Use expressive facial animations.
+Allow players to skip conversations.
+Provide clear response options.
+Avoid repeating identical dialogue excessively.
+Use contextual dialogue based on gameplay events.
+Example Dialogue
+Mama Biggie: "Oga! Your prices are climbing faster than my blood pressure!"
+Mr. Brooks: "My supermarket is still the best in town!"
+Sofia: "Give my snacks one shelf, and I'll make you rich!"
+Papa Kofi: "Fresh from my farm! Even the tomatoes are smiling!"
+Uncle Money: "Money is not the problem. Quality is the question!"
+Maya: "Your neighborhood is growing! What will you build next?"
+Characters may use short voice effects, expressive sounds, or selected voice lines.
+Full voice acting is not required for the prototype.
+6.17 Character Integration With the Ripple System
+Character interactions should influence relevant neighborhood indicators.
+Player Decision
+Potential Effect
+Offer affordable products
+Improved Customer Happiness
+Hire a neighborhood resident
+Improved Neighborhood Trust
+Establish a local supplier partnership
+Improved Business Growth
+Complete a community mission
+Improved Neighborhood Trust
+Improve checkout efficiency
+Improved Customer Happiness
+Support a local entrepreneur
+Improved Business Growth
+Respond positively to customer complaints
+Improved Customer Happiness
+
+Character decisions should produce transparent, understandable consequences.
+Players should receive short notifications when significant changes occur.
+6.18 Character Development and Progression
+Characters should evolve as the neighborhood grows.
+Possible developments include:
+New clothing and accessories.
+Improved occupations.
+Business ownership.
+New relationships.
+Additional dialogue.
+New animations.
+Personal achievements.
+Special events.
+Expanded storylines.
+For example, Daniel may progress from unemployed resident to cashier, supervisor, and eventually store manager.
+Sofia may progress from a small snack producer to the owner of a successful neighborhood business.
+Mama Biggie may become a well-known neighborhood personality who introduces new residents and organizes shopping events.
+These developments should create a sense that the neighborhood is changing over time.
+6.19 Player Freedom and Character Interaction Requirements
+The Character System must follow these principles:
+Optional Interaction: Players can choose whether to interact with recurring characters.
+Distinctive Appearance: Every major character has recognizable physical features and clothing.
+Memorable Personalities: Characters have unique behavioral traits.
+Expressive Animation: Characters react visibly to relevant events.
+Short Dialogue: Conversations should be entertaining and easy to skip.
+Meaningful Choices: Character interactions can influence gameplay.
+Flexible Story Progression: Players can pursue different character stories in their preferred order.
+Relationship Development: Characters respond to relevant player decisions.
+Dynamic Neighborhood Behavior: Characters participate in neighborhood activities.
+Replayability: Character interactions provide variety across sessions.
+Cultural Identity: Character designs and humor can reflect diverse cultural influences.
+Expandable Architecture: Additional characters, animations, and stories can be introduced through updates.
+6.20 Development Priorities
+The Character System should be implemented progressively.
+Development Phase
+Character Features
+Phase 1 — Prototype
+Mama Biggie as the first recurring character, distinctive appearance, basic animations, short dialogue, one storyline, simple customer satisfaction effects
+Phase 2 — Commercial MVP
+Six recurring characters, unique personalities, character profiles, optional missions, relationship scores, expressive animations, Ripple System integration
+Phase 3 — Expansion
+Additional characters, deeper relationships, character rivalries, evolving occupations, extended stories, seasonal interactions
+
+Final Character Design Principle
+OgaMart characters should be instantly recognizable, visually expressive, humorous, and capable of influencing the player's business experience.
+The game should combine exaggerated cartoon designs, distinctive personalities, short entertaining dialogue, and meaningful player choices.
+Characters should not exist merely as decorations or anonymous customers.
+They should make the neighborhood feel alive, create memorable moments, and give players additional reasons to return.
+
+7. Neighborhood Ripple System
+7.1 Ripple System Philosophy
+The Neighborhood Ripple System is one of OgaMart's signature gameplay features.
+It connects player decisions, supermarket operations, neighborhood businesses, recurring characters, and community development into one interconnected simulation.
+Unlike traditional supermarket tycoon games, where player decisions primarily influence revenue and upgrades, OgaMart will demonstrate how business decisions can influence the surrounding neighborhood.
+Players should experience a world that responds to their actions.
+For example:
+Increasing supermarket prices may improve profit margins but reduce customer satisfaction.
+Hiring neighborhood residents may improve business productivity and community relationships.
+Constructing a bakery may attract customers, create employment opportunities, and increase neighborhood activity.
+Supporting a local entrepreneur may unlock new products and business partnerships.
+Opening a cinema may increase evening pedestrian traffic and benefit nearby businesses.
+Neglecting inventory may cause customers to shop elsewhere.
+Improving public spaces may attract additional residents and visitors.
+Core Principle: Every meaningful player decision should have understandable consequences that can influence the supermarket, neighborhood, characters, or business ecosystem.
+Not every minor action needs to trigger a Ripple event. The system should prioritize decisions that meaningfully affect gameplay.
+Players must remain free to experiment with different business strategies without being forced to follow a particular development path.
+7.2 Three Core Neighborhood Indicators
+OgaMart will retain three primary neighborhood indicators to keep the system accessible.
+Indicator
+Meaning
+Influenced By
+Gameplay Effects
+Customer Happiness
+Measures how satisfied customers are with available products, prices, services, and shopping experiences
+Pricing, inventory availability, checkout efficiency, customer service, decorations, business accessibility
+Customer loyalty, shopping frequency, customer reactions
+Neighborhood Trust
+Measures residents' confidence in the player's businesses and contribution to the community
+Reliable operations, local employment, supplier relationships, community projects, character interactions
+Resident relationships, local partnerships, community opportunities
+Business Growth
+Measures the development and economic activity of the neighborhood
+New businesses, commercial investments, upgrades, business profitability, employment, infrastructure
+Commercial opportunities, customer traffic, neighborhood development
+
+Each indicator uses a score from 0 to 100.
+Indicator Levels
+Score
+Status
+General Interpretation
+0–20
+Critical
+Significant problems require attention
+21–40
+Struggling
+Neighborhood performance is below expectations
+41–60
+Stable
+Normal neighborhood activity
+61–80
+Thriving
+Strong business and community performance
+81–100
+Excellent
+Highly developed and successful neighborhood
+
+The indicators should respond gradually to meaningful events rather than change randomly.
+Development Approach:
+Prototype: Customer Happiness.
+Commercial MVP: Customer Happiness, Neighborhood Trust, and Business Growth.
+Future Expansion: More detailed economic and community simulation.
+7.3 Freedom-Based Decision and Consequence System
+Players should be able to make independent decisions about their supermarkets, businesses, employees, customers, suppliers, and neighborhood development.
+The Ripple System must evaluate these decisions and generate appropriate consequences.
+Players should not be restricted to selecting only predefined positive decisions.
+They should be able to pursue different strategies, including aggressive expansion, low-price retailing, premium retailing, neighborhood investment, or operational efficiency.
+Examples of Player Decisions
+Player Decision
+Immediate Effect
+Potential Ripple Effect
+Reduce product prices
+Lower profit margin per unit
+Increased demand and customer satisfaction
+Increase product prices
+Higher potential profit per unit
+Reduced demand among price-sensitive customers
+Upgrade checkout equipment
+Faster transactions
+Improved customer satisfaction
+Hire Daniel
+Increased staffing costs
+Better checkout performance and local employment
+Train employees
+Training expenses
+Improved productivity and service
+Purchase from Papa Kofi
+New inventory
+Stronger supplier relationship and new opportunities
+Support Sofia's snack business
+New specialty products
+Additional sales and local business growth
+Construct a bakery
+Construction expenses
+New income, employment, and pedestrian activity
+Open a cinema
+New entertainment business
+Increased evening traffic
+Construct residential buildings
+Increased neighborhood population
+Additional potential customers
+Develop a park
+Construction expenses
+Increased neighborhood attractiveness
+Neglect inventory
+More unavailable products
+Lost sales and reduced customer satisfaction
+Improve store appearance
+Decoration expenses
+Increased attractiveness
+Complete a community mission
+Resource expenditure or operational effort
+Increased neighborhood trust
+Expand the supermarket
+Higher operating capacity and expenses
+Increased business activity
+
+Design Requirement: Ripple effects must be calculated using defined game rules, not arbitrary outcomes.
+7.4 Multi-Level Ripple Effects
+Important decisions should be capable of producing several connected consequences.
+The system will support three levels of effects.
+Level 1 — Immediate Effects
+These occur directly after the player's action.
+Examples:
+Coins are deducted when purchasing equipment.
+Inventory increases after restocking.
+Checkout speed improves after an upgrade.
+A new business begins operating after construction.
+Level 2 — Short-Term Effects
+These occur as customers, employees, and businesses respond.
+Examples:
+Lower prices attract additional customers.
+Improved checkout reduces waiting times.
+A new restaurant increases nearby pedestrian activity.
+A character becomes more loyal after a positive interaction.
+Level 3 — Long-Term Effects
+These emerge through accumulated business and neighborhood development.
+Examples:
+Consistently satisfied customers become loyal shoppers.
+Local supplier partnerships unlock additional products.
+Business expansion increases commercial activity.
+Character relationships unlock new missions.
+Neighborhood improvements attract new residents.
+Long-term effects should be introduced gradually to avoid overwhelming players.
+7.5 Character-Driven Ripple Events
+Recurring characters should play an important role in the Ripple System.
+Their reactions should reflect their personalities, preferences, relationships, and the player's decisions.
+Mama Biggie — Queen of Bargains
+Mama Biggie enters the supermarket and notices that egg prices have increased.
+She adjusts her oversized glasses, places her hands on her hips, and complains:
+"Oga! These eggs are expensive! Are the chickens paying rent now?"
+The player can:
+Offer a discount.
+Maintain the current price.
+Recommend a cheaper alternative.
+Continue managing the supermarket without responding.
+Possible Ripple Effects:
+Decision
+Immediate Result
+Potential Ripple Effect
+Offer a discount
+Lower selling price
+Increased satisfaction and customer loyalty
+Maintain the price
+Existing margin preserved
+Mama Biggie may purchase fewer eggs
+Recommend an alternative
+Customer considers another product
+Increased satisfaction if the alternative meets her needs
+Ignore the interaction
+No special response
+Customer continues according to normal shopping behavior
+
+If Mama Biggie receives a satisfactory deal, she may perform her signature victory dance.
+Her positive experience may also trigger humorous dialogue with other neighborhood characters.
+Daniel — Employment Opportunity
+Daniel approaches the supermarket looking for work.
+The player may hire him, offer a different position, postpone the decision, or choose another employee.
+If hired:
+Employee-related operating costs increase.
+Daniel begins performing assigned duties.
+His productivity can improve through training.
+His employment storyline progresses.
+Neighborhood Trust may increase.
+Hiring Daniel should remain optional.
+Sofia — Local Entrepreneur
+Sofia offers to supply homemade snacks.
+The player can purchase her products, negotiate prices, establish a partnership, or decline.
+A successful partnership may unlock new products, increase sales, and improve Business Growth.
+Sofia's business may eventually expand into a neighborhood shop.
+7.6 Business-to-Business Ripple Effects
+Neighborhood businesses should influence one another.
+This creates a connected commercial ecosystem rather than a collection of independent buildings.
+Example: Farm → Supermarket → Restaurant
+Papa Kofi's farm supplies fresh vegetables to the supermarket.
+The supermarket sells some vegetables directly to customers.
+A neighborhood restaurant may also purchase vegetables through a supply arrangement.
+Possible Effects:
+The farm generates additional sales.
+The supermarket gains fresh products.
+The restaurant gains access to ingredients.
+More customers visit the neighborhood.
+Business Growth improves.
+Example: Bakery → Supermarket → Coffee Shop
+A bakery produces bread and pastries.
+The supermarket sells selected bakery products.
+The coffee shop may purchase pastries from the bakery.
+Possible Effects:
+Increased bakery revenue.
+Additional supermarket products.
+Improved coffee shop offerings.
+More neighborhood commercial activity.
+Example: Cinema → Restaurant → Supermarket
+A cinema opens in the neighborhood.
+Evening visitor traffic increases.
+Nearby restaurants and supermarkets may experience additional demand.
+Possible Effects:
+Increased evening sales.
+More pedestrian activity.
+New event opportunities.
+Increased Business Growth.
+Development Requirement: Initial business relationships can use predefined supply and demand modifiers. Advanced logistics and detailed supply chains can be introduced later.
+7.7 Dynamic Customer Behavior
+Customer behavior should respond to relevant player decisions.
+Customer Response Factors
+Factor
+Possible Customer Response
+Affordable Prices
+Increased demand among price-sensitive customers
+High Prices
+Reduced purchases among budget-conscious customers
+Product Availability
+Increased likelihood of successful purchases
+Product Shortages
+Customers may leave without purchasing
+Fast Checkout
+Improved satisfaction
+Long Checkout Queues
+Increased impatience
+Attractive Store Layout
+Improved shopping experience
+Product Variety
+More shopping opportunities
+Special Promotions
+Temporary increases in demand
+Positive Character Relationships
+Increased loyalty among relevant customers
+
+Customers should not behave identically.
+Different customer types may react differently to the same decision.
+For example, a premium customer may be less sensitive to price changes than a budget-conscious shopper.
+7.8 Neighborhood Visual Ripple Effects
+The Ripple System should influence the visible game environment.
+Players should be able to observe the consequences of their decisions without constantly opening dashboards.
+Examples
+Game Situation
+Visual Response
+Customer Happiness Increases
+More positive customer reactions
+Customer Happiness Decreases
+More complaints and disappointed expressions
+New Business Opens
+Additional pedestrians and business activity
+Neighborhood Population Increases
+More residents appear
+Business Growth Improves
+More commercial activity and development opportunities
+Checkout Efficiency Improves
+Shorter queues
+Product Shortages Occur
+Empty shelves and disappointed customers
+Neighborhood Festival Begins
+Decorations, crowds, and celebrations
+Character Receives Promotion
+Special celebration animation
+Major Business Expansion
+Construction and store transformation animations
+
+Visual changes should correspond to actual gameplay conditions.
+The game should avoid displaying misleading animations that suggest events or outcomes that have not occurred.
+7.9 Neighborhood Events and Ripple Chains
+Certain decisions may trigger connected events involving multiple characters or businesses.
+These are called Ripple Chains.
+Example: The Neighborhood Food Festival
+A food festival becomes available.
+The player can choose to participate or continue normal business operations.
+If the player participates, several opportunities may appear:
+Sofia offers to supply snacks.
+Papa Kofi offers fresh produce.
+Auntie Pepper requests ingredients.
+Mama Biggie promotes discounted products to neighbors.
+The supermarket experiences increased customer demand.
+The player's decisions influence the event's commercial results.
+Example: Supermarket Expansion
+The player expands the supermarket.
+Possible Ripple Chain:
+SUPERMARKET EXPANSION → MORE PRODUCTS → MORE CUSTOMERS → ADDITIONAL STAFFING NEEDS → EMPLOYMENT OPPORTUNITIES → INCREASED NEIGHBORHOOD ACTIVITY
+These chains should emerge from relevant conditions and player decisions.
+Players should not be required to participate in every available event.
+7.10 Neighborhood Ripple Report
+The Ripple Report will summarize important changes resulting from player decisions.
+Reports should be concise, visually engaging, and optional to open.
+Example: OGAMART — NEIGHBORHOOD RIPPLE REPORT
+Business Performance
+Indicator
+Current Result
+Store Revenue
+3,200 coins
+Store Profit
+820 coins
+Customers Served
+58
+Products Sold
+124
+Active Businesses
+4
+
+Neighborhood Performance
+Indicator
+Current Score
+Change
+Customer Happiness
+78/100
++4
+Neighborhood Trust
+65/100
++3
+Business Growth
+42/100
++5
+
+What Happened?
+Daniel improved checkout speed.
+Mama Biggie became more satisfied after receiving a discount.
+Mrs. Parker became a loyal customer.
+Sofia's snack products generated additional sales.
+The new bakery attracted more visitors.
+Neighborhood Highlights
+Customer queues became shorter.
+The bakery increased commercial activity.
+More residents visited the supermarket.
+Next Opportunities
+Supply snacks for the school festival.
+Upgrade the bakery.
+Explore a new supplier partnership.
+Available Actions:
+VIEW DETAILS | VIEW NEIGHBORHOOD | CLOSE
+The report should allow players to understand how their decisions affected their businesses and neighborhood.
+7.11 Ripple Notifications and Feedback
+Players should receive short, contextual notifications when important Ripple effects occur.
+Example Notifications
+Customer Happiness +3
+"Mama Biggie loved your discount!"
+Neighborhood Trust +5
+"Your new employee is settling into the neighborhood."
+Business Growth +4
+"Your bakery is attracting more customers!"
+Customer Happiness −2
+"Several customers could not find milk."
+Business Growth +6
+"Your new restaurant increased evening activity."
+Notifications should be brief and should not unnecessarily interrupt gameplay.
+Players should be able to reduce or disable nonessential notifications through Settings.
+7.12 Ripple System and Player Freedom
+The Ripple System must respect OgaMart's Freedom-Based Gameplay philosophy.
+Players should not be forced to maximize all three neighborhood indicators.
+Different strategies should remain viable.
+Example: Different Business Strategies
+Strategy
+Player Focus
+Potential Strength
+Potential Trade-Off
+Discount Retailer
+Affordable products
+High customer demand
+Lower profit margins
+Premium Supermarket
+High-value products
+Higher profit per unit
+Smaller customer segment
+Community Business
+Local employment and partnerships
+Strong neighborhood trust
+Additional operating costs
+Expansion Entrepreneur
+Rapid business development
+Faster commercial growth
+Higher investment requirements
+Efficiency Manager
+Automation and productivity
+Lower operating inefficiencies
+Initial equipment costs
+Balanced Operator
+Multiple business objectives
+More balanced performance
+Slower specialization
+
+Players should be able to change strategies as their businesses develop.
+The game should not punish players simply because they choose a different legitimate business model.
+7.13 Ripple System Balance and Fairness
+Ripple effects should be predictable enough for players to understand but varied enough to remain interesting.
+Design Requirements
+Major effects must be connected to actual game conditions.
+Players should receive clear feedback about important consequences.
+Small actions should not cause disproportionate penalties.
+Negative consequences should generally be recoverable.
+Different business strategies should remain viable.
+Character reactions should reflect established personalities.
+Ripple events should not interrupt gameplay excessively.
+Players should not be required to complete every community mission.
+Business consequences should be consistent with defined simulation rules.
+The system should avoid unexplained random penalties.
+Example: Recovering Customer Happiness
+A supermarket experiences repeated product shortages.
+Customer Happiness decreases.
+The player can respond by:
+Restocking products.
+Increasing storage capacity.
+Improving supplier reliability.
+Assigning employees to inventory management.
+Activating available restocking automation.
+As service improves, Customer Happiness can recover.
+Core Principle: Players should be able to learn from their decisions and improve their businesses without being trapped by earlier mistakes.
+7.14 Ripple System Technical Architecture
+The Ripple System should be developed as a modular, event-driven simulation.
+It will receive events from other gameplay systems and calculate relevant consequences.
+Main System Connections
+Game System
+Ripple Data
+Supermarket Engine
+Sales, prices, inventory, checkout performance
+Customer Engine
+Shopping behavior, satisfaction, loyalty
+Employee Engine
+Hiring, training, productivity
+Neighborhood Engine
+Buildings, investments, population, activity
+Character Engine
+Relationships, decisions, story progression
+Supplier Engine
+Purchases, contracts, product availability
+Mission Engine
+Completed objectives and rewards
+Progression Engine
+Unlocks and development milestones
+
+Example Event
+Event: PRODUCT_PRICE_CHANGED
+Input Data:
+Product ID.
+Previous price.
+New price.
+Current customer demand.
+Relevant customer preferences.
+Possible Outputs:
+Updated product demand.
+Updated expected sales.
+Updated customer satisfaction.
+Relevant character reactions.
+Ripple notification.
+Technical Requirements
+The system should:
+Use configurable rules.
+Support multiple effects from one event.
+Avoid duplicate event processing.
+Prevent unintended repeated rewards.
+Save persistent neighborhood indicators.
+Track significant player decisions.
+Support new buildings and characters without major architectural changes.
+Remain compatible with GDevelop 5 and JavaScript.
+For the initial version, Ripple calculations should use predefined formulas and event rules rather than external AI services.
+7.15 Development Priorities
+The Ripple System should be implemented progressively.
+Development Phase
+Recommended Features
+Phase 1 — Prototype
+Customer Happiness, basic price and inventory effects, one recurring character, simple notifications
+Phase 2 — Commercial MVP
+Three indicators, character relationships, business-to-business effects, Ripple Reports, neighborhood visual reactions, simple Ripple Chains
+Phase 3 — Expansion
+Advanced household behavior, deeper economic simulation, complex supply chains, additional neighborhood interactions, extended Ripple Chains
+
+Prototype Example
+The player changes the price of bread.
+The game calculates the effect on customer demand and Customer Happiness.
+A notification explains the result.
+This is sufficient to demonstrate the Ripple System's core concept.
+Commercial MVP Example
+The player constructs a bakery.
+The bakery generates income, attracts pedestrians, creates employment opportunities, and influences Business Growth.
+Relevant characters may react to the new business.
+A Ripple Report summarizes the results.
+7.16 Ripple System Success Criteria
+The Ripple System should be evaluated through gameplay testing.
+Evaluation Area
+Success Requirement
+Understandability
+Players understand why major indicators change
+Player Freedom
+Players can pursue different business strategies
+Meaningful Decisions
+Important choices produce noticeable consequences
+Character Engagement
+Character reactions make the neighborhood more entertaining
+Visual Feedback
+Players can observe relevant environmental changes
+Gameplay Balance
+Different strategies remain viable
+Performance
+Ripple calculations do not noticeably reduce gameplay performance
+Replayability
+Different player decisions create varied experiences
+
+The system should be refined using player feedback and gameplay analytics.
+Final Ripple System Principle
+OgaMart's Neighborhood Ripple System must transform player decisions into meaningful business, character, and community consequences.
+Players should be able to operate their supermarkets, develop neighborhoods, interact with residents, and pursue different business strategies while experiencing a world that responds to their actions.
+The system should create a clear connection between:
+PLAYER DECISIONS → BUSINESS CONSEQUENCES → CHARACTER REACTIONS → NEIGHBORHOOD CHANGES → NEW OPPORTUNITIES
+
+8. Player Engagement and Replayability
+8.1 Player Engagement Philosophy
+OgaMart must provide an entertaining, rewarding, and flexible gameplay experience that encourages players to return regularly.
+Player engagement should not depend exclusively on repetitive activities, mandatory missions, collecting coins, or waiting for upgrades.
+Instead, OgaMart should combine satisfying interactions, meaningful business decisions, creative freedom, memorable characters, dynamic neighborhood events, and visible progression.
+Players should feel motivated to return because their supermarkets and neighborhoods are enjoyable to manage and develop.
+The game will support different player preferences, including:
+Players who enjoy actively managing supermarket operations.
+Players who prefer automated business management.
+Players who enjoy building and decorating neighborhoods.
+Players who enjoy interacting with characters and discovering stories.
+Players who enjoy business strategy and competition.
+Players who prefer relaxed, casual gameplay.
+Players who enjoy collecting products, decorations, and achievements.
+Core Principle: OgaMart should reward players for exploring, experimenting, building, managing, and making decisions—not simply for repeating the same actions.
+Players should be free to choose their activities without being forced to complete unrelated objectives.
+8.2 Recommended Engagement Features
+Feature
+How It Works
+Player Benefit
+Satisfying Restocking
+Products visibly fill shelves when restocked
+Immediate visual satisfaction
+Coin Animations
+Coins animate toward the player's balance after eligible transactions or collections
+Rewarding feedback
+Flexible Upgrade Suggestions
+Displays affordable upgrades and savings targets without forcing a specific purchase
+Clear opportunities
+VIP Customers
+Special shoppers offer unusual requests, premium orders, or bonus opportunities
+Surprise and variety
+Customer Rush Events
+Temporary increases in customer demand
+Exciting gameplay
+Mystery Deliveries
+Optional deliveries provide surprise products, coins, boosts, or decorations
+Discovery and variety
+Store Makeovers
+Players customize and renovate supermarkets
+Creative ownership
+Optional Daily Missions
+Players select from available daily objectives
+Flexible challenges
+Product Collections
+Discover products and complete optional collections
+Completion goals
+Character Stories
+Interact with recurring residents and influence their stories
+Emotional connection
+Character Celebrations
+Characters react with distinctive animations and dialogue
+Humor and entertainment
+Neighborhood Events
+Festivals, markets, celebrations, and grand openings
+Dynamic experiences
+Offline Earnings
+Eligible businesses generate income during player absence
+Continued progress
+Supermarket Customization
+Arrange shelves, equipment, and decorations
+Creative freedom
+Neighborhood Customization
+Construct, move, and decorate eligible buildings
+Personal expression
+Business Challenges
+Experiment with prices, suppliers, employees, and investments
+Strategic gameplay
+Business Competitions
+Participate in optional commercial challenges
+Competition and achievement
+Ripple Events
+Business decisions influence customers, characters, and neighborhoods
+Meaningful consequences
+Character Relationships
+Develop friendships, partnerships, and rivalries
+Personal investment
+Business Expansion
+Open new businesses and supermarket branches
+Long-term progression
+Neighborhood Discovery
+Explore new locations, residents, and commercial opportunities
+Exploration
+Business Automation
+Delegate routine operations to employees or systems
+Flexible gameplay
+Surprise Character Encounters
+Recurring characters initiate occasional humorous situations
+Unpredictability
+Visual Neighborhood Evolution
+Streets become more active as businesses develop
+Visible achievement
+Achievements and Collections
+Recognize different accomplishments and play styles
+Long-term motivation
+
+Engagement features should complement normal gameplay rather than interrupt it.
+8.3 Satisfying Gameplay and Immediate Feedback
+OgaMart should make everyday activities visually rewarding.
+Players should receive immediate feedback when performing meaningful actions.
+Examples
+Restocking Products
+Products animate onto shelves as inventory increases.
+Completing a Sale
+A short payment animation confirms the transaction.
+Purchasing Equipment
+New equipment appears in the supermarket with a brief placement or construction animation.
+Opening a Business
+The building becomes operational, employees appear where applicable, and customers begin visiting.
+Hiring an Employee
+The employee performs a short celebration animation before beginning work.
+Completing a Character Interaction
+The character reacts through facial expressions, gestures, dialogue, or animations.
+Improving Customer Happiness
+Relevant customers display more positive reactions.
+Design Requirements
+Animations should be short and responsive.
+Players should be able to continue other activities during nonessential animations.
+Repeated animations should not become frustrating.
+Players should be able to reduce nonessential visual effects in Settings.
+Important transactions should provide clear feedback.
+Celebrations should reflect actual achievements.
+Core Principle: Every meaningful action should feel responsive and rewarding without slowing down gameplay.
+8.4 Dynamic Customer Rush Events
+Customer Rush Events introduce temporary changes in customer demand and shopping behavior.
+These events should create opportunities rather than force players to stop their normal activities.
+Recommended Customer Rush Events
+Event
+Description
+Gameplay Opportunity
+Morning Rush
+Increased demand for bread, milk, eggs, and breakfast products
+Higher morning sales
+Lunch Rush
+Increased demand for snacks, drinks, and ready-to-eat products
+Additional sales
+Weekend Shopping
+Families purchase larger baskets
+Increased product demand
+Tourist Visit
+Visitors purchase specialty and premium products
+Premium sales opportunities
+Street Festival
+Additional visitors enter the neighborhood
+Increased customer traffic
+School Shopping Rush
+Families purchase selected school-related products
+Special product demand
+Holiday Shopping
+Increased demand for seasonal products
+Promotional opportunities
+VIP Shopping Visit
+A special customer arrives
+Bonus rewards or special orders
+Neighborhood Grand Opening
+A new business attracts visitors
+Increased commercial activity
+Evening Rush
+Customers visit supermarkets and entertainment businesses
+Increased evening sales
+
+Event Duration
+Short customer rush events should generally last 1–3 minutes.
+Larger neighborhood events may last longer.
+Player Freedom During Events
+Players can:
+Increase inventory.
+Adjust available product prices.
+Assign employees.
+Open additional checkout counters.
+Activate available automation.
+Participate in event-specific missions.
+Continue normal supermarket management.
+Ignore optional event activities.
+Events should not require players to complete mandatory tasks.
+8.5 Player-Controlled Store Makeovers
+Store makeovers should no longer be mandatory transformations tied to specific player levels.
+Instead, players should be able to choose how their supermarkets develop.
+Recommended Store Styles
+Store Style
+Description
+Customization Opportunities
+Corner Shop
+Small neighborhood grocery store
+Basic shelves, signage, decorations
+Traditional Grocery
+Familiar local supermarket appearance
+Expanded product displays and interior improvements
+Modern Mini Market
+Compact contemporary retail store
+Modern shelving, lighting, checkout equipment
+Neighborhood Supermarket
+Larger store with multiple departments
+Additional departments and customer facilities
+Premium Supermarket
+High-end retail environment
+Premium displays, decorations, specialized equipment
+Large Superstore
+Large commercial retail facility
+Expanded departments and multiple checkout counters
+Mega Market
+Major supermarket complex
+Extensive retail space and advanced equipment
+
+These styles should function as optional design directions, not mandatory progression stages.
+Customization Options
+Players can:
+Change eligible store layouts.
+Upgrade exterior appearances.
+Select interior themes.
+Purchase decorative equipment.
+Modify signage.
+Install new lighting.
+Arrange product displays.
+Expand store departments.
+Select available floor and wall designs.
+Create a unique supermarket identity.
+Players may combine compatible customization elements rather than being forced to use one predefined style.
+Progression Requirements
+Store size, equipment, and available customization options may depend on resources, upgrades, and unlock requirements.
+However, reaching a particular player level should not automatically replace a player's chosen supermarket appearance.
+Design Requirement: Store progression should expand creative possibilities rather than remove player control.
+8.6 Optional Daily Missions and Challenges
+Daily missions should provide additional rewards and gameplay variety without becoming mandatory.
+Players should be able to select missions that match their preferred play styles.
+Recommended Mission Categories
+Category
+Example Missions
+Supermarket Operations
+Sell 20 products, restock three shelves
+Customer Service
+Serve 10 customers, improve customer satisfaction
+Business Management
+Complete a profitable sales period, improve checkout efficiency
+Employee Management
+Train an employee, improve productivity
+Neighborhood Development
+Construct or upgrade a building
+Character Interactions
+Complete an optional character request
+Supplier Management
+Purchase products from a supplier
+Creative Customization
+Place decorations or customize a store
+Community Development
+Complete a neighborhood request
+Exploration
+Visit available businesses or discover a new character
+
+Mission Selection
+Rather than requiring every player to complete the same three missions, OgaMart should offer a small selection of optional daily challenges.
+Players may choose which missions to pursue.
+For example:
+TODAY'S OPPORTUNITIES
+Sell 20 products.
+Upgrade one shelf.
+Complete Mama Biggie's shopping request.
+Decorate your neighborhood.
+Purchase products from a local supplier.
+Available Actions:
+VIEW REWARDS | ACCEPT | IGNORE
+Mission Rewards
+Rewards may include:
+Coins.
+Experience points.
+Decorative items.
+Character relationship improvements.
+Special products.
+Temporary business boosts.
+Cosmetic rewards.
+Mission rewards should be proportionate to the effort required.
+Players should not lose previously earned rewards or experience major disadvantages because they skip daily missions.
+8.7 Character-Based Entertainment and Replayability
+Recurring characters should provide entertainment beyond their main storylines.
+Characters such as Mama Biggie, Daniel, Sofia, Mr. Brooks, Papa Kofi, and Maya should occasionally create humorous and unexpected situations.
+Example: Mama Biggie's Discount Drama
+Mama Biggie enters the supermarket and discovers that her favorite cooking oil is expensive.
+She adjusts her oversized glasses, places her hands on her hips, and complains:
+"Oga! At this price, does the cooking oil come with a personal chef?"
+The player can:
+Offer a discount.
+Recommend an alternative.
+Maintain the existing price.
+Continue normal business operations.
+Her reaction depends on the outcome.
+If satisfied, Mama Biggie may perform her signature celebration dance.
+If dissatisfied, she may complain dramatically before continuing her shopping.
+Example: Mr. Brooks' Competitive Promotion
+Mr. Brooks announces a discount at his competing supermarket.
+The player can:
+Launch a competing promotion.
+Improve product quality.
+Introduce new products.
+Maintain the existing strategy.
+The event creates a business challenge without forcing a particular response.
+Example: Sofia's Surprise Order
+Sofia receives a large snack order and needs additional supplies.
+The player can help her, negotiate a supply arrangement, or decline.
+Successful cooperation may unlock new business opportunities.
+Character Engagement Requirements
+Character encounters should vary.
+Dialogue should remain short.
+Players should be able to skip conversations.
+Character reactions should reflect player decisions.
+Stories should not interrupt unrelated gameplay.
+Repeated encounters should include dialogue or animation variations.
+Important character relationships should develop over time.
+Core Principle: Characters should make gameplay entertaining and memorable without becoming mandatory obstacles.
+8.8 Neighborhood Events and Activities
+Neighborhood events should create temporary opportunities for business development, exploration, and character interaction.
+Recommended Events
+Event
+Player Opportunities
+Street Festival
+Sell products, decorate businesses, interact with residents
+Farmers Market
+Purchase products, negotiate supplier contracts
+Food Festival
+Supply ingredients, support restaurants, participate in challenges
+Neighborhood Celebration
+Interact with characters and earn optional rewards
+Business Grand Opening
+Launch promotions and attract customers
+School Festival
+Supply products and complete community missions
+Holiday Market
+Sell seasonal products and unlock decorations
+Commercial Competition
+Compete against rival businesses
+Community Improvement Event
+Invest in neighborhood facilities
+VIP Business Visit
+Complete premium orders or negotiate investments
+
+Players should be able to participate in events without abandoning their preferred gameplay activities.
+Event participation should be optional unless an activity is specifically required for an optional reward or achievement.
+8.9 Business Strategy and Replayability
+OgaMart should encourage players to experiment with different business strategies.
+Players may focus on:
+Low-price supermarket operations.
+Premium retailing.
+High-volume product sales.
+Automated business management.
+Neighborhood development.
+Local supplier partnerships.
+Employee development.
+Customer loyalty.
+Commercial expansion.
+Creative customization.
+Example: Two Different Players
+Player A — Business Strategist
+Focuses on product pricing, supplier costs, inventory efficiency, and profitability.
+Player B — Neighborhood Builder
+Focuses on constructing businesses, customizing streets, developing public spaces, and interacting with residents.
+Both players should be able to progress successfully.
+The game should recognize different play styles through achievements, opportunities, and progression systems.
+8.10 Offline Earnings and Continued Progress
+OgaMart will allow eligible businesses to generate income while players are away.
+Offline earnings should provide continued progress without requiring constant gameplay.
+Example: Welcome Back Screen
+WELCOME BACK TO OGAMART!
+Business
+Offline Earnings
+Supermarket
+2,000 coins
+Coffee Shop
+800 coins
+Bakery
+500 coins
+TOTAL
+3,300 coins
+
+Available Actions:
+COLLECT | VIEW DETAILS
+Players can collect earnings immediately.
+An optional rewarded advertisement may provide a bonus on eligible earnings.
+Offline Earnings Rules
+Offline income is calculated using saved business performance.
+Only eligible operating businesses generate offline earnings.
+Offline earnings should respect defined inventory and operating rules.
+Offline income should initially be capped at four hours.
+Players can collect eligible earnings without watching advertisements.
+Advertisements must remain optional.
+Players should not lose previously earned income because they were absent.
+Offline earnings should not replace the benefits of active gameplay.
+Future Improvements
+Later versions may introduce:
+Longer offline earning periods.
+Employee-managed offline operations.
+Business-specific offline efficiency.
+Upgrades that extend offline earning capacity.
+More detailed offline business reports.
+Design Requirement: Offline progression should reward returning players without pressuring them to check the game constantly.
+8.11 Achievements and Player Recognition
+OgaMart should recognize different accomplishments and play styles.
+Recommended Achievement Categories
+Category
+Example Achievement
+Sales
+Complete 1,000 product sales
+Business Growth
+Open five neighborhood businesses
+Customer Service
+Reach 90 Customer Happiness
+Employee Development
+Promote an employee
+Character Relationships
+Reach Trusted status with a recurring character
+Neighborhood Development
+Construct ten buildings
+Supplier Partnerships
+Establish three supplier relationships
+Customization
+Complete a store makeover
+Product Collection
+Unlock 20 products
+Community Development
+Complete five community projects
+Business Strategy
+Achieve a defined profitability milestone
+Exploration
+Discover ten neighborhood locations
+
+Achievements may unlock:
+Decorative items.
+Character animations.
+Store customization options.
+Special titles.
+Cosmetic rewards.
+Additional optional challenges.
+Achievements should encourage experimentation without forcing a specific play style.
+8.12 Player Progression and Long-Term Goals
+OgaMart should provide different levels of goals while allowing players to choose their priorities.
+Immediate Goals
+Activities that can be completed within a short play session.
+Examples:
+Restock products.
+Serve customers.
+Collect earnings.
+Change product prices.
+Interact with a character.
+Customize a shelf.
+Purchase equipment.
+Short-Term Goals
+Objectives that require several gameplay sessions.
+Examples:
+Upgrade supermarket equipment.
+Hire and train employees.
+Unlock new products.
+Construct neighborhood businesses.
+Improve customer satisfaction.
+Complete character missions.
+Expand storage capacity.
+Long-Term Goals
+Objectives that require sustained business development.
+Examples:
+Establish multiple supermarkets.
+Develop a large commercial neighborhood.
+Build relationships with recurring characters.
+Create a profitable business network.
+Unlock advanced buildings.
+Expand into additional neighborhoods.
+Develop a supermarket empire.
+Players should be able to pursue several goals simultaneously.
+8.13 Adaptive Engagement Based on Player Preferences
+OgaMart should gradually recognize the activities players enjoy.
+For example:
+Players who frequently customize stores may receive more decoration-related suggestions.
+Players who enjoy business management may receive additional commercial challenges.
+Players who interact with characters may discover more story opportunities.
+Players who prefer automation may receive relevant efficiency upgrade suggestions.
+Players who enjoy neighborhood construction may receive building-related opportunities.
+These recommendations should remain optional.
+The game should not permanently classify players into one play style.
+Players must remain free to change their interests and activities.
+For the commercial MVP, adaptive engagement can be implemented using simple gameplay statistics and predefined recommendation rules.
+Advanced AI personalization is not required.
+8.14 Engagement Without Excessive Pressure
+OgaMart should encourage regular gameplay without relying on frustrating or manipulative mechanics.
+Design Requirements
+Daily missions must remain optional.
+Players should not lose major progression because they miss a day.
+Essential gameplay should not require advertisements.
+Character stories should remain accessible without mandatory daily attendance.
+Events should not repeatedly interrupt gameplay.
+Waiting periods should be reasonable.
+Players should have meaningful activities available during waiting periods.
+Repetitive tasks should become easier through upgrades or automation.
+Players should be able to progress through different play styles.
+Rewards should be transparent and understandable.
+Important player decisions should produce visible feedback.
+The game should remain enjoyable during short or extended play sessions.
+Core Principle: Players should return because OgaMart is enjoyable, not because they fear losing progress or missing essential rewards.
+8.15 Development Priorities
+The engagement systems should be introduced progressively to control development costs.
+Development Phase
+Recommended Features
+Phase 1 — Prototype
+Satisfying restocking, coin animations, basic upgrades, simple customer rush events, one recurring character, basic customization, offline earnings
+Phase 2 — Commercial MVP
+Optional daily missions, character stories, neighborhood events, product collections, business challenges, achievements, flexible store makeovers, Ripple-based feedback
+Phase 3 — Expansion
+Advanced character events, additional business competitions, expanded neighborhood customization, adaptive engagement, extended collections, additional districts
+
+8.16 Engagement Success Criteria
+OgaMart's engagement systems should be evaluated using gameplay testing and analytics.
+Evaluation Area
+Success Requirement
+Immediate Satisfaction
+Players receive clear feedback from meaningful actions
+Player Freedom
+Players can pursue different activities without unnecessary restrictions
+Gameplay Variety
+Players have multiple meaningful activities available
+Character Engagement
+Recurring characters create memorable interactions
+Creative Ownership
+Players can personalize supermarkets and neighborhoods
+Business Strategy
+Different management approaches remain viable
+Replayability
+Players can experiment with different decisions and development paths
+Offline Progression
+Returning players receive understandable eligible earnings
+Accessibility
+Casual players can enjoy the game without mastering complex systems
+Long-Term Motivation
+Players have meaningful opportunities for continued development
+
+The development team should use player feedback and gameplay analytics to identify which engagement features provide the greatest value.
+Final Player Engagement Principle
+OgaMart must provide a satisfying, entertaining, flexible, and rewarding gameplay experience that respects player freedom.
+Players should be motivated by:
+The satisfaction of managing successful businesses.
+The freedom to customize supermarkets and neighborhoods.
+The excitement of discovering new opportunities.
+The humor and personalities of recurring characters.
+The consequences of meaningful decisions.
+The visible development of their business empire.
+The enjoyment of experimenting with different strategies.
+
+9. Player Progression
+9.1 Progression Philosophy
+OgaMart will feature 25 player levels in its initial commercial release.
+The progression system will reward players for managing supermarkets, developing neighborhoods, operating businesses, interacting with characters, and achieving commercial milestones.
+Players will have the freedom to choose their preferred development strategies.
+Core Principle: Levels unlock opportunities, but players decide how to use them.
+Players should not be forced to construct specific buildings, purchase particular upgrades, or complete unrelated missions.
+9.2 Player Levels and Progression Structure
+The initial commercial game will contain 25 levels, with meaningful opportunities introduced throughout progression.
+Level
+Major Unlock or Opportunity
+Player Freedom
+1
+Starting supermarket, bread, milk, eggs, automatic cashier
+Manage inventory, arrange shelves, serve customers
+2
+Additional shelves and basic decorations
+Expand inventory or customize the store
+3
+Drinks, snacks, and basic checkout upgrades
+Choose products and operational improvements
+4
+Coffee shop and neighborhood construction
+Build a coffee shop or continue supermarket development
+5
+Store renovation options and employee hiring
+Customize the store, hire employees, or save coins
+6
+Bakery and bakery-related products
+Construct a bakery or develop existing businesses
+7
+Fruit shop and fresh produce
+Introduce fresh products and supplier partnerships
+8
+Residential buildings and neighborhood decorations
+Expand residential areas or prioritize commercial investments
+9
+Restaurant and food supply opportunities
+Open a restaurant or improve existing businesses
+10
+Supermarket expansion and advanced equipment
+Expand the supermarket or pursue other investments
+11
+Flower shop and expanded customization
+Develop retail businesses or improve neighborhood appearance
+12
+Farm and local agricultural supply opportunities
+Establish agricultural production and supplier relationships
+13
+Clothing store and additional commercial opportunities
+Diversify businesses or strengthen existing operations
+14
+Cinema and entertainment activities
+Develop entertainment facilities and attract visitors
+15
+Warehouse and delivery center
+Improve storage, distribution, and logistics
+16
+Advanced employee management and automation
+Delegate operations and improve productivity
+17
+Pharmacy and additional retail categories
+Expand retail offerings
+18
+Electronics store and premium product categories
+Diversify into higher-value retail
+19
+Shopping street and additional commercial plots
+Expand the commercial district
+20
+Premium supermarket equipment and advanced customization
+Develop premium retail operations
+21
+Fitness center and recreational facilities
+Expand neighborhood services
+22
+Hotel and visitor-related business opportunities
+Develop hospitality and tourism-related activities
+23
+Shopping mall and major commercial investments
+Construct a shopping mall or pursue alternative investments
+24
+Advanced supermarket expansion and additional branches
+Develop multiple supermarket locations
+25
+Mega Market and supermarket empire expansion
+Build a Mega Market and continue developing the neighborhood
+
+These unlocks are proposed milestones and will require balancing during development.
+9.3 Flexible Unlock Requirements
+OgaMart will support several unlock mechanisms:
+Player Level: Unlocks new opportunities.
+Coins: Required for inventory, construction, and upgrades.
+Business Achievements: Unlock selected improvements.
+Building Requirements: Ensure necessary infrastructure exists.
+Character Relationships: Unlock optional character-specific opportunities.
+Supplier Partnerships: Unlock selected products and business arrangements.
+Exploration: Reveals new locations and opportunities.
+Where practical, selected features may have alternative unlock paths.
+Essential gameplay should not depend on completing optional character stories.
+9.4 Experience Points (XP)
+Players earn XP through meaningful gameplay activities.
+Activity
+XP Opportunity
+Product Sales
+Small XP rewards
+Supermarket Upgrades
+Business development XP
+Building Construction
+Construction XP
+Employee Training
+Management XP
+Supplier Partnerships
+Commercial XP
+Character Missions
+Story XP
+Neighborhood Development
+Development XP
+Business Achievements
+Milestone XP
+Product Discovery
+Discovery XP
+Community Projects
+Community XP
+
+XP rewards should be balanced to prevent repetitive actions from generating unlimited experience.
+Players should be able to reach Level 25 through different combinations of gameplay activities.
+9.5 Business and Neighborhood Progression
+Individual businesses will have their own upgrade systems independent of the player's overall level.
+For example, a bakery may progress through:
+Basic Bakery → Improved Bakery → Established Bakery → Advanced Bakery → Premium Bakery
+Supermarkets can develop through investments in inventory, checkout equipment, employees, store size, product selection, suppliers, automation, and customization.
+Neighborhood progression will depend on construction, commercial activity, infrastructure improvements, and community development.
+Players can choose which investments to prioritize.
+9.6 Character Progression
+Recurring characters will have independent storylines and relationship progression.
+Daniel: Unemployed Resident → Employee → Experienced Worker → Supervisor → Store Manager.
+Sofia: Homemade Snack Seller → Supplier → Business Partner → Established Entrepreneur → Shop Owner.
+Mama Biggie: Regular Customer → Familiar Resident → Loyal Customer → Neighborhood Personality → Community Influencer.
+These storylines should progress through relevant interactions and gameplay events.
+Players should not be required to complete every character storyline.
+9.7 Progression Resources
+OgaMart will initially use one main currency.
+Resource
+Purpose
+Coins
+Inventory, equipment, upgrades, decorations, construction
+Experience Points (XP)
+Player progression and level unlocks
+Customer Happiness
+Measures customer satisfaction
+Neighborhood Trust
+Measures community confidence
+Business Growth
+Measures commercial development
+
+Customer Happiness, Neighborhood Trust, and Business Growth are performance indicators rather than currencies.
+A premium currency is not required for the initial commercial release.
+9.8 Progression Dashboard
+Players should have access to a dashboard displaying:
+Current player level.
+XP earned toward the next level.
+Available coins.
+Supermarkets owned.
+Neighborhood businesses.
+Products unlocked.
+Employees hired.
+Character story progress.
+Neighborhood development.
+Available upgrades and opportunities.
+The dashboard should remain simple and intuitive.
+9.9 Progression Beyond Level 25
+Level 25 represents the maximum player level for the initial commercial release, not the end of the game.
+After reaching Level 25, players can continue:
+Managing supermarkets.
+Constructing and upgrading businesses.
+Developing neighborhoods.
+Earning coins.
+Hiring and training employees.
+Improving supplier relationships.
+Completing character stories.
+Participating in neighborhood events.
+Customizing stores and buildings.
+Improving business profitability.
+Pursuing optional achievements.
+Players should not be forced to restart the game after reaching Level 25.
+Future updates may introduce additional levels, but the initial commercial release will remain capped at 25.
+9.10 Development Priorities
+Development Phase
+Recommended Features
+Phase 1 — Prototype
+5 player levels, coins, XP, basic product unlocks, supermarket upgrades, simple neighborhood opportunities
+Phase 2 — Commercial MVP
+25 player levels, flexible unlocks, business progression, character progression, neighborhood development, progression dashboard
+Phase 3 — Expansion
+Additional neighborhoods, businesses, character stories, and optional new levels
+
+9.11 Progression Design Requirements
+Maximum initial commercial player level: 25.
+Players should have multiple ways to earn XP.
+Progression should reward meaningful activities.
+Unlocks should expand player choices.
+Building construction should remain optional.
+Store customization should remain player-controlled.
+Character stories should not block unrelated progression.
+Different business strategies should remain viable.
+Players should be able to continue playing after Level 25.
+The progression system should support future expansion.
+Final Player Progression Principle
+OgaMart will launch with 25 player levels designed to gradually introduce new business opportunities, neighborhood features, characters, and management systems.
+Players will remain free to choose how they develop their supermarkets and neighborhoods.
+
+10. Monetization Strategy
+10.1 Monetization Philosophy
+OgaMart will adopt a Free-to-Play (F2P) business model, allowing players to download and enjoy the game without an upfront payment.
+The monetization strategy will combine:
+Optional rewarded advertisements.
+Cosmetic in-app purchases.
+Character-themed customization packs.
+Neighborhood decoration packs.
+Optional supporter purchases.
+Seasonal cosmetic collections.
+The initial commercial release will contain 25 player levels, and all core gameplay features must remain accessible without requiring real-money purchases.
+Players should be able to:
+Operate and expand supermarkets.
+Construct neighborhood businesses.
+Hire and train employees.
+Unlock products.
+Develop character relationships.
+Complete character stories.
+Participate in neighborhood events.
+Progress through all 25 levels.
+Build and manage a supermarket empire.
+Core Principle: Monetization should enhance the player's experience without restricting gameplay freedom or creating unfair advantages.
+The game should generate revenue primarily through voluntary engagement rather than mandatory advertisements or purchases.
+10.2 Recommended Monetization Model
+Revenue Source
+Description
+Priority
+Rewarded Advertisements
+Players voluntarily watch advertisements to receive additional rewards
+High
+Supermarket Themes
+Cosmetic themes that change supermarket appearance
+High
+Neighborhood Decoration Packs
+Decorative items for streets, buildings, and public spaces
+High
+Character Cosmetic Packs
+Alternative clothing and accessories for recurring characters
+High
+Employee Uniform Packs
+Custom uniforms for supermarket employees
+Medium
+Seasonal Cosmetic Packs
+Holiday and event-themed decorations
+Medium
+Supporter Pack
+Optional purchase containing cosmetic items and supporter recognition
+Medium
+Premium Character Animations
+Additional cosmetic celebration animations
+Future
+Cosmetic Bundles
+Discounted collections of existing cosmetic items
+Future
+
+The commercial MVP should prioritize rewarded advertisements and a small, high-quality cosmetic catalog.
+Additional monetization products can be introduced after evaluating player engagement and purchasing behavior.
+10.3 Optional Rewarded Advertisements
+Rewarded advertisements allow players to voluntarily watch a video advertisement in exchange for a clearly defined in-game benefit.
+Advertisements should never be required to complete missions, unlock essential buildings, progress through levels, or access character stories.
+Recommended Rewarded Advertisements
+Advertisement
+Optional Reward
+Recommended Limitation
+Double Offline Earnings
+Receive an additional amount equal to eligible offline earnings
+Once per eligible offline earnings claim
+Free Restocking
+Restock selected eligible shelves
+Limited uses per day
+Customer Traffic Boost
+Temporarily increase customer arrivals
+Limited activations with cooldown
+Bonus Coins
+Receive a defined amount of coins
+Limited claims per day
+Express Delivery
+Complete one eligible delivery immediately
+Limited uses per day
+Temporary Checkout Boost
+Temporarily improve checkout efficiency
+Limited activations
+Special Decoration Reward
+Receive an available cosmetic reward
+Selected events only
+
+Advertisement Design Requirements
+Advertisements must be initiated voluntarily.
+Players must understand the reward before watching.
+Rewards must be granted only after verified completion.
+Players must be able to decline advertisements.
+Advertisements must not interrupt active gameplay.
+Players must be able to progress without watching advertisements.
+Reward frequency must be controlled to maintain game balance.
+Advertisement availability should not be guaranteed.
+Failed advertisements must not remove existing player resources.
+Advertisement rewards must not create unlimited progression exploits.
+Important: Rewarded advertisements should provide convenience or optional bonuses, not exclusive access to essential gameplay.
+10.4 Advertisement Placement and Player Experience
+Advertisements should appear only in relevant gameplay contexts.
+Recommended Placements
+Offline Earnings Screen
+After returning to the game, players can collect their eligible offline earnings.
+An optional advertisement offers an additional reward.
+Delivery Management
+Players waiting for an eligible delivery may choose to watch an advertisement to accelerate it.
+Restocking Menu
+Players may choose an optional advertisement reward for eligible inventory.
+Business Boost Menu
+Players may activate a temporary business boost by watching an advertisement.
+Optional Rewards Section
+Players can access available rewarded advertisements from a dedicated menu.
+Placements to Avoid
+OgaMart should not introduce:
+Mandatory advertisements between player levels.
+Forced advertisements during supermarket management.
+Advertisements that interrupt character conversations.
+Advertisements that block construction.
+Advertisements that appear unexpectedly during customer rush events.
+Advertisements required to collect normal business earnings.
+Advertisements required to unlock essential products or buildings.
+Design Principle: Advertisements should be an optional opportunity, never an interruption.
+10.5 Cosmetic In-App Purchases
+OgaMart will offer optional cosmetic purchases that allow players to personalize their supermarkets, neighborhoods, employees, and recurring characters.
+Cosmetic purchases should primarily affect appearance rather than business performance.
+Recommended Initial Cosmetic Products
+Product
+Description
+Illustrative Price (USD)
+Modern Supermarket Theme
+Contemporary interior and exterior design
+$1.99
+Tropical Market Theme
+Colorful tropical-inspired supermarket appearance
+$1.99
+Luxury Store Theme
+Premium interior materials and decorations
+$2.99
+Traditional African Market Theme
+African-inspired storefronts, patterns, and decorative elements
+$1.99
+Employee Uniform Pack
+Alternative uniforms for eligible employees
+$0.99
+Neighborhood Decoration Pack
+Street decorations, benches, signs, and decorative objects
+$1.99
+Holiday Theme
+Seasonal decorations and visual effects
+$1.99
+Character Fashion Pack
+Alternative clothing and accessories for recurring characters
+$1.99
+Character Celebration Pack
+Additional cosmetic celebration animations
+$1.99
+Supporter Pack
+Exclusive cosmetics and supporter recognition
+$4.99
+
+These prices are illustrative and should be tested before commercial launch.
+Regional pricing may be applied where supported by the distribution platform.
+10.6 Character-Themed Monetization
+OgaMart's distinctive recurring characters create opportunities for cosmetic monetization.
+Characters such as Mama Biggie, Daniel, Sofia, Mr. Brooks, Papa Kofi, and Maya should have recognizable appearances and personalities.
+Players may purchase optional cosmetic packs that change character clothing, accessories, or celebration animations.
+Recommended Character Cosmetic Packs
+Character
+Cosmetic Pack
+Included Items
+Illustrative Price
+Mama Biggie
+Queen of Bargains Pack
+Alternative colorful dress, oversized glasses, handbag, celebration animation
+$1.99
+Daniel
+Business Success Pack
+Professional outfits, accessories, celebration animation
+$1.99
+Sofia
+Entrepreneur Fashion Pack
+Stylish outfits, accessories, celebration animation
+$1.99
+Mr. Brooks
+Rival Businessman Pack
+Alternative suits, mustache styles, accessories
+$1.99
+Papa Kofi
+Farmer's Collection
+Alternative hats, farming outfits, accessories
+$1.99
+Maya
+Neighborhood Guide Pack
+Alternative outfits, glasses, and visual effects
+$1.99
+
+Character Monetization Rules
+All main characters remain accessible for free.
+Character storylines remain playable without purchases.
+Standard character animations remain available.
+Cosmetic packs provide alternative appearances and animations.
+Purchases should not improve character relationship scores.
+Purchases should not unlock exclusive business advantages.
+Cosmetic ownership should persist after the player closes the game.
+Design Requirement: Players purchase customization, not character progression.
+10.7 Neighborhood Customization Purchases
+Neighborhood customization should become an important monetization opportunity.
+Players may purchase decorative collections to personalize their commercial districts.
+Recommended Decoration Packs
+Pack
+Included Decorations
+Illustrative Price
+Tropical Neighborhood Pack
+Palm trees, colorful benches, tropical decorations
+$1.99
+Modern City Pack
+Contemporary streetlights, benches, signs
+$2.99
+African Street Market Pack
+Market decorations, patterned stalls, decorative signs
+$1.99
+Luxury District Pack
+Premium landscaping and decorative features
+$2.99
+Festival Pack
+Banners, lights, celebration decorations
+$1.99
+Holiday Pack
+Seasonal decorations and themed objects
+$1.99
+
+All essential neighborhood construction and development features must remain available through normal gameplay.
+Paid decorations should not be required to achieve Neighborhood Trust, Business Growth, or other progression objectives.
+10.8 Seasonal Cosmetic Collections
+OgaMart may introduce seasonal cosmetic collections to maintain visual variety and create additional purchasing opportunities.
+Example Seasonal Collections
+New Year Celebration.
+Summer Market.
+Neighborhood Food Festival.
+Harvest Festival.
+Holiday Shopping.
+Cultural Celebration.
+Anniversary Celebration.
+Seasonal collections may include:
+Supermarket decorations.
+Neighborhood decorations.
+Employee uniforms.
+Character outfits.
+Cosmetic celebration animations.
+Storefront designs.
+Seasonal events should remain playable without purchasing their associated cosmetic collections.
+The commercial MVP should launch with a limited seasonal catalog rather than requiring frequent content production.
+10.9 Supporter Pack
+OgaMart may offer an optional Supporter Pack for players who want to support continued development.
+Example Supporter Pack — $4.99
+Includes:
+Exclusive supermarket decoration.
+Special supporter badge.
+Unique cosmetic store sign.
+Exclusive employee uniform.
+Special celebration animation.
+The Supporter Pack should not provide exclusive gameplay systems or progression advantages.
+Core Principle: Supporters receive recognition and cosmetic benefits without gaining unfair gameplay advantages.
+10.10 Monetization and Player Progression
+OgaMart's 25-level progression system must remain independent of real-money spending.
+Monetization Rules
+Gameplay Feature
+Free Access Required?
+All 25 Player Levels
+Yes
+Core Supermarket Management
+Yes
+Core Neighborhood Construction
+Yes
+Business Upgrades
+Yes
+Employee Hiring and Training
+Yes
+Character Stories
+Yes
+Neighborhood Ripple System
+Yes
+Product Unlocks
+Yes
+Business Expansion
+Yes
+Core Store Customization
+Yes
+Optional Cosmetic Themes
+No
+Optional Character Cosmetic Packs
+No
+Optional Decorative Collections
+No
+
+Players should be able to reach Level 25 and continue developing their businesses without spending real money.
+10.11 Advertising Revenue Potential
+Advertising revenue depends on several factors:
+Daily active users.
+Percentage of players who choose to watch advertisements.
+Average completed advertisements per participating player.
+Player geography.
+Advertising demand.
+Advertisement fill rate.
+Effective cost per thousand impressions (eCPM).
+Advertisement network performance.
+Illustrative Revenue Calculation
+Assumptions:
+5,000 daily active users.
+40% voluntarily watch rewarded advertisements.
+Participating users complete an average of two rewarded advertisements daily.
+Average rewarded advertising eCPM: $5.
+Calculation period: 30 days.
+Step 1 — Daily Participating Players
+5,000 × 40% = 2,000 players.
+Step 2 — Daily Completed Advertisements
+2,000 × 2 = 4,000 impressions.
+Step 3 — Daily Advertising Revenue
+4,000 ÷ 1,000 × $5 = $20.
+Step 4 — Monthly Advertising Revenue
+$20 × 30 = $600 per month.
+This is a hypothetical calculation, not a revenue forecast.
+The actual result may be higher or lower depending on player behavior, geography, advertising demand, and realized eCPM.
+10.12 Advertising Revenue Scenarios
+The following scenarios illustrate how advertising revenue changes under different assumptions.
+Scenario
+Daily Active Users
+Ad Participation
+Ads per Participating Player
+eCPM
+Illustrative Monthly Revenue
+Small Audience
+1,000
+30%
+2
+$3
+$54
+Early Growth
+5,000
+40%
+2
+$5
+$600
+Growing Game
+10,000
+40%
+2
+$5
+$1,200
+Strong Engagement
+25,000
+50%
+2
+$6
+$4,500
+Large Audience
+50,000
+50%
+3
+$7
+$15,750
+Major Success
+100,000
+50%
+3
+$7
+$31,500
+
+Formula:
+Monthly Advertising Revenue =
+(Daily Active Users × Participation Rate × Completed Ads per Participating Player × 30 ÷ 1,000) × eCPM
+These figures are illustrative and exclude development costs, operating expenses, and applicable taxes.
+10.13 In-App Purchase Revenue Potential
+Cosmetic purchases can generate additional revenue from players who enjoy customization.
+Illustrative Purchase Scenario
+Assumptions:
+10,000 monthly active players.
+2% make a purchase during the month.
+Average monthly spending per purchasing player: $3.
+Paying Players
+10,000 × 2% = 200 players.
+Monthly Gross Purchase Revenue
+200 × $3 = $600.
+This calculation is illustrative and does not represent a revenue forecast.
+Actual proceeds will depend on conversion rates, purchasing behavior, platform fees, taxes, refunds, and regional pricing.
+10.14 Combined Monetization Potential
+OgaMart will initially combine rewarded advertisements with cosmetic purchases.
+Illustrative Monthly Revenue Example
+Revenue Source
+Illustrative Monthly Revenue
+Rewarded Advertisements
+$600
+Cosmetic Purchases
+$600
+Total
+$1,200
+
+Important: This combines two separate illustrative scenarios with different audience assumptions—5,000 daily active users for advertising and 10,000 monthly active users for purchases. It is not a unified operating forecast.
+A commercial financial model should use consistent DAU, MAU, retention, advertising, and purchasing assumptions.
+The figures above are gross illustrative revenues before applicable fees, taxes, and operating expenses.
+10.15 Monetization Analytics
+OgaMart should track monetization performance through a simple analytics system.
+Recommended Metrics
+Metric
+Purpose
+Daily Active Users (DAU)
+Measures daily engagement
+Monthly Active Users (MAU)
+Measures monthly audience
+Day 1 Retention
+Measures early player return
+Day 7 Retention
+Measures short-term retention
+Day 30 Retention
+Measures longer-term retention
+Rewarded Ad Participation Rate
+Measures voluntary advertising engagement
+Rewarded Ad Completion Rate
+Measures completed advertisements
+Rewarded Ad eCPM
+Measures advertising revenue efficiency
+Average Revenue per Daily Active User (ARPDAU)
+Measures average daily revenue
+Paying User Conversion Rate
+Measures purchasing participation
+Average Revenue per Paying User (ARPPU)
+Measures spending among paying users
+Cosmetic Product Sales
+Identifies popular customization products
+Purchase Refund Rate
+Monitors purchase issues
+
+Analytics should collect only necessary data and follow applicable privacy requirements.
+10.16 Technical Monetization Requirements
+The monetization system should be modular and compatible with GDevelop 5 and the selected Android distribution platform.
+Rewarded Advertisement Requirements
+Integrate a supported rewarded advertisement provider.
+Verify advertisement completion before granting rewards.
+Prevent duplicate rewards.
+Support advertisement availability failures.
+Respect configured reward limits.
+Record relevant reward transactions.
+Avoid interrupting gameplay.
+In-App Purchase Requirements
+Use the distribution platform's supported billing system.
+Validate purchases before granting entitlements.
+Restore eligible non-consumable purchases.
+Prevent duplicate purchases and duplicate reward grants.
+Maintain cosmetic ownership across sessions.
+Handle failed and canceled transactions.
+Support refunds and entitlement revocation where applicable.
+Store purchase entitlement information securely.
+Security Requirements
+Do not store payment card information directly.
+Do not expose private billing credentials.
+Validate purchases through appropriate trusted mechanisms.
+Prevent manipulation of advertisement rewards.
+Prevent unauthorized cosmetic unlocks.
+Protect player purchase records.
+10.17 Development Priorities
+Monetization should be introduced gradually.
+Development Phase
+Recommended Features
+Phase 1 — Prototype
+No live advertisements or purchases; test monetization interfaces with simulated rewards
+Phase 2 — Commercial MVP
+Optional rewarded advertisements, supermarket themes, decoration packs, employee uniforms, supporter pack
+Phase 3 — Expansion
+Character cosmetic collections, seasonal packs, additional cosmetic bundles, advanced monetization analytics
+
+The development team should prioritize gameplay quality, stability, and retention before expanding monetization.
+10.18 Monetization Success Criteria
+The monetization strategy should be evaluated against the following requirements.
+Evaluation Area
+Success Requirement
+Free-to-Play Accessibility
+All core gameplay remains available without payment
+Player Freedom
+Advertisements and purchases remain optional
+Fairness
+Purchases do not create unfair competitive advantages
+Advertising Experience
+Ads do not interrupt gameplay
+Cosmetic Appeal
+Players find customization products attractive
+Purchase Reliability
+Purchases and entitlements function correctly
+Revenue Sustainability
+Monetization supports continued development
+Player Retention
+Monetization does not significantly harm engagement
+Transparency
+Players understand prices and rewards
+Expandability
+New cosmetic products can be added without major system changes
+
+Final Monetization Principle
+OgaMart will generate revenue through optional rewarded advertisements and cosmetic purchases while keeping its core gameplay free and accessible.
+Players should be able to complete all 25 levels, develop their supermarkets, construct neighborhoods, interact with characters, and build successful business empires without spending real money.
+Monetization should focus on providing additional convenience, visual customization, and opportunities for players to support the game.
+
+11. Game Interface
+11.1 Interface Design Philosophy
+OgaMart will feature a modern, colorful, intuitive, and mobile-friendly interface designed for casual players.
+The interface must support Freedom-Based Gameplay, allowing players to manage supermarkets, develop neighborhoods, interact with characters, and explore business opportunities without unnecessary restrictions.
+The interface should prioritize:
+Simple navigation.
+Large touch-friendly buttons.
+Clear icons and visual feedback.
+Minimal text.
+Contextual interactions.
+Fast access to frequently used actions.
+Flexible movement between gameplay areas.
+Optional guidance.
+Consistent interface design.
+Accessibility across different Android screen sizes.
+Core Principle: Players should spend more time enjoying the game than navigating menus.
+11.2 Main Navigation
+OgaMart will retain five primary navigation sections:
+SHOP | NEIGHBORHOOD | MISSIONS | UPGRADES | PROFILE
+Screen
+Main Features
+Player Actions
+Shop
+Shelves, customers, checkout counters, products, inventory, employees
+Restock, arrange shelves, serve customers, adjust prices, manage operations
+Neighborhood
+Buildings, residents, construction, roads, decorations, events
+Explore, construct, upgrade, customize, interact with characters
+Missions
+Optional daily objectives, character stories, community opportunities, achievements
+View, accept, track, or ignore missions
+Upgrades
+Supermarket equipment, business improvements, automation, expansion
+Compare and purchase available upgrades
+Profile
+Player level, XP, achievements, collections, customization, settings
+View progress, manage preferences, access collections
+
+Players should be able to switch between these sections without losing gameplay progress.
+Navigation should remain available during normal gameplay, except when a temporary full-screen interaction requires focused input.
+11.3 Main Gameplay Screen
+The main gameplay screen should provide immediate access to the supermarket and essential business information.
+Recommended Screen Layout
+Top Information Bar
+Displays:
+Available coins.
+Player level.
+XP progress.
+Customer Happiness.
+Important notifications.
+Settings access.
+Neighborhood Trust and Business Growth may appear in the expanded Ripple dashboard rather than occupying permanent screen space.
+Central Gameplay Area
+Displays the active supermarket or neighborhood.
+Players can:
+Tap objects.
+Select characters.
+Drag eligible equipment.
+Move the camera.
+Zoom where supported.
+Open contextual action menus.
+Bottom Navigation Bar
+SHOP | NEIGHBORHOOD | MISSIONS | UPGRADES | PROFILE
+Contextual Action Area
+Displays actions relevant to the selected object or character.
+The contextual area should appear only when needed.
+11.4 Contextual Interaction System
+OgaMart should prioritize direct interaction with gameplay objects.
+Instead of forcing players to open several menus, tapping an object should display relevant actions.
+Example: Selecting a Shelf
+SHELF — BREAD
+Stock: 12/30
+Available Actions:
+RESTOCK | CHANGE PRODUCT | UPGRADE | MOVE
+Example: Selecting a Supermarket
+OGAMART SUPERMARKET
+Available Actions:
+MANAGE | EXPAND | CUSTOMIZE | VIEW PERFORMANCE
+Example: Selecting a Building
+COFFEE SHOP
+Available Actions:
+COLLECT | MANAGE | UPGRADE | CUSTOMIZE
+Example: Selecting Mama Biggie
+MAMA BIGGIE
+Relationship: Friendly
+Available Actions:
+TALK | VIEW PROFILE | VIEW REQUEST
+Example: Selecting Daniel
+DANIEL
+Status: Available for Employment
+Available Actions:
+TALK | HIRE | VIEW SKILLS
+Only relevant and available actions should be active.
+Unavailable actions may display their requirements.
+11.5 Supermarket Management Interface
+The Shop screen should support active and automated supermarket management.
+Recommended Panels
+Panel
+Features
+Inventory
+Products, stock levels, restocking
+Products
+Product categories, prices, availability
+Checkout
+Checkout equipment, queues, efficiency
+Employees
+Hiring, assignments, training
+Suppliers
+Product purchasing, contracts, deliveries
+Store Layout
+Shelf placement, equipment arrangement
+Customization
+Decorations, themes, appearance
+Performance
+Revenue, costs, profit, customer satisfaction
+
+Players should be able to access relevant panels directly from selected objects.
+11.6 Neighborhood Interface
+The Neighborhood screen should function as an interactive building and exploration environment.
+Players can:
+Explore the neighborhood.
+Select available construction plots.
+Construct unlocked buildings.
+Move eligible decorations.
+Upgrade existing businesses.
+Interact with residents.
+View business activity.
+Access neighborhood events.
+Review Ripple indicators.
+Customize streets and public spaces.
+Construction Interface
+When selecting an available construction plot:
+BUILD SOMETHING
+Available Categories:
+Retail.
+Food and Restaurants.
+Residential.
+Entertainment.
+Community.
+Infrastructure.
+Decorations.
+Players can browse available buildings and preview construction before confirming.
+Construction Preview
+The interface should display:
+Building appearance.
+Construction cost.
+Space requirements.
+Expected functionality.
+Available upgrades.
+Unlock requirements.
+Available Actions:
+ROTATE | PLACE | CANCEL
+Building placement must respect valid construction areas and collision rules.
+11.7 Character Interaction Interface
+Recurring characters should have distinctive interaction panels.
+Character Profile Information
+Field
+Description
+Character Name
+Resident identity
+Portrait
+Recognizable character artwork
+Personality
+Main behavioral traits
+Relationship
+Current relationship status
+Preferences
+Favorite products and interests
+Story Progress
+Available storyline chapters
+Available Actions
+Contextual interactions
+Recent Events
+Relevant character developments
+
+Dialogue Interface
+Character conversations should use:
+Large character portraits.
+Expressive facial animations.
+Short dialogue.
+Two to four relevant response options.
+Optional skip controls.
+Example
+Mama Biggie:
+"Oga! These eggs are expensive! Are the chickens paying rent now?"
+Player Responses:
+Offer Discount.
+Recommend Alternative.
+Maintain Price.
+Close Conversation.
+Character interactions should not interrupt unrelated gameplay unnecessarily.
+11.8 Mission and Opportunity Interface
+The Missions screen should distinguish between different activities.
+Recommended Categories
+Category
+Description
+Daily Opportunities
+Optional short challenges
+Character Stories
+Resident-related missions
+Business Challenges
+Commercial objectives
+Neighborhood Events
+Community activities
+Achievements
+Completed milestones and collections
+
+Players should be able to track selected missions.
+Optional missions should not prevent players from continuing normal gameplay.
+11.9 Upgrades Interface
+The Upgrades screen should organize improvements by category.
+Recommended Categories
+Supermarket Equipment.
+Inventory and Storage.
+Checkout Systems.
+Employees.
+Automation.
+Business Expansion.
+Neighborhood Businesses.
+Logistics.
+Each upgrade should display:
+Current level.
+Upgrade cost.
+Expected benefit.
+Unlock requirements.
+Purchase confirmation.
+Players should not be forced to purchase upgrades immediately after unlocking them.
+11.10 Ripple Dashboard
+The Ripple Dashboard will display the neighborhood's three main indicators.
+Indicator
+Score
+Customer Happiness
+78/100
+Neighborhood Trust
+65/100
+Business Growth
+42/100
+
+Players can view:
+Recent changes.
+Important contributing events.
+Business consequences.
+Character reactions.
+Available opportunities.
+The dashboard should provide explanations rather than displaying unexplained numbers.
+11.11 Monetization Interface
+OgaMart will include a dedicated optional cosmetic shop.
+Recommended Categories
+Supermarket Themes.
+Neighborhood Decorations.
+Employee Uniforms.
+Character Cosmetics.
+Seasonal Collections.
+Supporter Pack.
+Paid products should be clearly distinguished from items obtainable through normal gameplay.
+Rewarded advertisement opportunities should appear only in relevant contexts.
+Advertisements must never block essential navigation.
+11.12 Settings and Accessibility
+The Settings menu should include:
+Music volume.
+Sound effects volume.
+Notification preferences.
+Animation intensity.
+Language selection.
+Graphics quality.
+Save management.
+Privacy information.
+Purchase restoration.
+Help and support.
+The interface should support readable text, clear contrast, and appropriately sized touch targets.
+11.13 Interface Development Priorities
+Phase
+Features
+Prototype
+Main navigation, Shop screen, basic Neighborhood screen, contextual shelf interactions, coin and XP display
+Commercial MVP
+Full five-section navigation, character profiles, missions, upgrades, Ripple dashboard, monetization interface
+Expansion
+Advanced dashboards, additional customization interfaces, expanded neighborhood navigation
+
+
+
+14. Development Roadmap
+14.1 Development Strategy
+OgaMart will be developed in three phases:
+Phase 1 — Playable Prototype: Validate the core gameplay experience.
+Phase 2 — Commercial MVP: Develop and test a complete 25-level Android game.
+Phase 3 — Empire Expansion: Introduce additional content and advanced simulation features after validating player engagement.
+Development will follow an iterative approach.
+Each phase must produce a playable version of the game that can be tested before additional complexity is introduced.
+Core Principle: Build the smallest enjoyable version of OgaMart first, validate player engagement, and expand only after the core gameplay is proven.
+14.2 Phase 1 — Playable Prototype
+Objective
+Develop a small but enjoyable version of OgaMart that demonstrates its two central gameplay experiences:
+Supermarket management.
+Neighborhood development.
+The prototype should also introduce one memorable recurring character and a simplified version of the Neighborhood Ripple System.
+The purpose is to establish whether players enjoy managing their supermarket and watching their decisions influence the surrounding neighborhood.
+14.2.1 Prototype Scope
+Component
+Prototype Requirement
+Supermarkets
+1
+Starting Products
+Bread, milk, eggs
+Total Products
+5
+Starting Shelves
+3
+Automatic Cashiers
+1
+Customer Types
+3
+Store Upgrades
+5
+Player Levels
+5
+Neighborhood Businesses
+2
+Recurring Characters
+1 — Mama Biggie
+Character Storylines
+1 simple optional storyline
+Neighborhood Indicators
+Customer Happiness
+Special Events
+2
+Optional Missions
+3–5 simple objectives
+Currency
+Coins
+Experience Points
+Basic XP progression
+Supermarket Customization
+Basic shelf arrangement and decorations
+Building Construction
+Basic construction and placement
+Passive Income
+Basic neighborhood business income
+Local Saving
+Required
+Offline Earnings
+Optional prototype feature; otherwise commercial MVP
+Android Testing
+Required
+Rewarded Advertisements
+Not required
+In-App Purchases
+Not required
+
+The prototype should demonstrate the complete gameplay loop without attempting to implement every feature planned for the commercial release.
+14.2.2 Starting Gameplay Experience
+Players begin with:
+One small supermarket.
+Three shelves.
+Bread, milk, and eggs.
+One automatic cashier.
+500 coins.
+Two neighborhood houses.
+Three customer types.
+Mama Biggie as a recurring character.
+Players should immediately be able to:
+Restock shelves.
+Serve customers.
+Earn coins.
+Purchase available upgrades.
+Explore the neighborhood.
+Construct available businesses when affordable.
+Interact with Mama Biggie.
+Observe basic customer satisfaction changes.
+Players should receive short contextual guidance instead of being required to complete a lengthy tutorial.
+14.2.3 Prototype Gameplay Systems
+A. Supermarket Management
+Implement:
+Product stocking.
+Customer shopping.
+Automatic checkout.
+Coin generation.
+Basic inventory.
+Shelf upgrades.
+Simple supermarket customization.
+B. Neighborhood Development
+Implement:
+One small neighborhood map.
+Two constructible business types.
+Basic building placement.
+Business income.
+Simple building upgrades.
+Pedestrian animations.
+C. Character Interaction
+Implement Mama Biggie with:
+Distinctive character artwork.
+Walking animation.
+Basic shopping behavior.
+Short humorous dialogue.
+One optional storyline.
+Simple reactions to player decisions.
+D. Simplified Ripple System
+Implement Customer Happiness as a score from 0 to 100.
+The score should respond to selected gameplay events, including:
+Product availability.
+Customer service.
+Pricing decisions, if pricing is implemented in the prototype.
+The prototype does not require the complete three-indicator Ripple System.
+E. Player Progression
+Implement five levels with:
+XP rewards.
+Product unlocks.
+Basic upgrades.
+Neighborhood opportunities.
+Players should be able to choose which available opportunities to pursue.
+14.2.4 Prototype Development Schedule
+The initial engineering target is three weeks.
+However, the schedule assumes that development tools are configured, essential assets are available, and the developer can dedicate substantial time to implementation.
+Week 1 — Supermarket Gameplay
+Objective: Establish the core supermarket management loop.
+Tasks:
+Configure the GDevelop project.
+Establish GitHub version control.
+Implement the supermarket scene.
+Add five products.
+Implement shelf inventory.
+Implement customer shopping behavior.
+Implement automatic checkout.
+Implement coins and sales transactions.
+Add basic upgrades.
+Implement initial XP progression.
+Create basic unit tests for independent JavaScript logic.
+Deliverable: A playable supermarket where customers purchase products and the player earns coins.
+Week 2 — Neighborhood Development
+Objective: Connect supermarket management to neighborhood development.
+Tasks:
+Create the neighborhood scene.
+Add two houses.
+Implement available construction plots.
+Add two business types.
+Implement building construction.
+Add basic business income.
+Implement building upgrades.
+Add pedestrian animations.
+Connect supermarket and neighborhood finances.
+Implement basic scene navigation.
+Deliverable: A playable neighborhood connected to supermarket operations.
+Week 3 — Character, Ripple System, and Testing
+Objective: Introduce OgaMart's distinctive gameplay features.
+Tasks:
+Add Mama Biggie.
+Implement basic character interactions.
+Add one optional storyline.
+Implement Customer Happiness.
+Add two simple events.
+Implement five player levels.
+Add optional missions.
+Implement local saving.
+Add essential sound effects.
+Conduct Android device testing.
+Fix critical bugs.
+Prepare a prototype evaluation build.
+Deliverable: A playable Android prototype demonstrating supermarket management, neighborhood construction, character interaction, and simplified Ripple consequences.
+14.2.5 Prototype Testing and Stabilization
+The three-week development target should be followed by additional stabilization time if necessary.
+Recommended activities include:
+Fixing gameplay bugs.
+Improving touch controls.
+Testing save persistence.
+Optimizing performance.
+Improving character animations.
+Testing different Android screen sizes.
+Conducting initial player testing.
+A reasonable planning allowance is one to three additional weeks, depending on development progress and asset readiness.
+14.2.6 Prototype Completion Criteria
+The prototype is complete when:
+Players can operate a supermarket.
+Customers can purchase products correctly.
+Inventory and coin calculations work.
+Players can purchase upgrades.
+Players can construct neighborhood businesses.
+Mama Biggie appears and interacts with players.
+Customer Happiness responds to relevant events.
+Players can progress through five levels.
+Game progress persists after closing the application.
+The game runs on supported Android test devices.
+No known critical gameplay-blocking bugs remain.
+Initial testers can understand the core gameplay without extensive instructions.
+
+14.3 Phase 2 — Commercial MVP
+Objective
+Transform the prototype into a distinctive, commercially viable Android game featuring 25 player levels, expanded supermarket management, neighborhood development, recurring characters, and optional monetization.
+The Commercial MVP should provide a complete and enjoyable gameplay experience rather than simply adding more features.
+14.3.1 Commercial MVP Features
+Category
+Features
+Supermarket Management
+Expanded inventory, products, departments, checkout upgrades
+Pricing
+Player-controlled prices and customer reactions
+Employees
+Hiring, assignments, training, productivity
+Suppliers
+Product purchasing, deliveries, basic partnerships
+Automation
+Selected automated supermarket operations
+Neighborhood
+Expanded construction, buildings, decorations
+Characters
+Six recurring characters
+Character Stories
+Optional storylines and relationships
+Ripple System
+Customer Happiness, Neighborhood Trust, Business Growth
+Ripple Reports
+Short summaries of relevant consequences
+Player Progression
+25 levels
+Missions
+Optional daily objectives and business challenges
+Events
+Customer rushes, VIP customers, neighborhood activities
+Customization
+Supermarket themes, decorations, employee uniforms
+Offline Earnings
+Eligible earnings capped at four hours initially
+Monetization
+Optional rewarded advertisements and cosmetic purchases
+Analytics
+Player engagement and progression tracking
+Crash Monitoring
+Supported crash-reporting integration
+Saving
+Reliable local saving and recovery
+Android Optimization
+Performance testing and device compatibility
+
+14.3.2 Commercial MVP Character Roster
+The initial commercial release should prioritize six recurring characters.
+Recommended roster:
+Mama Biggie.
+Daniel.
+Sofia.
+Mr. Brooks.
+Papa Kofi.
+Maya.
+Other characters described in Section 6 can be introduced through future updates.
+Each commercial MVP character should have:
+Recognizable artwork.
+Distinctive personality.
+Basic movement animations.
+Expressive reactions.
+Relevant gameplay interactions.
+Optional story progression.
+14.3.3 Commercial MVP Development Stages
+Stage 1 — Core Systems Expansion
+Develop:
+Expanded inventory.
+Product categories.
+Pricing decisions.
+Supplier management.
+Employee systems.
+Business upgrades.
+Automation.
+Stage 2 — Neighborhood and Character Expansion
+Develop:
+Additional buildings.
+Neighborhood customization.
+Character interactions.
+Character stories.
+Neighborhood events.
+Improved environmental animations.
+Stage 3 — Ripple System and Progression
+Develop:
+All three Ripple indicators.
+Event-driven consequences.
+Ripple Reports.
+25 player levels.
+Flexible unlock requirements.
+Optional missions.
+Achievements.
+Stage 4 — Monetization and Platform Services
+Develop:
+Rewarded advertisements.
+Cosmetic shop.
+In-app purchase validation.
+Analytics.
+Crash monitoring.
+Purchase restoration.
+Stage 5 — Testing and Commercial Preparation
+Conduct:
+Gameplay balancing.
+Performance optimization.
+Save-data testing.
+Monetization testing.
+Player retention testing.
+Android compatibility testing.
+Store listing preparation.
+Controlled commercial testing.
+14.3.4 Commercial MVP Timeline
+A preliminary planning range is three to six months after prototype validation, assuming sustained development effort and sufficient artwork, testing, and engineering capacity.
+This is an estimate rather than a delivery commitment.
+A solo developer working part-time may require substantially longer.
+The schedule should be reviewed after the prototype is completed.
+14.3.5 Commercial MVP Completion Criteria
+The Commercial MVP should be considered ready for controlled release when:
+All 25 levels function correctly.
+Core supermarket management is stable.
+Neighborhood construction works reliably.
+Six recurring characters are implemented.
+Character interactions and stories function.
+All three Ripple indicators respond correctly.
+Core gameplay works offline.
+Save-data integrity has been tested.
+Monetization is optional and technically reliable.
+No critical crashes or progression-blocking bugs remain.
+Players can understand the interface without lengthy instructions.
+Initial engagement and retention results justify further testing.
+Deliverable: A complete Android game ready for controlled commercial testing.
+
+14.4 Phase 3 — Empire Expansion
+Objective
+Expand OgaMart into a deeper supermarket and neighborhood simulation after validating player engagement and commercial potential.
+Recommended Expansion Features
+A. Supermarket Empire Development
+Multiple supermarket branches.
+Branch-level management.
+Advanced employee roles.
+More supermarket departments.
+Expanded business automation.
+Additional business strategies.
+B. Neighborhood Expansion
+Additional neighborhoods.
+Larger commercial districts.
+More building categories.
+Expanded infrastructure.
+Additional residential development.
+More neighborhood activities.
+C. Advanced Business Simulation
+Competitor supermarkets.
+Advanced supplier contracts.
+Warehouses.
+Distribution centers.
+More detailed logistics.
+Additional business relationships.
+D. Character Expansion
+Additional recurring characters.
+Longer storylines.
+More character relationships.
+Expanded character animations.
+Additional neighborhood interactions.
+E. Engagement and Customization
+Seasonal events.
+Additional cosmetic collections.
+New building themes.
+Expanded achievements.
+Additional optional challenges.
+Neighborhood Photo Mode.
+14.4.1 Future Player Levels
+The initial commercial game will contain 25 levels.
+Future expansions may introduce additional levels if testing demonstrates that more progression would improve engagement.
+However, additional levels should not be introduced solely to increase playtime.
+Players must be able to continue developing their businesses after reaching Level 25.
+14.4.2 Expansion Prioritization
+New features should be prioritized based on:
+Player feedback.
+Retention data.
+Gameplay engagement.
+Development cost.
+Technical complexity.
+Commercial performance.
+Deliverable: A deeper supermarket empire simulation with additional long-term gameplay opportunities.
+
+14.5 Overall Development Roadmap
+Phase
+Main Objective
+Progression Scope
+Key Deliverable
+Phase 1 — Prototype
+Validate core gameplay
+5 levels
+Playable Android prototype
+Phase 2 — Commercial MVP
+Deliver complete commercial experience
+25 levels
+Android game for controlled commercial testing
+Phase 3 — Expansion
+Extend engagement and simulation depth
+25 levels plus optional future additions
+Expanded supermarket empire game
+
+
+
+
+
